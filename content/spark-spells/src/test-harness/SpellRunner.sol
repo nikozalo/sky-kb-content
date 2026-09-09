@@ -1,0 +1,636 @@
+// SPDX-License-Identifier: AGPL-3.0
+
+pragma solidity ^0.8.0;
+
+import { Test }      from "forge-std/Test.sol";
+import { StdChains } from "forge-std/StdChains.sol";
+import { console }   from "forge-std/console.sol";
+
+import { Arbitrum }  from "spark-address-registry/Arbitrum.sol";
+import { Avalanche } from "spark-address-registry/Avalanche.sol";
+import { Base }      from "spark-address-registry/Base.sol";
+import { Ethereum }  from "spark-address-registry/Ethereum.sol";
+import { Gnosis }    from "spark-address-registry/Gnosis.sol";
+import { Optimism }  from "spark-address-registry/Optimism.sol";
+import { Robinhood } from "spark-address-registry/Robinhood.sol";
+import { Unichain }  from "spark-address-registry/Unichain.sol";
+import { XLayer }    from "spark-address-registry/XLayer.sol";
+
+import { IExecutor } from "spark-gov-relay/src/interfaces/IExecutor.sol";
+
+import { LZForwarder } from "xchain-helpers/forwarders/LZForwarder.sol";
+
+import { Domain, DomainHelpers } from "xchain-helpers/testing/Domain.sol";
+import { OptimismBridgeTesting } from "xchain-helpers/testing/bridges/OptimismBridgeTesting.sol";
+import { AMBBridgeTesting }      from "xchain-helpers/testing/bridges/AMBBridgeTesting.sol";
+import { ArbitrumBridgeTesting } from "xchain-helpers/testing/bridges/ArbitrumBridgeTesting.sol";
+import { CCTPBridgeTesting }     from "xchain-helpers/testing/bridges/CCTPBridgeTesting.sol";
+import { LZBridgeTesting }       from "xchain-helpers/testing/bridges/LZBridgeTesting.sol";
+import { Bridge, BridgeType }    from "xchain-helpers/testing/Bridge.sol";
+import { RecordedLogs }          from "xchain-helpers/testing/utils/RecordedLogs.sol";
+
+import { Address }      from "../libraries/Address.sol";
+import { ChainIdUtils } from "../libraries/ChainIdUtils.sol";
+
+import { IStarGuardLike } from "../interfaces/Interfaces.sol";
+
+import { SparkPayloadEthereum } from "../SparkPayloadEthereum.sol";
+
+interface IAMBExecutorLike {
+
+    function getActionsSetCount() external view returns (uint256);
+
+    function executeDelegateCall(address target, bytes calldata data)
+        external payable returns (bool, bytes memory);
+
+}
+
+abstract contract SpellRunner is Test {
+
+    using DomainHelpers for Domain;
+    using DomainHelpers for StdChains.Chain;
+
+    // LayerZero contracts on XLayer (chain alias not supported by LZBridgeTesting.createLZBridge).
+    // Endpoint is the canonical EndpointV2 address (eid 30274), receive library is the
+    // endpoint's defaultReceiveLibrary for packets from Ethereum (eid 30101).
+    address internal constant LZ_ENDPOINT_XLAYER         = 0x1a44076050125825900e736c501f859c50fE728c;
+    address internal constant LZ_RECEIVE_LIBRARY_XLAYER  = 0x2367325334447C5E1E0f1b3a6fB947b262F58312;
+
+    // ChainData is already taken in StdChains
+    struct DomainData {
+        address                        payload;
+        IExecutor                      executor;
+        Domain                         domain;
+        /// @notice on mainnet: empty
+        /// on L2s: bridges that'll include txs in the L2. there can be multiple
+        /// bridges for a given chain, such as canonical OP bridge and CCTP
+        /// USDC-specific bridge
+        Bridge[]                       bridges;
+        // These are set only if there is a controller upgrade on this chain in this spell
+        address                        prevController;
+        address                        newController;
+    }
+
+    uint256 internal immutable _spellId;
+
+    uint256 internal _blockDate;
+
+    mapping(uint256 chainId => DomainData data) internal chainData;
+
+    uint256[] internal allChains;
+
+    modifier onChain(uint256 chainId) {
+        uint256 currentFork = vm.activeFork();
+
+        if (chainData[chainId].domain.forkId != currentFork) chainData[chainId].domain.selectFork();
+
+        _;
+
+        if (vm.activeFork() != currentFork) vm.selectFork(currentFork);
+    }
+
+    function setUp() public virtual {
+        _setupDomains();
+        _deployPayloads();
+    }
+
+    /**********************************************************************************************/
+    /*** State-Modifying Functions                                                              ***/
+    /**********************************************************************************************/
+
+    function _setupBlocksFromDate(uint256 date) internal {
+        setChain("unichain", ChainData({
+            name    : "Unichain",
+            rpcUrl  : vm.envString("UNICHAIN_RPC_URL"),
+            chainId : 130
+        }));
+
+        setChain("robinhood_chain", ChainData({
+            name    : "Robinhood Chain",
+            rpcUrl  : vm.envString("RH_RPC_URL"),
+            chainId : 4663
+        }));
+
+        setChain("xlayer", ChainData({
+            name    : "XLayer",
+            rpcUrl  : "https://rpc.xlayer.tech",
+            chainId : 196
+        }));
+
+        uint256[] memory blocks = _getBlocksFromDate(date);
+
+        console.log("Mainnet block:  ", blocks[0]);
+        console.log("Base block:     ", blocks[1]);
+        console.log("Gnosis block:   ", blocks[2]);
+        console.log("Arbitrum block: ", blocks[3]);
+        console.log("Optimism block: ", blocks[4]);
+        console.log("Unichain block: ", blocks[5]);
+        console.log("Avalanche block:", blocks[6]);
+        console.log("Robinhood block:", blocks[7]);
+        console.log("XLayer block:   ", blocks[8]);
+
+        chainData[ChainIdUtils.Ethereum()].domain    = getChain("mainnet").createFork(blocks[0]);
+        chainData[ChainIdUtils.Base()].domain        = getChain("base").createFork(blocks[1]);
+        chainData[ChainIdUtils.Gnosis()].domain      = getChain("gnosis_chain").createFork(blocks[2]);
+        chainData[ChainIdUtils.ArbitrumOne()].domain = getChain("arbitrum_one").createFork(blocks[3]);
+        chainData[ChainIdUtils.Optimism()].domain    = getChain("optimism").createFork(blocks[4]);
+        chainData[ChainIdUtils.Unichain()].domain    = getChain("unichain").createFork(blocks[5]);
+        chainData[ChainIdUtils.Avalanche()].domain   = getChain("avalanche").createFork(blocks[6]);
+        chainData[ChainIdUtils.Robinhood()].domain   = getChain("robinhood_chain").createFork(blocks[7]);
+        chainData[ChainIdUtils.XLayer()].domain      = getChain("xlayer").createFork(blocks[8]);
+    }
+
+    /// @dev to be called in setUp
+    function _setupDomains() internal {
+        require(_blockDate != 0, "Block Date not set");
+
+        allChains.push(ChainIdUtils.Ethereum());
+        allChains.push(ChainIdUtils.Base());
+        allChains.push(ChainIdUtils.Gnosis());
+        allChains.push(ChainIdUtils.ArbitrumOne());
+        allChains.push(ChainIdUtils.Optimism());
+        allChains.push(ChainIdUtils.Unichain());
+        allChains.push(ChainIdUtils.Avalanche());
+        allChains.push(ChainIdUtils.Robinhood());
+        allChains.push(ChainIdUtils.XLayer());
+
+        _setupBlocksFromDate(_blockDate);
+
+        // We default to Ethereum domain
+        chainData[ChainIdUtils.Ethereum()].domain.selectFork();
+
+        chainData[ChainIdUtils.Ethereum()].executor    = IExecutor(Ethereum.SPARK_PROXY);
+        chainData[ChainIdUtils.Base()].executor        = IExecutor(Base.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.Gnosis()].executor      = IExecutor(Gnosis.AMB_EXECUTOR);
+        chainData[ChainIdUtils.ArbitrumOne()].executor = IExecutor(Arbitrum.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.Optimism()].executor    = IExecutor(Optimism.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.Unichain()].executor    = IExecutor(Unichain.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.Avalanche()].executor   = IExecutor(Avalanche.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.Robinhood()].executor   = IExecutor(Robinhood.SPARK_EXECUTOR);
+        chainData[ChainIdUtils.XLayer()].executor      = IExecutor(XLayer.SPARK_EXECUTOR);
+
+        chainData[ChainIdUtils.Ethereum()].bridges.push(
+            LZBridgeTesting.createLZBridge(
+                chainData[ChainIdUtils.ArbitrumOne()].domain,
+                chainData[ChainIdUtils.Ethereum()].domain
+            )
+        );
+
+        // Arbitrum One
+        chainData[ChainIdUtils.ArbitrumOne()].bridges.push(
+            ArbitrumBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.ArbitrumOne()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.ArbitrumOne()].bridges.push(
+            CCTPBridgeTesting.createCircleBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.ArbitrumOne()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.ArbitrumOne()].bridges.push(
+            LZBridgeTesting.createLZBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.ArbitrumOne()].domain
+            )
+        );
+
+        // Base
+        chainData[ChainIdUtils.Base()].bridges.push(
+            OptimismBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Base()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.Base()].bridges.push(
+            CCTPBridgeTesting.createCircleBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Base()].domain
+            )
+        );
+
+        // Gnosis
+        chainData[ChainIdUtils.Gnosis()].bridges.push(
+            AMBBridgeTesting.createGnosisBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Gnosis()].domain
+            )
+        );
+
+        // Optimism
+        chainData[ChainIdUtils.Optimism()].bridges.push(
+            OptimismBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Optimism()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.Optimism()].bridges.push(
+            CCTPBridgeTesting.createCircleBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Optimism()].domain
+            )
+        );
+
+        // Unichain
+        chainData[ChainIdUtils.Unichain()].bridges.push(
+            OptimismBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Unichain()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.Unichain()].bridges.push(
+            CCTPBridgeTesting.createCircleBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Unichain()].domain
+            )
+        );
+
+        // Avalanche
+        chainData[ChainIdUtils.Avalanche()].bridges.push(
+            LZBridgeTesting.createLZBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Avalanche()].domain
+            )
+        );
+
+        chainData[ChainIdUtils.Avalanche()].bridges.push(
+            CCTPBridgeTesting.createCircleBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Avalanche()].domain
+            )
+        );
+
+        // Robinhood
+        chainData[ChainIdUtils.Robinhood()].bridges.push(
+            ArbitrumBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.Robinhood()].domain
+            )
+        );
+
+        // XLayer
+        chainData[ChainIdUtils.XLayer()].bridges.push(
+            OptimismBridgeTesting.createNativeBridge(
+                chainData[ChainIdUtils.Ethereum()].domain,
+                chainData[ChainIdUtils.XLayer()].domain
+            )
+        );
+
+        // Constructed manually because LZBridgeTesting.createLZBridge does not support the
+        // xlayer chain alias. Used by the Ethereum -> XLayer USDT0 E2E test.
+        chainData[ChainIdUtils.XLayer()].bridges.push(
+            LZBridgeTesting.init(Bridge({
+                bridgeType:                     BridgeType.LZ,
+                source:                         chainData[ChainIdUtils.Ethereum()].domain,
+                destination:                    chainData[ChainIdUtils.XLayer()].domain,
+                sourceCrossChainMessenger:      LZForwarder.ENDPOINT_ETHEREUM,
+                destinationCrossChainMessenger: LZ_ENDPOINT_XLAYER,
+                lastSourceLogIndex:             0,
+                lastDestinationLogIndex:        0,
+                extraData:                      abi.encode(LZForwarder.RECEIVE_LIBRARY_ETHEREUM, LZ_RECEIVE_LIBRARY_XLAYER)
+            }))
+        );
+    }
+
+    function _deployPayload(uint256 chainId) internal onChain(chainId) returns (address) {
+        return deployCode(_getSpellIdentifier(chainId));
+    }
+
+    function _deployPayloads() internal {
+        for (uint256 i = 0; i < allChains.length; ++i) {
+            uint256 chainId = chainData[allChains[i]].domain.chain.chainId;
+
+            string memory identifier = _getSpellIdentifier(chainId);
+
+            try vm.getCode(identifier) {
+                chainData[chainId].payload = _deployPayload(chainId);
+            } catch {
+                console.log("skipping spell deployment for network: ", ChainIdUtils.toDomainString(chainId));
+            }
+        }
+    }
+
+    /// @dev takes care to revert the selected fork to what was chosen before
+    function _executeAllPayloadsAndBridges() internal {
+        // only execute mainnet payload
+        _executeMainnetPayload();
+
+        // then use bridges to execute other chains' payloads
+        _relayMessageOverBridges();
+
+        // execute the foreign payloads (either by simulation or real execute)
+        _executeForeignPayloads();
+    }
+
+    function _executeMainnetPayload() internal onChain(ChainIdUtils.Ethereum()) {
+        address   payloadAddress = chainData[ChainIdUtils.Ethereum()].payload;
+        IExecutor executor       = chainData[ChainIdUtils.Ethereum()].executor;
+
+        require(Address.isContract(payloadAddress), "PAYLOAD IS NOT A CONTRACT");
+
+        uint256 bytecodeSize = payloadAddress.code.length;
+
+        bytes32 bytecodeHash;
+
+        assembly {
+            let ptr := mload(0x40)
+
+            extcodecopy(payloadAddress, ptr, 0, bytecodeSize)
+            bytecodeHash := keccak256(ptr, bytecodeSize)
+        }
+
+        vm.prank(Ethereum.PAUSE_PROXY);
+        IStarGuardLike(Ethereum.SPARK_STAR_GUARD).plot({
+            addr_ : payloadAddress,
+            tag_  : bytecodeHash
+        });
+
+        vm.mockCall(
+            payloadAddress,
+            abi.encodeWithSelector(SparkPayloadEthereum.isExecutable.selector),
+            abi.encode(true)
+        );
+
+        address payload = IStarGuardLike(Ethereum.SPARK_STAR_GUARD).exec();
+
+        require(payloadAddress == payload, "FAILED TO EXECUTE PAYLOAD");
+    }
+
+    /// @dev bridge contracts themselves are stored on mainnet
+    function _relayMessageOverBridges() internal onChain(ChainIdUtils.Ethereum()) {
+        for (uint256 i = 0; i < allChains.length; ++i) {
+            uint256 chainId = chainData[allChains[i]].domain.chain.chainId;
+
+            for (uint256 j = 0; j < chainData[chainId].bridges.length; ++j) {
+                _executeBridge(chainData[chainId].bridges[j]);
+            }
+        }
+    }
+
+    /// @dev this does not relay messages from L2s to mainnet except in the case of USDC
+    function _executeBridge(Bridge storage bridge) internal {
+        if (bridge.bridgeType == BridgeType.OPTIMISM) {
+            OptimismBridgeTesting.relayMessagesToDestination(bridge, false);
+        } else if (bridge.bridgeType == BridgeType.CCTP) {
+            CCTPBridgeTesting.relayMessagesToDestination(bridge, false);
+            CCTPBridgeTesting.relayMessagesToSource(bridge, false);
+        } else if (bridge.bridgeType == BridgeType.AMB) {
+            AMBBridgeTesting.relayMessagesToDestination(bridge, false);
+        } else if (bridge.bridgeType == BridgeType.ARBITRUM) {
+            ArbitrumBridgeTesting.relayMessagesToDestination(bridge, false);
+        } else if (bridge.bridgeType == BridgeType.LZ) {
+            if (bridge.destination.chain.chainId == ChainIdUtils.Avalanche()) {
+                LZBridgeTesting.relayMessagesToDestination(bridge, false, Ethereum.SPARK_PROXY, Avalanche.SPARK_RECEIVER);
+            }
+        }
+    }
+
+    function _executeForeignPayloads() internal onChain(ChainIdUtils.Ethereum()) {
+        for (uint256 i = 0; i < allChains.length; ++i) {
+            uint256 chainId = chainData[allChains[i]].domain.chain.chainId;
+
+            if (chainId == ChainIdUtils.Ethereum()) continue;  // Don't execute mainnet
+            if (chainData[chainId].payload == address(0)) continue; // test explicitly disabled this chain
+
+            address   mainnetSpellPayload = _getForeignPayloadFromMainnetSpell(chainId);
+            IExecutor executor            = chainData[chainId].executor;
+
+            // TODO: Move each of the two flows below into their own functions.
+
+            if (mainnetSpellPayload != address(0)) {
+                // We assume the payload has been queued in the executor (will revert otherwise)
+                chainData[chainId].domain.selectFork();
+
+                uint256 actionsSetId;
+
+                if (chainId == ChainIdUtils.Gnosis()) {
+                    actionsSetId = IAMBExecutorLike(address(executor)).getActionsSetCount() - 1;
+                } else {
+                    actionsSetId  = executor.actionsSetCount() - 1;
+                }
+
+                uint256 prevTimestamp = block.timestamp;
+
+                vm.warp(executor.getActionsSetById(actionsSetId).executionTime);
+
+                executor.execute(actionsSetId);
+
+                vm.warp(prevTimestamp);
+            } else {
+                // We will simulate execution until the real spell is deployed in the mainnet spell
+                address payload = chainData[chainId].payload;
+
+                if (payload != address(0)) {
+                    chainData[chainId].domain.selectFork();
+
+                    vm.prank(address(executor));
+
+                    if (chainId == ChainIdUtils.Gnosis()) {
+                        IAMBExecutorLike(address(executor)).executeDelegateCall(
+                            payload,
+                            abi.encodeWithSignature("execute()")
+                        );
+                    } else {
+                        executor.executeDelegateCall(
+                            payload,
+                            abi.encodeWithSignature("execute()")
+                        );
+                    }
+
+                    console.log("simulating execution payload for network: ", ChainIdUtils.toDomainString(chainId));
+                }
+            }
+
+        }
+    }
+
+    function _getForeignPayloadFromMainnetSpell(uint256 chainId) internal onChain(ChainIdUtils.Ethereum()) returns (address) {
+        SparkPayloadEthereum spell = SparkPayloadEthereum(chainData[ChainIdUtils.Ethereum()].payload);
+
+        if (chainId == ChainIdUtils.Base()) return spell.PAYLOAD_BASE();
+
+        if (chainId == ChainIdUtils.Gnosis()) return spell.PAYLOAD_GNOSIS();
+
+        if (chainId == ChainIdUtils.ArbitrumOne()) return spell.PAYLOAD_ARBITRUM();
+
+        if (chainId == ChainIdUtils.Optimism()) return spell.PAYLOAD_OPTIMISM();
+
+        if (chainId == ChainIdUtils.Unichain()) return spell.PAYLOAD_UNICHAIN();
+
+        if (chainId == ChainIdUtils.Avalanche()) return spell.PAYLOAD_AVALANCHE();
+
+        if (chainId == ChainIdUtils.Robinhood()) return spell.PAYLOAD_ROBINHOOD();
+
+        if (chainId == ChainIdUtils.XLayer()) return spell.PAYLOAD_XLAYER();
+
+        revert("Unsupported chainId");
+    }
+
+    function _clearLogs() internal {
+        RecordedLogs.clearLogs();
+
+        // Need to also reset all bridge indices
+        for (uint256 i = 0; i < allChains.length; ++i) {
+            uint256 chainId = chainData[allChains[i]].domain.chain.chainId;
+
+            for (uint256 j = 0; j < chainData[chainId].bridges.length; ++j) {
+                chainData[chainId].bridges[j].lastSourceLogIndex = 0;
+                chainData[chainId].bridges[j].lastDestinationLogIndex = 0;
+            }
+        }
+    }
+
+    function _getBlocksFromDate(uint256 date) internal returns (uint256[] memory blocks) {
+        blocks = new uint256[](allChains.length);
+
+        for (uint256 i; i < allChains.length; ++i) {
+            // TODO: Remove this once Robinhood and XLayer are added https://api.etherscan.io/v2/chainlist
+            if (allChains[i] == ChainIdUtils.Robinhood() || allChains[i] == ChainIdUtils.XLayer()) {
+                blocks[i] = _getBlockFromTimestampBinarySearch(allChains[i], date, 1_000_000);
+                continue;
+            }
+
+            string[] memory inputs = new string[](8);
+            inputs[0] = "curl";
+            inputs[1] = "-s";
+            inputs[2] = "--request";
+            inputs[3] = "GET";
+            inputs[4] = "--url";
+            inputs[5] = string(abi.encodePacked("https://api.etherscan.io/v2/api?apiKey=", vm.envString("ETHERSCAN_API_KEY"), "&module=block&action=getblocknobytime&chainid=", vm.toString(allChains[i]), "&timestamp=", vm.toString(date), "&closest=after"));
+            inputs[6] = "--header";
+            inputs[7] = "accept: application/json";
+
+            string memory response;
+
+            for (uint256 i; i < 10; i++) {
+                response = string(vm.ffi(inputs));
+
+                if (_isEqual(vm.parseJsonString(response, string(abi.encodePacked(".message"))), "NOTOK")) {
+                    vm.sleep(1000);  // Prevent rate limiting from Etherscan (5 calls/second)
+                    continue;
+                }
+
+                break;
+            }
+
+            blocks[i] = vm.parseJsonUint(response, string(abi.encodePacked(".result")));
+        }
+    }
+
+    function _getBlockFromTimestampBinarySearch(uint256 chainId, uint256 searchTimestamp, uint256 maxBlocks) internal returns (uint256) {
+        vm.createSelectFork(getChain(chainId).rpcUrl);
+
+        uint256 endBlock     = block.number;
+        uint256 startBlock   = endBlock - maxBlocks;
+        uint256 bestAbsDelta = type(uint256).max;  // Initialize to max uint256 to ensure the first comparison is always smaller
+
+        uint256 bestBlock;
+
+        while (startBlock <= endBlock) {
+
+            uint256 midBlock = (startBlock + endBlock) / 2;
+
+            vm.createSelectFork(getChain(chainId).rpcUrl, midBlock);
+
+            if (block.timestamp == searchTimestamp) return midBlock; // Exact match
+
+            uint256 absDelta = block.timestamp >= searchTimestamp
+                ? (block.timestamp - searchTimestamp)
+                : (searchTimestamp - block.timestamp);
+
+            // Update the best block if the absolute difference is smaller
+            if (absDelta < bestAbsDelta) {
+                bestAbsDelta = absDelta;
+                bestBlock    = midBlock;
+            }
+
+            // Binary search decision
+            if (block.timestamp < searchTimestamp) {
+                startBlock = midBlock + 1;  // Move forwards
+            } else {
+                endBlock = midBlock - 1;  // Move backwards
+            }
+        }
+
+        return bestBlock;
+    }
+
+    function _testPayloadBytecodeMatches(uint256 chainId) internal onChain(chainId) {
+        address actualPayload = chainData[chainId].payload;
+
+        vm.skip(actualPayload == address(0));
+
+        require(Address.isContract(actualPayload), "PAYLOAD IS NOT A CONTRACT");
+
+        address expectedPayload = _deployPayload(chainId);
+
+        _assertBytecodeMatches(expectedPayload, actualPayload);
+    }
+
+    /**********************************************************************************************/
+    /*** View/Pure Functions                                                                     **/
+    /**********************************************************************************************/
+
+    function _assertBytecodeMatches(address expectedPayload, address actualPayload) internal view {
+        uint256 expectedBytecodeSize = expectedPayload.code.length;
+        uint256 actualBytecodeSize   = actualPayload.code.length;
+
+        uint256 metadataLength = _getBytecodeMetadataLength(expectedPayload);
+        assertTrue(metadataLength <= expectedBytecodeSize);
+        expectedBytecodeSize -= metadataLength;
+
+        metadataLength = _getBytecodeMetadataLength(actualPayload);
+        assertTrue(metadataLength <= actualBytecodeSize);
+        actualBytecodeSize -= metadataLength;
+
+        assertEq(actualBytecodeSize, expectedBytecodeSize);
+
+        uint256 size = actualBytecodeSize;
+        uint256 expectedHash;
+        uint256 actualHash;
+
+        assembly {
+            let ptr := mload(0x40)
+
+            extcodecopy(expectedPayload, ptr, 0, size)
+            expectedHash := keccak256(ptr, size)
+
+            extcodecopy(actualPayload, ptr, 0, size)
+            actualHash := keccak256(ptr, size)
+        }
+
+        assertEq(actualHash, expectedHash);
+    }
+
+    function _getBytecodeMetadataLength(address a) internal view returns (uint256 length) {
+        // The Solidity compiler encodes the metadata length in the last two bytes of the contract bytecode.
+        assembly {
+            let ptr  := mload(0x40)
+            let size := extcodesize(a)
+
+            if iszero(lt(size, 2)) {
+                extcodecopy(a, ptr, sub(size, 2), 2)
+                length := mload(ptr)
+                length := shr(240, length)
+                length := add(length, 2)  // The two bytes used to specify the length are not counted in the length
+            }
+            // Return zero if the bytecode is shorter than two bytes.
+        }
+    }
+
+    function _getSpellIdentifier(uint256 chainId) internal view returns (string memory) {
+        string memory slug = string(abi.encodePacked("Spark", ChainIdUtils.toDomainString(chainId), "_", vm.toString(_spellId)));
+        return string(abi.encodePacked(slug, ".sol:", slug));
+    }
+
+    function _isEqual(string memory a, string memory b) internal pure returns (bool) {
+        return keccak256(abi.encodePacked(a)) == keccak256(abi.encodePacked(b));
+    }
+
+}

@@ -1,0 +1,97 @@
+# 🌳🪄 Grove Spells
+
+**Governance Spells for Grove**
+
+## 🔮 Overview
+
+Grove Spells are governance proposals that execute parameter changes and system updates for Grove infrastructure across multiple blockchain domains (currently Ethereum Mainnet, Avalanche, Base, Plume, and Robinhood)
+
+Spells are executed on Ethereum and automatically relay payloads to foreign domains through the [grove-gov-relay](https://github.com/grove-labs/grove-gov-relay) infrastructure
+
+## ✨ Spells
+
+The latest spells can be found in the `src/proposals/` directory. Spells are organized by date in YYYYMMDD format, with separate files for each domain (i.e. `GroveEthereum_20250724.sol`)
+
+## 🪄 Spell Crafting
+
+1. Archive the previous spell by moving its files from `src/proposals/YYYYMMDD/` to the `archive/YYYYMMDD/` directory
+   - Be sure to also add the pull request description for that spell in the archived folder as `YYYYMMDD.md`
+2. Create a new folder in `src/proposals/` using the `YYYYMMDD` date format for your new spell
+3. Add the required files for the new spell:
+   - `GroveEthereum_YYYYMMDD.sol` - Main spell contract inheriting from `GrovePayloadEthereum`
+   - `GroveEthereum_YYYYMMDD.t.sol` - Test file extending `GroveTestBase`
+   - If your spell requires execution on foreign domains, create a separate spell contract for each domain's payload (e.g., `GroveAvalanche_YYYYMMDD.sol`, `GroveBase_YYYYMMDD.sol`). All tests, including cross-chain execution, should remain in the single mainnet test file.
+4. When creating a new spell contract, ensure it inherits from the appropriate base spell contract (such as `GrovePayloadEthereum` or a similar domain-specific payload) and make use of its helper functions as needed. This helps enforce correct cross-chain messaging, governance patterns, and available utilities.
+5. Reference spells in the `archive/` directory for examples of different onboarding patterns.
+
+
+## 🧪 Testing
+
+### 📋 Prerequisites
+
+1. **RPC Endpoints with Historical Block Support**
+
+   Tests fork from historical block timestamps, so you need RPC endpoints that support archive data. Free-tier RPC providers do not always support historical state queries.
+
+   Set the following environment variables:
+   ```bash
+   export MAINNET_RPC_URL="your-ethereum-mainnet-rpc-url" # Ethereum Mainnet
+   export AVALANCHE_RPC_URL="your-avalanche-rpc-url"      # Avalanche
+   export BASE_RPC_URL="your-base-rpc-url"                # Base
+   export PLUME_RPC_URL="your-plume-rpc-url"              # Plume
+   export ROBINHOOD_RPC_URL="your-robinhood-rpc-url"      # Robinhood
+   ```
+
+   **Note:** Ethereum, Avalanche, and Base are resolved through forge-std's `getChain` helper, which reads the `MAINNET_RPC_URL`, `AVALANCHE_RPC_URL`, and `BASE_RPC_URL` variables (falling back to public endpoints if unset). Plume and Robinhood are read directly and are required.
+
+2. **Etherscan API Key (Paid Tier Required)**
+
+   Tests use Etherscan's API to fetch block numbers for a given date. Each test specifies a date (e.g., `setupDomains("2026-01-27T12:00:00Z")`), which is converted to a Unix timestamp and used to query the Etherscan API for the corresponding block number on each supported chain. The test then forks from that specific block
+
+   A paid Etherscan API key is required to access that feature
+
+   ```bash
+   export ETHERSCAN_API_KEY="your-api-key"
+   ```
+
+   **Note:** For chains not supported by Etherscan's API (Plume and Robinhood), the spell runner (`src/test-harness/SpellRunner.sol`) finds the fork block for the given date automatically by binary-searching fork timestamps over their RPCs. All resolved blocks (Etherscan and binary-search) are memoized under `cache/fork-blocks/`; delete that directory to force re-resolution.
+
+### 🚀 Running Tests
+
+```bash
+# Install dependencies
+forge install
+
+# Run all tests
+forge test
+
+# Check Foundry documentation to learn about all test-running options
+forge test --help
+```
+
+### 🛡️ State Tests
+
+`src/state-tests/GroveStateTests.t.sol` keeps `forge test` meaningful between spell cycles. Every shared assertion lives in an abstract contract that only a per-spell suite instantiates, so while `src/proposals/` is empty there is no concrete test contract to run and a green result means only that the project compiled.
+
+`GroveStateTests` inherits the same `GroveTestBase` harness but configures no payload. The spell-execution step is therefore inert and each inherited test asserts current chain state instead; the ones that only hold once a spell has executed skip themselves.
+
+- **It runs only between cycles.** While a spell is in flight (any `.sol` file is present under `src/proposals/`) the suite skips entirely, so the same assertions are not repeated at a second fork block.
+- **A payload that was expected but never loaded fails rather than skips.** Detection is by file, so a cycle whose payload is misnamed or whose artifact is stale is told apart from an idle repo, and cannot pass by skipping. Chains are judged individually: Ethereum is mandatory for any cycle, while other chains are only expected when the cycle ships their own `Grove<Chain>_*.sol`.
+- **It forks at yesterday's UTC midnight**, resolved once per run rather than from a hardcoded date that silently ages. The day boundary keeps the fork block stable so `cache/fork-blocks/` still hits, and the 24h lag keeps the block indexed by the block-by-timestamp APIs.
+- **A run can therefore start failing without any code change.** That is intentional: these tests exist to surface drift in live chain state, so treat a new failure as a real change on-chain until proven otherwise.
+
+```bash
+# Run only the state tests
+forge test --match-path "src/state-tests/*"
+```
+
+## 📦 Archive
+
+The `archive/` directory stores all historical spells that have been executed on-chain. Each archived spell includes:
+- The spell contract files (e.g., `GroveEthereum_YYYYMMDD.sol`)
+- The PR description (`YYYYMMDD.md`) documenting the intended changes, addresses, and deployment info
+- The corresponding test file (`GroveEthereum_YYYYMMDD.t.sol`) used to test the spell at the time of its deployment
+
+If the archived spell introduced any new addresses, the commit archiving the spell should also update the `grove-address-registry` submodule to include these new addresses.
+
+**Note:** Archived spells may not compile or run tests with the current codebase, as they may depend on older versions of helper libraries or test harnesses. If you need to run tests for a historical spell, check out the git commit from when that spell was in the `src/proposals/` directory.

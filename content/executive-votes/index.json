@@ -1,0 +1,272 @@
+[
+  {
+    "path": "2025/executive-vote-2025-05-29-MKR-to-SKY-upgrade-phase-two.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] MKR-to-SKY Upgrade Phase Two, Switch SKY Token Rewards Vesting Stream Source, Initialize Unichain and Optimism Native Bridges, Deactivate SparkLend DDM, Transfer Ownership of SPK Token to SPK Company Multisig, Increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project Funding, Delegate Compensation for April 2025, Atlas Core Development Payments for May 2025, Spark Proxy Spell - May 29, 2025",
+      "summary": "Phase Two actions for MKR-to-SKY Upgrade, change source of SKY For USDS Rewards to the Pause Proxy, initialization of Native Bridges on Unichain and Optimism, SparkLend Direct Deposit Module deactivation and removal from AutoLine, transfer ownership of SPK Token to SPK Company multisig, increase ALLOCATOR-SPARK-A Maximum Debt Ceiling, Launch Project funding, distribute Delegate Compensation for April 2025, distribute Atlas Core Development payments for May 2025, execute a Spark Proxy Spell.",
+      "date": "2025-05-29T00:00:00.000Z",
+      "address": "0x86F5A13C95ecf7263634b6e14E483d05D7d4aA0B"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-06-12-housekeeping-spark-proxy-spell.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Housekeeping Items, Spark Proxy Spell - June 12, 2025",
+      "summary": "Housekeeping actions concerning three BlockTower RWA vaults, Spark proxy spell execution.",
+      "date": "2025-06-12T00:00:00.000Z",
+      "address": "0xbF5EF05A578F270C0E54c7f6eF7cCFB5c9cD56b0"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-06-26-SPK-farming-MKR-to-SKY-partial-upgrade-phase-three.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] SPK Farming Initialization, Partial Phase 3 MKR-to-SKY Migration, Smart Burn Engine Parameter Updates, ALLOCATOR-BLOOM-A Maximum Debt Ceiling Increase, Spark USDS Transfer, Launch Project Funding, Delegate Compensation for May 2025, Atlas Core Development Payments for June 2025, Spark Proxy Spell - June 26, 2025",
+      "summary": "Initialize SPK farming using USDS and SKY tokens, perform a subset of actions for Phase 3 of the MKR-to-SKY Migration, update several parameters related to the Smart Burn Engine, increase the ALLOCATOR-BLOOM-A Maximum Debt Ceiling, execute the transfer of the Genesis Capital Allocation to Spark, transfer SKY tokens to the Launch Project, transfer Aligned Delegate and Atlas Core Development payments, execute a Spark Proxy Spell.",
+      "date": "2025-06-26T00:00:00.000Z",
+      "address": "0xC9c4ddF824e4fF80158aB7862D168a35ce616e8E"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-07-24.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Sky Token Rewards Rebalance, Aligned Delegate Compensation for June 2025, Atlas Core Development Payments for July 2025, HV Bank (RWA009-A) DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove, Star Proxy Spells - July 24, 2025",
+      "summary": "Sky Token Rewards rebalance, Aligned Delegate compensation for June 2025, Atlas Core Development USDS and SKY payments for July 2025, Huntingdon Valley Bank DAO Resolution, Auxiliary Actions for Token Transfer Between Spark and Grove,  Grove proxy spell execution, Spark proxy spell execution.",
+      "date": "2025-07-24T00:00:00.000Z",
+      "address": "0x12a79fAcd8D6Bbb1583593ef414897A9bA8f0D26"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-08-07-deactivate-morpho-ddm-chainlog-management.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Deactivate Spark DAI Morpho Direct Deposit Module, Retire Legacy MKR Oracle, Chainlog Management, Spark Proxy Spell, Grove Proxy Spell - August 7, 2025",
+      "summary": "Deactivate the legacy Spark DAI Morpho Direct Deposit Module (DDM), remove the legacy MKR oracle and other legacy oracles from the Chainlog, remove offboarded ilks from the Ilk Registry, execute Spark proxy spell, execute Grove proxy spell.",
+      "date": "2025-08-07T00:00:00.000Z",
+      "address": "0x26009aFf7fE39bF7611d66E0D38CAc43b3A93CD5"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-08-21.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Fortification Foundation Grant, Surplus Buffer Splitter Parameter Changes, UNIV2DAIUSDC-A Offboard, Spark-Aave Revenue Share, Liquidity Bootstrapping Funding, Delegate Compensation for July 2025, Atlas Core Development Payments for August 2025, Sky Frontier Foundation Grant, Prime Agent Proxy Spells - August 21, 2025",
+      "summary": "Fortification Foundation grant, Surplus Buffer Splitter parameter changes, UNIV2DAIUSDC-A offboard, Spark-Aave Revenue Share program payment, Liquidity Bootstrapping funding, Aligned Delegate compensation for July 2025, Atlas Core Development payments for August 2025, Sky Frontier Foundation grant, Prime Agent Proxy Spells for Spark and Grove.",
+      "date": "2025-08-21T00:00:00.000Z",
+      "address": "0x3F89feDD7588456e44189A36fD888c56B2C1f589"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-09-04-stusds-onboarding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] stUSDS Onboarding, SKY Token Rewards Rebalance, Core Simplification Buffer Budget Transfer, Accessibility Reward Budget Transfer, Spark Proxy Spell - September 4, 2025",
+      "summary": "Onboard stUSDS and the stUSDS Bounded External Access Module Exception (stUSDS BEAM), update Sky Token Rewards stream, transfer USDS for Core Simplification Buffer Budget, transfer USDS for Accessibility Reward Budget, execute Spark Proxy Spell.",
+      "date": "2025-09-04T00:00:00.000Z",
+      "address": "0x1832dF0fF2bf73A182e09966166BEC6C4ed0b69b"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-09-18.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Delayed Upgrade Penalty, Launch Agent 2 Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio Increase, First Monthly Settlement Cycle, AD Compensation for September 2025, Atlas Core Development USDS and SKY Payments, Spark Proxy Spell - September 18, 2025",
+      "summary": "Set Delayed Upgrade Penalty, Launch Agent 2 Allocator Adjustment, LSEV2-SKY-A Liquidation Ratio increase, Monthly Settlement Cycle execution for July-August 2025, August Aligned Delegate Compensation, Atlas Core Development USDS and SKY payments for September 2025, Spark proxy spell execution.",
+      "date": "2025-09-18T00:00:00.000Z",
+      "address": "0x98B876F9E8Aa2d32A85042F5fe8E860d3a7B8d3B"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-10-06-lockstake-capped-osm-wrapper.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Launch Lockstake Capped OSM Wrapper, SKY Token Rewards Rebalance, Whitelist Keel ALM Proxy, Execute Prime Agent Proxy Spells - October 6, 2025",
+      "summary": "Launch Lockstake Capped Oracle Security Module for SKY, normalize SKY Token Rewards, whitelist Keel ALM Proxy on the LitePSM, execute Proxy Spells for Spark, Grove, and Keel Prime Agents.",
+      "date": "2025-10-06T00:00:00.000Z",
+      "address": "0x0727FFA3221a8D3cDaAaBc7d19Ed0583847496e1"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-10-16-allocator-4-launch.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Allocator 4 Technical Launch, Monthly Settlement Cycle for September 2025, Ranked Delegate Compensation, Atlas Core Development Compensation, Execute Prime Agent Proxy Spells - October 16, 2025",
+      "summary": "Onboard Allocator 4, execute the steps for the Monthly Settlement Cycle for September 2025, distribute Ranked Delegate compensation for September 2025, distribute Atlas Core Development compensation for October 2025, execute proxy spells for Spark and Grove.",
+      "date": "2025-10-16T00:00:00.000Z",
+      "address": "0xf3d37a2508d269b8328026f72D65795730Ce07b6"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-10-30-init-kicker-lsSKY-farm-and-spark-starguard.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Initialize Kicker, Recalibrate Smart Burn Engine, Initialize lsSKY to SKY Farm, Initialize Spark StarGuard, Fund Core Council Multisigs, Fund Integration Boost Multisig, Adjust stUSDS BEAM Step Parameters, Execute Prime Agent Proxy Spells - October 30, 2025",
+      "summary": "Upgrade Smart Burn Engine by initializing the Kicker contract, update several parameters related to the Smart Burn Engine, add lsSKY to SKY farm, initialize StarGuard for Spark Proxy Spells, transfer funds to Core Council multisigs, transfer funds to Integration Boost multisig, reduce str step and duty step in the stUSDS Bounded External Access Module (stUSDS BEAM), execute proxy spells for Spark and Grove.",
+      "date": "2025-10-30T00:00:00.000Z",
+      "address": "0xa1D35e93d5BfAF300e0327d73143529f19B3DA78"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-11-13-solana-bridge-migration.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Solana Bridge Migration Spell 0, Launch Agent 4 DC-IAM Parameter Changes and Genesis Capital Funding, Whitelist Launch Agent 4 ALMProxy on the LitePSM, Prime Agent Proxy Spells - November 13, 2025",
+      "summary": "Carry out the first stage of the Solana Bridge Migration, adjust the Launch Agent 4 DC-IAM parameters, distribute Launch Agent 4 Genesis Capital, whitelist the Launch Agent 4 ALMProxy on the LitePSM, whitelist Spark proxy spell in Spark Starguard, execute a Launch Agent 4 proxy spell.",
+      "date": "2025-11-13T00:00:00.000Z",
+      "address": "0xed3de16bDF69F697FecF1b4103b9f48d71BdDF20"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-11-27-launch-starguards.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Launch StarGuards, October Monthly Settlement Cycle and Treasury Management Function, October Ranked Delegate Compensation, Atlas Core Development Compensation, Payment to Gnosis, Add ALLOCATOR-OBEX-A to SP-BEAM, Prime Agent Proxy Spells - November 27, 2025",
+      "summary": "Launch Starguard for Grove, Keel, and Obex, execute Monthly Settlement Cycle and Treasury Management Function for October, pay Ranked Delegate Compensation for October, make Atlas Core Development USDS and SKY payments for November, make Gnosis payment for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai, add ALLOCATOR-OBEX-A to SP-BEAM, whitelist Spark Proxy Spell in Spark Starguard, execute Keel Proxy Spell.",
+      "date": "2025-11-27T00:00:00.000Z",
+      "address": "0xa57d885d8FB034455aADb8c3F3D5414c214cBe3d"
+    }
+  },
+  {
+    "path": "2025/executive-vote-2025-12-11-launch-ccea1-subproxy-and-starguard.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Initialize and Fund Core Council Executor Agent 1 SubProxy and StarGuard, USDS-SKY Farm Normalization, Increase Delayed Upgrade Penalty, Adjust stUSDS Liquidation Ratio and Capped OSM, Adjust stUSDS BEAM step Parameters, DAO Resolution, Ranked Delegate and Atlas Core Development Compensation, Star Proxy Spells - December 11, 2025",
+      "summary": "Initialize and fund the SubProxy and StarGuard for Core Council Executor Agent 1, normalize the USDS-SKY farm vesting stream, increase the Delayed Upgrade Penalty to 2%, decrease the stUSDS Liquidation Ratio and Capped Oracle price, increase the stUSDS BEAM step parameters, approve a DAO Resolution for HVBank (RWA009-A), distribute November Ranked Delegate and December Atlas Core Development compensation, whitelist proxy spells for Spark and Grove in their respective StarGuard modules.",
+      "date": "2025-12-11T00:00:00.000Z",
+      "address": "0x0D2BDA9a446527238E802708B370DD66f375E4d1"
+    }
+  },
+  {
+    "path": "2025/oos-executive-vote-2025-11-17-solana-bridge-migration.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Out-of-Schedule Spell - Solana Bridge Migration Spell 1 - November 17, 2025",
+      "summary": "Carry out the final stage of the Solana Bridge Migration.",
+      "date": "2025-11-17T00:00:00.000Z",
+      "address": "0x2140f15f957Fcb0b101CD3957217174c3E4d6bf9"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-01-15-reduce-rewards-guni-offboarding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Reduce Rewards Emissions, Complete GUNI Vault Offboardings, Whitelist Keel SubProxy to Send Cross-Chain Messages, Adjust Grove DC-IAM Parameters, Delegate Compensation, Star Agent Proxy Spells - January 15, 2026",
+      "summary": "Reduce emissions to the USDS-SKY and LSSKY-SPK farms, finalize the offboarding of GUNIV3DAIUSDC1-A and GUNIV3DAIUSDC2-A, whitelist the Keel SubProxy to send cross-chain messages using the Solana governance bridge, adjust the ALLOCATOR-BLOOM-A DC-IAM parameters, Ranked Delegate compensation for December 2025, whitelist Star Agent proxy spells in the respective StarGuard modules.",
+      "date": "2026-01-15T00:00:00.000Z",
+      "address": "0xE91C453B7e1f4DF94fb4Cb69E1F4836E62718D76"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-01-29-msc-pattern-and-skybase-onboarding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] November and December Monthly Settlement Cycles and Treasury Management Function, Pattern Onboarding, Skybase Onboarding and Genesis Capital Funding, DAO Resolution for 6s Capital, Prime Agent Proxy Spells - January 29, 2026",
+      "summary": "Execute Monthly Settlement Cycle and Treasury Management Function for November and December, onboard Pattern with ALLOCATOR-PATTERN-A and StarGuard instance, onboard Skybase with StarGuard instance, approve DAO Resolution for RWA001-A, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-01-26T00:00:00.000Z",
+      "address": "0x4d99868F6D4d2545EbFf3a1385efE31C06d3A472"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-02-12-adjust-nova-dciam-parameters-reduce-6s-stability-fee.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Adjust ALLOCATOR-NOVA-A DC-IAM Parameters, Reduce RWA001-A Stability Fee, Prime Agent Proxy Spells - February 12, 2026",
+      "summary": "Update the DC-IAM parameters for ALLOCATOR-NOVA-A, reduce the RWA001-A Stability Fee to prepare for offboarding, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-02-12T00:00:00.000Z",
+      "address": "0x97bD98F46D0d0769745883E76c05483f9aa15Ca6"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-02-26-agent-6-and-7-onboarding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Launch Agent Onboardings, January Monthly Settlement Cycle and Treasury Management Function, SKY Staking Rewards Normalization, Prime Agent Proxy Spells - February 26, 2026",
+      "summary": "Onboard Launch Agents 6 and 7, execute Monthly Settlement Cycle and Treasury Management Function for January, adjust LSSKY->SKY vesting stream, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-02-26T00:00:00.000Z",
+      "address": "0x4C56b1B1554B1230349d66F665814641A609C569"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-03-12-buyback-reduction-safe-harbor-adoption.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] SKY Buyback Reduction, Delayed Upgrade Penalty Increase, Safe Harbor Adoption, Spark Proxy Spell - March 12, 2026",
+      "summary": "Reduce the rate of SKY buybacks, increase the Delayed Upgrade Penalty, adopt and initialize the Safe Harbor Agreement, whitelist a Spark proxy spell.",
+      "date": "2026-03-12T00:00:00.000Z",
+      "address": "0x396122c087Aa23BeE53B38e14237B3C0C10DdDbc"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-03-26-agent-onboardings-genesis-funding.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Ozone Onboarding, Amatsu Onboarding, Genesis Funding Transfers, February 2026 Monthly Settlement Cycle, Safe Harbor Update, Prime Agent Proxy Spells - March 26, 2026",
+      "summary": "Onboard Ozone StarGuard, onboard Amatsu StarGuard, transfer Genesis Capital to Amatsu; Ozone; Keel; and Prysm, execute Monthly Settlement Cycle and Treasury Management Function for February 2026, update Safe Harbor Agreement, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-03-26T00:00:00.000Z",
+      "address": "0x415396C98A5B42C0D97E4E80cB5C9079369Ea4D8"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-04-09-launch-avalanche-skylink-staking-rewards-update.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Launch Avalanche SkyLink, Update Staking Rewards, Grove Genesis Capital Transfer, Safe Harbor Update, Prime Agent Proxy Spells - April 9, 2026",
+      "summary": "Launch SkyLink to Avalanche, update LSSKY->SKY staking rewards, transfer Genesis Capital to Grove, update the Safe Harbor agreement to account for the new SkyLink deployment, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-04-09T00:00:00.000Z",
+      "address": "0x70Da14478667C08320Ef65506063abba84B6990f"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-04-23-msc-staking-rewards-update.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] March 2026 Monthly Settlement Cycle, Update Staking Rewards, Adjust ALLOCATOR-BLOOM-A and ALLOCATOR-PATTERN-A DC-IAM Parameters, Whitelist Pattern ALMProxy, Prime Agent Proxy Spells - April 23, 2026",
+      "summary": "Execute Monthly Settlement Cycle and Treasury Management Function for March 2026, update LSSKY->SKY staking rewards, increase ALLOCATOR-BLOOM-A target available debt; increase ALLOCATOR-PATTERN-A target available debt and maximum debt ceiling, whitelist Pattern ALMProxy on the LitePSM, whitelist proxy spells for Spark, Grove, and Pattern.",
+      "date": "2026-04-23T00:00:00.000Z",
+      "address": "0x06851b5235Cefb29C60EF3b29EB1f661D960B125"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-05-07-solana-bridge-unpause-gsm-increase-msc-staking-rewards-update.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Unpause Solana SkyLink Bridge, Increase GSM Pause Delay, April 2026 Monthly Settlement Cycle, Update Staking Rewards, Prime Agent Proxy Spells - May 7, 2026",
+      "summary": "Update rate limits and unpause Solana SkyLink Bridge, increase the GSM Pause Delay to 48 hours, execute Monthly Settlement Cycle and Treasury Management Function for April 2026, update LSSKY->SKY staking rewards, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-05-07T00:00:00.000Z",
+      "address": "0xA0059DaDd7Fbdbc81a9bb9d1d17cCB029b6AF596"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-06-04-rwa001-a-offboarding-keeper-adjustments.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] RWA001-A Offboarding, Keeper Network Adjustments, ALLOCATOR-SPARK-A Parameter Updates, MKR to SKY Delayed Upgrade Penalty Increase, Prime Agent Proxy Spells - June 4, 2026",
+      "summary": "Spell 1 actions for offboarding RWA001-A, remove Keeper Networks and update protocol name, update ALLOCATOR-SPARK-A DC-IAM risk parameters, increase the MKR to SKY Delayed Upgrade Penalty by 1 percentage point, whitelist proxy spells for Spark and Grove.",
+      "date": "2026-06-04T00:00:00.000Z",
+      "address": "0x0aE3371e9C4e37515259D124C685fe6722c5e253"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-06-18-onboard-allocator-grove-a-update-stusds-mom.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Onboard ALLOCATOR-GROVE-A Vault, Update LitePSM Parameters, Replace STUSDS_MOM, Monthly Settlement Cycle for May 2026, Staking Rewards Normalization, Update Safe Harbor Agreement, Prime Agent Proxy Spell - June 18, 2026",
+      "summary": "Onboard a new ALLOCATOR-GROVE-A vault, increase LitePSM buf and gap parameters, replace the existing STUSDS_MOM with a new version, execute the Monthly Settlement Cycle for May 2026, normalize LSSKY-SKY staking rewards after MSC execution, update the Safe Harbor Agreement with new contracts, whitelist a proxy spell for Spark.",
+      "date": "2026-06-18T00:00:00.000Z",
+      "address": "0xC136C3c419746c2e8c0B95100ac866a747e3e04b"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-07-02-grove-token-rewards.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Initialize GROVE Token Rewards, Whitelist New Grove ALMProxy on LitePSM, Add PAU Beacon to Chainlog, Transfer USDS from Amatsu SubProxy to SFF, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 2, 2026",
+      "summary": "Initialize GROVE token rewards farm, whitelist the new Grove ALMProxy on LitePSM, add PAU_BEACON to the Chainlog, transfer 14 million USDS from the Amatsu SubProxy to the Sky Frontier Foundation, update the Safe Harbor Agreement, and whitelist Spark, Grove, and Skybase proxy spells.",
+      "date": "2026-07-02T00:00:00.000Z",
+      "address": "0xEbf156fB6C87cBE0a962944eC254b519c1441A51"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-07-16-june-msc-staking-rewards-normalization.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Monthly Settlement Cycle for June 2026, LSSKY-SKY Rewards Normalization, Complete RWA001-A Offboarding, Add Emergency Spells to the Chainlog, Whitelist Osero ALMProxy, Adjust Vault Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - July 16, 2026",
+      "summary": "Execute the Monthly Settlement Cycle for June 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, complete the offboarding of RWA001-A, add emergency spells for STUSDS_MOM to the Chainlog, whitelist the new Osero ALMProxy on the LitePSM, adjust the Osero DC-IAM parameters, update the Safe Harbor Agreement, whitelist Prime Agent spells for Spark, Grove, and Osero.",
+      "date": "2026-07-16T00:00:00.000Z",
+      "address": "0xfffc346976c53757BcF7a536be340bc0Ce1d9163"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-08-13-initialize-sbe-beam.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] Initialize SBE BEAM, Monthly Settlement Cycle for July 2026, LSSKY-SKY Rewards Normalization, Increase Buybacks and Reactivate LSSKY-USDS Farm, Adjust Grove and Osero DC-IAM Parameters, Rename Osero Chainlog Keys, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 13, 2026",
+      "summary": "Initialize SBE BEAM, execute the Monthly Settlement Cycle for July 2026 and the associated reconciliation transfers, normalize LSSKY-SKY staking rewards, increase buybacks and reactivate the LSSKY-USDS farm, adjust the Grove and Osero DC-IAM parameters, rename the Osero Chainlog keys, update the Safe Harbor Agreement, and whitelist Prime Agent spells for Spark and Grove.",
+      "date": "2026-08-13T00:00:00.000Z",
+      "address": "0xB26b9d89776aa9E74ddA0e86e916413def03F59b"
+    }
+  },
+  {
+    "path": "2026/executive-vote-2026-08-27-initialize-pas.md",
+    "metadata": {
+      "title": "Template - [Executive Vote] PAS Initialization, Funding Transfer, Allocator Vault Parameter Updates, Rename Chainlog Key, Update Safe Harbor Agreement, Prime Agent Proxy Spells - August 27, 2026",
+      "summary": "Initialize the Parallelized Allocation System, transfer funds from Ozone SubProxy to SFF, update DC-IAM parameters for two Allocator vaults, rename a Chainlog key, update the Safe Harbor Agreement, whitelist Spark and Grove Proxy Spells.",
+      "date": "2026-08-27T00:00:00.000Z",
+      "address": "0x2bf5132EC2F21B079D7591c86D9817f1f18a2E05"
+    }
+  }
+]

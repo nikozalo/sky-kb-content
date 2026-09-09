@@ -1,0 +1,21 @@
+{
+  "name": "generate-index-script",
+  "version": "1.0.0",
+  "description": "Generates index files for executive votes markdown files.",
+  "main": "dist/generate-exec-index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run generate:exec",
+    "generate:exec": "ts-node generate-exec-index.ts"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

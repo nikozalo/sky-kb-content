@@ -1,0 +1,23 @@
+{
+    "domains": {
+        "mainnet": {
+            "chainlog": "0xdA0Ab1e0017DEbCd72Be8599041a2aa3bA7e740F"
+        },
+        "optimism": {
+            "l1Messenger": "0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1",
+            "l2Messenger": "0x4200000000000000000000000000000000000007"
+        },
+        "arbitrum_one": {
+            "inbox": "0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f",
+            "arbSys": "0x0000000000000000000000000000000000000064"
+        },
+        "base": {
+            "l1Messenger": "0x866E82a600A1414e583f7F13623F1aC5d58b0Afa",
+            "l2Messenger": "0x4200000000000000000000000000000000000007"
+        },
+        "unichain": {
+            "l1Messenger": "0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6",
+            "l2Messenger": "0x4200000000000000000000000000000000000007"
+        }
+    }
+}
