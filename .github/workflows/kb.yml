@@ -1,0 +1,84 @@
+name: build kb
+
+on:
+  schedule:
+    - cron: "0 5 * * *"        # nightly, 05:00 UTC
+  workflow_dispatch:
+    inputs:
+      prune_spell_archive_before:
+        description: "Drop spells-mainnet/archive entries before this year (blank = keep all)"
+        required: false
+        default: ""
+
+concurrency:
+  group: build-kb
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync the upstream sources
+        env:
+          # Every category in presets/sky.json. `custom_repos` stays empty on purpose:
+          # personal additions belong on the user's machine via `/sff:sky add repo`.
+          CATEGORIES: '["laniakea","core-protocol","spark","grove","migration","endgame","keepers","governance"]'
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          printf '{"preset":"sky","categories":%s,"custom_repos":[],"atlas":true}\n' "$CATEGORIES" \
+            > work/.kb_config.json
+          python3 scripts/sync.py --kb-path work
+
+      - name: Strip to greppable text
+        env:
+          PRUNE_SPELL_ARCHIVE_BEFORE: ${{ inputs.prune_spell_archive_before }}
+        run: |
+          set -euo pipefail
+          du -sh work/content | sed 's/^/before: /'
+          ./scripts/strip.sh work
+          du -sh work/content | sed 's/^/after:  /'
+
+      - name: Publish into content/
+        run: |
+          set -euo pipefail
+          mkdir -p content
+          # --delete so a file removed upstream is removed here too.
+          rsync -a --delete work/content/ content/
+          cp work/DIRECTORY.md DIRECTORY.md
+          python3 - <<'PY'
+          import json, os, datetime
+          files = sum(len(f) for _, _, f in os.walk("content"))
+          size = sum(os.path.getsize(os.path.join(r, f))
+                     for r, _, fs in os.walk("content") for f in fs)
+          json.dump({
+              "built_at": datetime.datetime.now(datetime.timezone.utc)
+                            .replace(microsecond=0).isoformat(),
+              "commit": os.environ.get("GITHUB_SHA", "")[:12],
+              "files": files,
+              "bytes": size,
+          }, open("manifest.json", "w"), indent=2)
+          open("manifest.json", "a").write("\n")
+          print(f"{files} files, {size/1048576:.1f} MB")
+          PY
+
+      - name: Commit only if the corpus changed
+        run: |
+          set -euo pipefail
+          git config user.name  "sky-kb bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A content DIRECTORY.md
+          if git diff --cached --quiet; then
+            echo "no upstream changes; nothing to publish"
+            exit 0
+          fi
+          # manifest.json changes every run (timestamp), so only include it alongside real changes.
+          git add manifest.json
+          git commit -m "kb: sync $(date -u +%Y-%m-%d)"
+          git push
