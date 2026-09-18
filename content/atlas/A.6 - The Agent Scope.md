@@ -5195,6 +5195,10 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 - `setMaxExchangeRate(SENTORA_RLUSD_VAULT, 1e18, 3e18)`
 
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 31442285-5a0d-4737-bc20-5eaf5c04624c -->
+
+Force-Deallocate Penalty: 0.01%
+
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
@@ -9692,9 +9696,9 @@ At the end of a Delegate's six (6) month term (see [A.6.1.1.1.3.1.3.4.3 - Minimu
 
 Delegates are compensated for their service as follows:
 
-1. Compensation Amount. Active Delegates receive USD 4,000 per calendar month.
+1. Compensation Amount. The Spark Foundation determines compensation for Active Delegates in its sole discretion, subject to both a maximum of USD 4,000 per Delegate per calendar month of service and a maximum of USD 20,000 in aggregate across all Delegates for the same calendar month of service.
 2. Administration. The Spark Foundation administers compensation from its approved operating budget.
-3. Timing & Proration. The compensation structure goes into effect by December 1st 2025, with first payment being made January 2026. Payment is made monthly in arrears and prorated for partial months of service.
+3. Timing & Proration. Payment is made monthly in arrears and prorated for partial months of service. The Spark Foundation must notify each Delegate of the applicable compensation and its effective date before service at that compensation begins. Compensation for service before that date remains governed by the terms applicable when the service was provided, subject to the eligibility and clawback provisions below.
 4. Eligibility & Clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.1.3.1.3.3 - Delegate Responsibilities](f230ba4e-eb5a-444e-b07a-13a0292338bd) during the covered period; the Spark Foundation may withhold or claw back amounts for non-performance or breach.
 5. No Waiver of Oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
@@ -10431,8 +10435,8 @@ The subdocuments herein define the current configuration of the SparkLend Gnosis
 
 The current GNO risk parameters are:
 
-- LTV: 40%
-- Liquidation Threshold: 50%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: N/A
 - Liquidation Bonus: 12%
 - Reserve Factor: 50%
@@ -10455,9 +10459,9 @@ The current GNO risk parameters are:
 
 The current WETH risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
 - Supply Cap: 5,000 ETH
@@ -10503,8 +10507,8 @@ The current USDT risk parameters are:
 
 The current sDai risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 6%
 - Reserve Factor: 50%
@@ -10527,9 +10531,9 @@ The current sDai risk parameters are:
 
 The current wstETH risk parameters are:
 
-- LTV: 65%
-- Liquidation Threshold: 72.5%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 50%
 - Supply Cap: 15,000 wstETH
@@ -10600,7 +10604,7 @@ The current USDC.e risk parameters are:
 The current WXDAI risk parameters are:
 
 - LTV: 0%
-- Liquidation Threshold: 75%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
@@ -11107,10 +11111,10 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 ###### A.6.1.1.1.3.4.2.2.3 - Parameters [Core]  <!-- UUID: 7410ed94-db95-437a-a4d2-9120036ec7bd -->
 
-The current Target SubDAO Proxy Value parameters are:
+The Target SubProxy Value parameters in effect at this time are:
 
 - RRC Lookback Period: 3 months
-- Spark Product Backstop: 1 million USDS
+- Spark Product Backstop: 5 million USDS
 - Target Runway: 12 months
 
 ###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
@@ -11123,7 +11127,9 @@ The subdocuments herein provide definitions for relevant parameters and values.
 
 ###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
 
-The Current SubDAO Proxy Value is defined as the sum of all USDS tokens held in the Spark SubDAO on Ethereum at 0x3300f198988e4C9C63F75dF86De36421f06af8c4. Note that the operational process of excess SubDAO Proxy funds disposition as defined in [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e) uses the most up-to-date onchain value for the Current SubDAO Proxy Value, and this does not need to be updated in the Spark Artifact as it is expected to fluctuate frequently based on monthly settlements and other operational processes.
+The Current SubProxy Value is defined as the sum of all USDS tokens held in the Spark SubProxy on Ethereum at wallet address 0x3300f198988e4C9C63F75dF86De36421f06af8c4, less the USDS value of the accrued but unrealized liabilities of Spark Savings vaults which, for the avoidance of doubt, consist of the yield that has accrued on Spark Savings depositors’ positions but that those users have not withdrawn.
+
+The Spark SubProxy’s USDS balance and the USDS value of the accrued but unrealized liabilities of Spark Savings vaults must be measured as of the same valuation time specified in section [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e). The calculated Current SubProxy Value does not need to be recorded in the Spark Artifact for each monthly cycle.
 
 ###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
 
@@ -11143,9 +11149,17 @@ The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy
 
 ###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
 
-Each month, immediately following Spark’s monthly settlement with Sky, the Current SubDAO Proxy Value with be calculated based on the definition in [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubDAO Proxy Value based on the evaluation method in [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa). If the Current SubDAO Proxy Value is greater than the Target SubDAO Proxy Value, this excess SubDAO Proxy Value is multiplied by the Standard Buyback Rate parameter up to the Enhanced Buyback Threshold, and then by the Enhanced Buyback Rate for any amount in excess of the Enhanced Buyback Threshold. The buyback amount for the month is set as the sum of the two values of the standard and enhanced buybacks.
+For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
 
-The next available Spark proxy Spell will include a transfer of this calculated buyback amount to the designated Buyback Executor. After using the transferred funds to purchase SPK, the Buyback Executor will transfer all accrued SPK to the Spark SubDAO Proxy.
+If the Current SubProxy Value is greater than the Target SubProxy Value, the excess is used to calculate the standard and enhanced buyback amounts. The Standard Buyback Rate applies to the portion of the Current SubProxy Value that is in excess of the Target SubProxy Value and up to the Enhanced Buyback Threshold. The Enhanced Buyback Rate applies to the portion of the Current SubProxy Value from and above the Enhanced Buyback Threshold. The Enhanced Buyback Threshold is determined as a percentage of the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold](e150176c-1da5-4adb-ba5d-f344d0be03ae).
+
+For the avoidance of doubt, if the Current SubProxy Value is less than or equal to the Target SubProxy Value, no buyback transfer is made for that monthly cycle.
+
+Spark must include the relevant buyback transfer to the designated Buyback Executor in the next available Spark proxy Spell with a voting date scheduled on or after the twenty-second (22nd) day of the month to which the calculation relates, subject to the Prime Spell Process.
+
+In respect of each buyback transfer, the Buyback Executor must use an onchain time-weighted average price (TWAP) mechanism to purchase SPK tokens with the transferred USDS over a period of ninety (90) days beginning from the Buyback Executor’s receipt of the relevant buyback transfer. After using the transferred funds to purchase SPK, the Buyback Executor must transfer any and all SPK tokens purchased pursuant to the relevant buyback transfer to the Spark SubProxy as soon as is reasonably practicable. For the avoidance of doubt, buyback transfers executed onchain before this amendment comes into effect remain subject to the Operational Process that was in effect at the time of the buyback transfer.
+
+Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
 
 ###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
 
@@ -12103,23 +12117,29 @@ A Curator is a specific admin role defined within the Morpho smart contract syst
 
 ###### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
-Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+Curators may only implement changes that have been explicitly approved by Spark governance via polling. Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ###### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
-All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing.
 
 ###### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
-The documents herein describe the requirements for all Curator actions to be approved by governance.
+The documents herein describe the requirements for governance approval before implementation of Curator changes and the conditions for queueing changes before approval.
 
 ###### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
-All curator-executed changes must be approved in advance by Spark governance through a polling process.
+All curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
+
+A Curator may queue a proposed change before the related governance poll is created or approved, provided that the onchain timelock for the pending change will expire no earlier than twenty-four (24) hours after the expected closing time of that poll. Queueing means submitting a change to the onchain timelock without implementing it. All applicable timelock delays continue to apply.
+
+The twenty-four (24) hour condition applies when the change is queued. Once the related poll is created, its actual closing time, including any subsequent change to that time, must be used to assess the remaining period before the pending change becomes executable. Cancellation on timing grounds is required only if that period is less than twenty (20) hours.
+
+The pending change must match the change submitted for approval. If the poll does not approve that change, or the actual poll closing time leaves less than twenty (20) hours before the pending change becomes executable, the pending change must be cancelled in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ###### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
 
-Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+The Curator is authorized to submit the onchain transactions needed to queue a change before governance approval only under the conditions in [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2). Following successful governance approval, the approved change or changes may be implemented only after the applicable timelock has expired. Queueing a change does not authorize its implementation.
 
 ###### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
@@ -12145,6 +12165,8 @@ Pending changes within the timelock must be able to be cancelled by any of the f
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
+For a change queued before governance approval, the Curator and the cancellation authority holders for the relevant smart contract instance are responsible for ensuring that the pending change is cancelled before it becomes executable if the related poll does not approve the exact pending change, including where the poll is not held, is withdrawn or cancelled, or closes without a valid approval result. The same responsibility applies on timing grounds only if the actual poll closing time, including any subsequent change to that time, leaves less than twenty (20) hours before the pending change becomes executable. A period of twenty (20) hours or more does not require cancellation on timing grounds; the other cancellation reasons and the duty to cancel unapproved changes remain applicable. Any actor authorized under [A.6.1.1.1.3.9.6.1 - Authorized Cancellers](f87333c8-ec5e-4483-83a9-791e1f9f9634) may fulfil this responsibility by cancelling the pending change; once it has been cancelled, no duplicate cancellation is required.
+
 ###### A.6.1.1.1.3.9.6.3 - Cancellation Authority [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
 A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
@@ -12152,6 +12174,8 @@ A Guardian is a specific admin role defined within the Morpho smart contract sys
 ###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
 The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
+
+The requirements of this section do not apply to the independence of the Curator from a cancellation authority holder controlled by the Operational GovOps of an Operational Executor Agent or by another actor expressly designated by Sky Governance to exercise cancellation authority for the relevant smart contract instance. This section does not require such a holder to use a signer set separate from the Curator’s, and does not require an additional independent cancellation authority holder for an instance with such a holder.
 
 ###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
 
@@ -13830,6 +13854,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document](d47ec9c3-b308-453a-989a-7396504f6a99).
 
+###### A.6.1.1.2.2.6.1.1.2.3.1.3 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 34c17b1c-48dd-4353-9743-5bf2b89c675b -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.1.2 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document](8ddc309e-abde-4d17-8977-bd5f20e100a7).
+
 ###### A.6.1.1.2.2.6.1.1.2.4 - Plasma [Core]  <!-- UUID: 00ec8ca9-deee-45b2-9acc-f24560ad4a13 -->
 
 The documents herein contain a Directory of all Instances on Plasma of the Allocation System Primitive with Instance status of `Active`.
@@ -14402,33 +14430,33 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
+The limits specified in [A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum](a444f64b-519a-4e52-a538-395c9ee04956) and [A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum](6ca30d6e-df7f-47f9-93c3-b20bae6762a3) are an exception set to `Unlimited` by a Grove Spell.
+
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
 
 The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDS
-- `slope`: 30,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum [Core]  <!-- UUID: a444f64b-519a-4e52-a538-395c9ee04956 -->
 
 The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDS
-- `slope`: 30,000,000 USDS per day
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
 
 The maximum amount of USDS that can be swapped for USDC by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDC
-- `slope`: 30,000,000 USDC per day
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum [Core]  <!-- UUID: 6ca30d6e-df7f-47f9-93c3-b20bae6762a3 -->
 
 The maximum amount of USDC that can be swapped for USDS by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDC
-- `slope`: 30,000,000 USDC per day
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 21a390bd-ffc4-4f14-b8fd-e30aacdcee89 -->
 
@@ -20645,9 +20673,9 @@ The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and
 
 The deposit rate limits are:
 
-- Aggregate: `maxAmount`: 5,000,000 (normalized), `slope`: 5,000,000 (normalized) per day
-- AUSD: `maxAmount`: 5,000,000 AUSD, `slope`: 5,000,000 AUSD per day
-- USDC: `maxAmount`: 5,000,000 USDC, `slope`: 5,000,000 USDC per day
+- Aggregate: `maxAmount`: 25,000,000 (normalized), `slope`: 25,000,000 (normalized) per day
+- AUSD: `maxAmount`: 25,000,000 AUSD, `slope`: 25,000,000 AUSD per day
+- USDC: `maxAmount`: 25,000,000 USDC, `slope`: 25,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: e675980b-5189-47c1-ac1b-c47eee3b87d1 -->
 
@@ -20661,8 +20689,8 @@ The withdrawal rate limits are:
 
 The swap rate limits are:
 
-- AUSD: `maxAmount`: 5,000,000 AUSD, `slope`: 5,000,000 AUSD per day
-- USDC: `maxAmount`: 5,000,000 USDC, `slope`: 5,000,000 USDC per day
+- AUSD: `maxAmount`: 5,000,000 AUSD, `slope`: 25,000,000 AUSD per day
+- USDC: `maxAmount`: 5,000,000 USDC, `slope`: 25,000,000 USDC per day
 - `maxSlippage`: 0.1%
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 2e60fa48-4088-4ea3-86d5-80d7fb45979c -->
@@ -20869,8 +20897,8 @@ The inflow and outflow rate limit configuration for this conduit is specified in
 
 The inflow rate limits are:
 
-- `maxAmount`: 15,000,000 USDS
-- `slope`: 15,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
 
@@ -21574,6 +21602,97 @@ The documents herein contain specific off-chain parameters for this Instance.
 ###### A.6.1.1.2.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a274fcdf-dc71-4b78-be4d-e41d1622e076 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 8ddc309e-abde-4d17-8977-bd5f20e100a7 -->
+
+The documents herein contain the Instance Configuration Document for the Grove x Steakhouse USDC Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 593f913c-273c-48f4-807e-5b826843b097 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2 - Parameters [Core]  <!-- UUID: cc56a3cf-d085-487a-b1c5-fb1371db5978 -->
+
+The documents herein define the parameters of the Grove x Steakhouse USDC Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 2d3f0ceb-90ea-4fa6-b3f9-440e5834fd6c -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.1 - Network [Core]  <!-- UUID: 2d12da29-855c-4e33-8f8d-53bcd7cf722b -->
+
+Base
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b417f91a-5139-4baf-910e-e0c564c9e92b -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0fe862ca-e24a-44e1-b35c-f51adb5323e2 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.4 - Token [Core]  <!-- UUID: be96f6e7-4a16-419a-aa9a-bf09ea4b8ed0 -->
+
+grove-steakUSDC
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 913d75b6-4822-48b5-85d2-e41f427e0a5b -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 9a233643-f07d-49d6-ab84-3d9fc7281c1c -->
+
+`0xbeef0786756810478b88982DE00F3CD7fdB8e7c7`
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a911bdd4-e5e8-47c7-81e6-f4b7600dc1c4 -->
+
+`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: df79f857-66b7-4e3f-9bb5-e77f3766ca21 -->
+
+The inflow RateLimitID is: `0x75df43c10c790bf60cc8db589d93ba979a8711aab94a828290155f0f9cb7e6ac`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c7d2d8ed-5f57-47d3-a6dc-537c72218898 -->
+
+The outflow RateLimitID is: `0x44630fb26e1343e99745c4ae29b1587eeb182f2a1da8b0cbe543a46f677766b9`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 87cf2cfd-f7b6-4275-b212-eb9d6a85796e -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 20,000,000 USDC
+- `slope`: 20,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 5ebaa8eb-97c9-491c-83bf-0029785485a1 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 1.15 USDC.
+
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2_BASE, 1e18, 1.15e6)`
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d1dbe262-dae8-4520-b98e-8000caf3e8ae -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bf2f2498-a93d-44a3-b019-802c9fc3da5d -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.3.1.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 72d88cdd-2461-4cdb-88dc-59421d27a037 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
 ###### A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: d47ec9c3-b308-453a-989a-7396504f6a99 -->
 
@@ -36136,17 +36255,29 @@ The address of the AdministeredAgent contract is: `0x1837505D104F7a6D8b7e1945261
 
 The documents herein list the rate limits for the Osero Liquidity Layer Diamond PAU.
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.1 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: eeaa3936-6129-4af5-89a1-0a3c56c175aa -->
 
-The documents herein list the Diamond PAU rate limits for the Osero Liquidity Layer.
+The documents herein list the controller-wide `RateLimitID`(s) for the Osero Diamond PAU. Instance-specific `RateLimitID`(s) are specified in each Instance Configuration Document.
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.1 - USDS Mint RateLimitID [Core]  <!-- UUID: faa9b57b-a127-433d-9330-b52f9c455108 -->
+
+The LIMIT_USDS_MINT RateLimitID is: `0xcb0537d5e5dba65a8edbac12555995860e5b8e1b70996011edb1ca8173e56d3c`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.2 - USDS Burn RateLimitID [Core]  <!-- UUID: 6546d1fc-06dc-4169-aca1-f3c1e6b1c71f -->
+
+The LIMIT_USDS_BURN RateLimitID is: `0x844d35ae585cfdeed0a77b7724286a1d4b5718bf8663d85e55396062b1cbe38c`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
+
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
 
 The maximum amount of USDS that can be minted by the Osero Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
-- `maxAmount`: 5,000,000 USDS
-- `slope`: 5,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1.2 - USDS Burn Maximum [Core]  <!-- UUID: eafa2031-9560-4b23-aa7a-f4ee62097438 -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.2 - USDS Burn Maximum [Core]  <!-- UUID: eafa2031-9560-4b23-aa7a-f4ee62097438 -->
 
 The maximum amount of USDS that can be burned by the Osero Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 - `maxAmount`: Unlimited
@@ -36269,7 +36400,7 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
@@ -36381,13 +36512,13 @@ The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b07
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
 
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
 
 The deposit rate limits are:
-- `maxAmount`: 5,000,000 USDS
-- `slope`: 5,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
 
