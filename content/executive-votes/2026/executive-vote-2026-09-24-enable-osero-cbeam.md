@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Enable Osero cBEAM, Adjust ALLOCATOR-GROVE-A DC-IAM Parameters, DAO Resolution for RWA009-A, Prime Agent Proxy Spells - September 24, 2026
 summary: Enable the cBEAM for Osero's DPAU, adjust DC-IAM parameters for the ALLOCATOR-GROVE-A vault, approve a DAO Resolution for RWA009-A, whitelist Prime Agent proxy spells for Spark, Grove, and Osero
 date: 2026-09-24T00:00:00.000Z
-address: "$spell_address"
+address: "0xF01b594aF26fC8A8ae1e24DCaF904ECB6Fd1BaDC"
 ---
 
 # [Executive Proposal] Enable Osero cBEAM, Adjust ALLOCATOR-GROVE-A DC-IAM Parameters, DAO Resolution for RWA009-A, Prime Agent Proxy Spells - September 24, 2026
