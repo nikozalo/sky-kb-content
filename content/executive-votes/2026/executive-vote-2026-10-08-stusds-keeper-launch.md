@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] stUSDS Keeper Launch, Monthly Settlement Cycle for September 2026, Treasury Management Function Parameter Updates, Adjust ALLOCATOR-GROVE-A DC-IAM Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - October 8, 2026
 summary: Launch the stUSDS Keeper, execute the Monthly Settlement Cycle for September 2026 and the associated reconciliation transfers, burn SKY from the Pause Proxy balance, update LSSKY->SKY staking rewards and lengthen the buyback and LSSKY->USDS reward cycles, adjust the ALLOCATOR-GROVE-A DC-IAM parameters, update the Safe Harbor Agreement, and whitelist Prime Agent proxy spells for Spark, Grove, and Osero.
 date: 2026-10-08T00:00:00.000Z
-address: "$spell_address"
+address: "0x4bdD1Cc8540E4c43ee210a6ff0EE96ad0Bba297A"
 ---
 
 # [Executive Proposal] stUSDS Keeper Launch, Monthly Settlement Cycle for September 2026, Treasury Management Function Parameter Updates, Adjust ALLOCATOR-GROVE-A DC-IAM Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - October 8, 2026

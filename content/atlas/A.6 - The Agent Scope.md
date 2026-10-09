@@ -2525,7 +2525,7 @@ The documents herein list the rate limits for the Spark Diamond PAU deployments.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1 - Arbitrum [Core]  <!-- UUID: 377cd36c-d686-4ffb-adfa-1797026d9d7f -->
 
-The documents herein define the rate limits for the Arbitrum Diamond PAU. These values are managed through the Arbitrum PAS Configurator by a registered and accordant cBEAM, within the bounds held in BeamState, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain values can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein define the rate limits for the Arbitrum Diamond PAU. These values are managed through the Arbitrum PAS Configurator by a registered and accordant cBEAM, within the bounds held in BeamState, as specified in [A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution](ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b). The current on-chain values can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1.1 - Aggregate CCTP Limit [Core]  <!-- UUID: 82ca150f-9b76-4225-9426-18236a155ff2 -->
 
@@ -2696,7 +2696,7 @@ The documents herein define the roles and permissions of the Arbitrum Diamond PA
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.1 - Default Admin Role [Core]  <!-- UUID: cf2088f4-c708-4b07-96f1-c040659a2ac7 -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) and by the Arbitrum PAS Configurator (`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`), as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) and by the Arbitrum PAS Configurator (`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`), as specified in [A.2.2.10.1.1.1.2.3.2.5 - Configurator](34423259-8fc5-4761-af8b-734332d2ada5).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.2 - Controller Role [Core]  <!-- UUID: e4272501-fb7c-4ee2-8b15-6f7263317c8b -->
 
@@ -5317,6 +5317,16 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 31442285-5a0d-4737-bc20-5eaf5c04624c -->
 
 Force-Deallocate Penalty: 0.01%
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5 - Market Exposure [Core]  <!-- UUID: 92014d81-588c-4063-932a-85e708a26b2e -->
+
+The documents herein contain exposure details for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5.1 - WBTC/RLUSD 86% LLTV Pool [Core]  <!-- UUID: 76161801-e958-402c-9c68-ab3f9e19d85d -->
+
+- Pool ID: 0xa128dddc761075df9a9a60689f3a41a989b245aad506352c509c0c3a76a9ec6b
+- Absolute cap: 250 million
+- Relative cap: 10%
 
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
@@ -12483,9 +12493,9 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 
 - Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
@@ -12493,9 +12503,9 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
@@ -12503,9 +12513,9 @@ The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
@@ -12513,9 +12523,9 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 
 - Instance Name: Spark USDC Morpho Vault (Base)
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.5 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
 
@@ -12525,7 +12535,7 @@ The Sentora RLUSD Morpho Vault on Ethereum Mainnet is an approved instance with 
 - Contract Address: `0xFC8C624B6080a0a780583799f2A862DE936F6E22`
 - Curator: Soter Labs and Sentora, implemented via a Gnosis Safe multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Sentinel role held by the Spark Foundation multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
+- Cancellation Authority: Sentinel role held by the Operational GovOps Soter Labs multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
 - Allocator: Sentora, at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` and at `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3`
 
 ###### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
@@ -14708,7 +14718,7 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits [Core]  <!-- UUID: c5d3d2f9-cd88-4b00-a6df-da369c27674f -->
 
-The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 The limits specified in [A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum](a444f64b-519a-4e52-a538-395c9ee04956) and [A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum](6ca30d6e-df7f-47f9-93c3-b20bae6762a3) are an exception set to `Unlimited` by a Grove Spell.
 
@@ -14963,7 +14973,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
@@ -17135,19 +17145,19 @@ The Diamond PAU Controller functions for the Grove Liquidity Layer are the share
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.1 - Basin Facet [Core]  <!-- UUID: 3e54ecce-73fc-4f85-be3c-0c89d3d005d2 -->
 
-The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.2.3.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
+The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.2.3.1.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.2 - USDS Facet [Core]  <!-- UUID: bdf5ef63-d436-4ffb-bf37-2c1790d1a68d -->
 
-The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.3 - PSM Facet [Core]  <!-- UUID: 0cf2ffe0-cb0b-4c3c-bd11-349cad3d4c98 -->
 
-The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
+The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.4 - Uniswap v3 Facet [Core]  <!-- UUID: 5b6d7110-3662-4ee5-a339-43e6bb8e4517 -->
 
-The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
+The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.2.3.1.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.3 - Monolithic Foreign Controller Contract Functions [Core]  <!-- UUID: a3d8a2af-90e1-40a8-8573-48a84954ea54 -->
 
@@ -20969,7 +20979,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 2100ad73-d516-405f-a65d-5a05af6e6f55 -->
 
-Total exposure through this Instance may not exceed 500,000,000 USDS.
+Total exposure through this Instance may not exceed 1,500,000,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.2 - CRR [Core]  <!-- UUID: ea4b41a7-1ce9-4bf9-bd71-3cfadd9ce8e0 -->
 
@@ -36676,7 +36686,7 @@ The address of the ALM Proxy contract is: `0x6d370e359e9cbd0Fd35Bb38fAF705D84238
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract [Core]  <!-- UUID: 8e1d584f-6368-493d-a6c5-c5068250b63a -->
 
-The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
+The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.1.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.3 - AccessControls Contract [Core]  <!-- UUID: 6694670e-d13c-4466-afde-2830820ac000 -->
 
@@ -36716,7 +36726,7 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
 
-The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
 
@@ -36858,7 +36868,7 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
@@ -36866,19 +36876,19 @@ The Diamond PAU Controller functions for the Osero Liquidity Layer are the share
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.1 - USDS Facet [Core]  <!-- UUID: 9b35cae7-b629-4bf8-b2d1-472bedebae14 -->
 
-The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Aave v3 Facet [Core]  <!-- UUID: f983e134-c97d-4e90-94d6-4cad14d0702f -->
 
-The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
+The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.1.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.3 - ERC-4626 Facet [Core]  <!-- UUID: ff53173e-9c7a-4a31-baeb-185339d0780e -->
 
-The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
+The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.4 - PSM Facet [Core]  <!-- UUID: b762ae11-c8fa-465d-a8a0-4909257551dd -->
 
-The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
+The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
@@ -37134,10 +37144,11 @@ The Allocator role is held by the Gauntlet Allocator address `0x6939A35d32E9bE62
 
 The Sentinel role is held by the Gauntlet Sentinel address `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` and the Soter Labs Vault Sentinel Multisig `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Max Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
-- `setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
+The maximum exchange rate for this Instance is two (2) USDC per whole vault share, set by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
+
+- `erc4626_setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
 
 ###### A.6.1.1.7.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 1292a07b-637f-4b35-adc1-1a9bdeee9566 -->
 
