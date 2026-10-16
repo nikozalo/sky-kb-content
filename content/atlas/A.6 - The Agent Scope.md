@@ -14312,12 +14312,9 @@ The address of the Grove executor on Avalanche is: `0x4b803781828b76EaBF21AaF02e
 
 The address of the Grove LayerZero v2 governance relay receiver on Avalanche is: `0x380Be2b91B63BF75B194913b6e2C07Df09598c22`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP Governance Relay Receivers [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP v2 Governance Relay Receiver [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
 
-The Grove Circle CCTP governance relay receivers on Avalanche are:
-
-- Circle CCTP v1: `0x26e9512547feC1906C55256e491DfB6673D8C23f`
-- Circle CCTP v2: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
+The address of the Grove Circle CCTP v2 governance relay receiver on Avalanche is: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.4 - Circle CCTP v2 TokenMessenger [Core]  <!-- UUID: 2d54c733-b341-41d3-83f2-d3c2d9b8b16d -->
 
@@ -17543,6 +17540,10 @@ This document defines the action that should be performed if there is a need to 
 `mainnetController.burnUSDS(usds.balanceOf(address(proxy))
 `
 More detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](25706c25-2b74-486e-8234-c45f6630f379).
+
+###### A.6.1.1.2.2.6.1.2.2.3.5 - Diamond PAU Emergency Protocol [Core]  <!-- UUID: cee6381b-80ea-48d6-aafc-a702bd4853ad -->
+
+The actions that can be taken in the event of an emergency within the Grove Diamond PAU's operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
 
 ###### A.6.1.1.2.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 0806984d-5799-4c19-8eda-d355bcc43524 -->
 
@@ -34299,6 +34300,14 @@ The Ethereum Mainnet Instances Directory of the Maple Protocol with `Active` Sta
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.6.1.3.1.1.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](50d86fb7-cacd-4f9b-adf4-7056cfe8cd97).
 
+###### A.6.1.1.6.2.6.1.1.2.1.2 - River [Core]  <!-- UUID: efa428ed-6e6b-433a-a7e0-2ae781167940 -->
+
+The Ethereum Mainnet Instances Directory of River deals with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.1.2.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document Location [Core]  <!-- UUID: a539183f-7062-4ee4-b4da-3a86dbe3bfef -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.6.1.3.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document](1e9275a1-93a2-4bb6-a022-a4c8de62e864).
+
 ###### A.6.1.1.6.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: d447c96a-dec9-4ce7-87fa-44291e6a4c32 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -34556,7 +34565,7 @@ The documents herein define roles (Admin, Relayer, ALM Controller, and Freezer) 
 
 ###### A.6.1.1.6.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: 6434ee18-27d9-4dcc-9895-0bbf316b8144 -->
 
-The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Pattern Proxy.
+The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Pattern SubProxy.
 
 ```solidity
 constructor(address admin_) {
@@ -35067,7 +35076,7 @@ The documents herein define the actions that should be performed by an operator 
 
 ###### A.6.1.1.6.2.6.1.2.2.3.2.1 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 872a4857-504e-4795-9cbd-2a6f159c1ea0 -->
 
-In order to withdraw all ERC-4626 balances, the operator must call the `redeemERC4626` function.
+In order to withdraw all ERC-4626 balances, the Relayer must call the `redeemERC4626` function.
 
 The function call is as follows:
 
@@ -35079,7 +35088,7 @@ For more detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1
 
 ###### A.6.1.1.6.2.6.1.2.2.3.3 - USDC To USDS Swap Action [Core]  <!-- UUID: c30c1496-0eff-4199-9c18-eb72fb486aac -->
 
-This document defines the action that should be performed by an operator if there is a need to centralize all recovered liquidity in USDS. The operator must call the `swapUSDCToUSDS` function.
+In order to centralize all recovered liquidity in USDS, the Relayer must call the `swapUSDCToUSDS` function.
 
 The function call is as follows:
 
@@ -35091,7 +35100,7 @@ For more detailed instructions on the code to execute this see [A.6.1.1.6.2.6.1.
 
 ###### A.6.1.1.6.2.6.1.2.2.3.4 - USDS Burn Action [Core]  <!-- UUID: 451ccaa5-640c-423d-b816-de953edbf115 -->
 
-This document defines the action that should be performed if there is a need to repay and then burn Pattern's USDS debt. The operator must call the `burnUSDS` function.
+In order to repay and then burn Pattern's USDS debt, the Relayer must call the `burnUSDS` function.
 
 The function call is as follows:
 
@@ -35100,6 +35109,18 @@ burnUSDS(usds.balanceOf(address(proxy)))
 ```
 
 More detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](886d04ba-23c3-45fb-ac5d-044288a621e1).
+
+###### A.6.1.1.6.2.6.1.2.2.3.5 - Disable Transfer Asset Destination [Core]  <!-- UUID: fed5f63a-c61d-4c4b-b713-c7881a88c7d9 -->
+
+In order to disable a Transfer Asset destination, preventing any further transfers to it without recovering funds already transferred, the `setRateLimitData` function must be called, setting both `maxAmount` and `slope` to zero for the destination's RateLimitID. Because `setRateLimitData` requires the admin role, which is controlled by Sky Governance via the Pattern SubProxy, this action can only be performed through a Pattern Prime Spell, and is not immediate. For an immediate response, the Freezer can instead remove the Relayer, as specified in [A.6.1.1.6.2.6.1.2.2.3.1 - Remove Compromised Relayer As Freezer](a7054e75-b492-4e49-bae6-41c786153fb2), but this affects all of Pattern's Instances.
+
+The function call is as follows:
+
+```solidity
+setRateLimitData(key, 0, 0)
+```
+
+For more detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.3.2 - Set Rate Limit Data](89b060bd-1026-46ec-ab32-d032edb58f83).
 
 ###### A.6.1.1.6.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: e4bc88c1-a8b6-428a-aafd-2b03e7cb85ae -->
 
@@ -35229,6 +35250,65 @@ The function signature is as follows:
 ```solidity
 function cancelMapleRedemption(address mapleToken, uint256 shares) external
 ```
+
+###### A.6.1.1.6.2.6.1.3.1.2 - River [Core]  <!-- UUID: 2503b3b1-e0cc-477c-95b7-6fdf25a72ea4 -->
+
+The Ethereum Mainnet Instances of River deals with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document [Core]  <!-- UUID: 1e9275a1-93a2-4bb6-a022-a4c8de62e864 -->
+
+The documents herein contain the Instance Configuration Document for the River I (River SPV II) Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: d2a04f82-cc71-4b71-a8a9-ae910670060d -->
+
+**`Pending`**
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 5f713b1d-44b4-4599-a893-0ec44f6a4797 -->
+
+The documents herein define the parameters of the River I (River SPV II) Instance of the Allocation System Primitive.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 657a71fe-8600-4fcf-a6be-12340f3a8453 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 2e3bf626-0c59-43de-ba04-40210ce95aa1 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 2a237086-7f1c-4702-9399-6363d4e2e335 -->
+
+River
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Pattern Liquidity Layer [Core]  <!-- UUID: c5fcfcd6-c302-44a1-875c-8c6f1499e690 -->
+
+USDC
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.2 - Destination Address [Core]  <!-- UUID: b59307d6-ff9e-400a-abed-c4f4302acb12 -->
+
+The River SPV II Offramp address is `0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F`, an externally owned account with an EIP-7702 delegation rather than a deployed contract.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.3 - Transfer RateLimitID [Core]  <!-- UUID: ec3df6ee-7317-41fe-a7f6-894d97a42544 -->
+
+The Transfer RateLimitID is: `0x9e89eef868db62cc103dac9e8428957603e3ff835526132d10b5f1f327fc7605`.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limits [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 35,000,000 USDC
+- `slope`: 10,000,000 USDC per day
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 7fdd3edf-3e33-4f5b-bc99-1dd8cf8a5f92 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: d09c32f6-204b-4a05-ba48-b145d3080379 -->
+
+The Maximum Exposure for this Instance is 70,000,000 USDC.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: 50178595-e88d-4f75-a08f-1506ba8f15f2 -->
+
+The CRR for this Instance will be specified in a future iteration of the Atlas.
 
 ###### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 
@@ -36384,6 +36464,38 @@ The documents herein organize all base information relevant to Osero's usage of 
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Active`.
 
+###### A.6.1.1.7.2.5.1.1.2.1 - Osero Instance Configuration Document Location [Core]  <!-- UUID: 823e0947-3721-47fe-89e9-237b11b6b98e -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.1 - Osero Instance Configuration Document](41a5ccbe-cf75-4426-a78a-9c676efa0d28).
+
+###### A.6.1.1.7.2.5.1.1.2.2 - Nightly Instance Configuration Document Location [Core]  <!-- UUID: cf501aaf-e822-4d20-95f9-42e7eecab210 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.2 - Nightly Instance Configuration Document](cf1c0f0b-fa66-40ae-bd8b-004480db84b5).
+
+###### A.6.1.1.7.2.5.1.1.2.3 - Multiliquid Instance Configuration Document Location [Core]  <!-- UUID: 92bc9fc7-5b5b-4090-9fa0-465aa6d5d132 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.3 - Multiliquid Instance Configuration Document](701e0ba7-640a-4bec-8a2c-21b245cd5d15).
+
+###### A.6.1.1.7.2.5.1.1.2.4 - Anoma Pay Instance Configuration Document Location [Core]  <!-- UUID: 5d4627dd-9f32-472a-af85-d4f224b58688 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.4 - Anoma Pay Instance Configuration Document](b2debcbb-f78b-47d4-bf45-5f8940929b18).
+
+###### A.6.1.1.7.2.5.1.1.2.5 - LiFi Instance Configuration Document Location [Core]  <!-- UUID: 3beadffe-c496-4e15-b7c5-0fd481d94a89 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.5 - LiFi Instance Configuration Document](92eae1fc-923f-48ef-963b-285c9001d8e2).
+
+###### A.6.1.1.7.2.5.1.1.2.6 - Portals.fi Instance Configuration Document Location [Core]  <!-- UUID: 39f489d2-5bb3-4640-8fd5-25864c150cc1 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.6 - Portals.fi Instance Configuration Document](dfda885e-3ecf-4ad2-88ed-1786571ac291).
+
+###### A.6.1.1.7.2.5.1.1.2.7 - Utila Instance Configuration Document Location [Core]  <!-- UUID: acd51a6e-99b4-4e8c-aff3-359678651dff -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.7 - Utila Instance Configuration Document](7550d9c9-cd8b-46d5-972a-bcdab91c027d).
+
+###### A.6.1.1.7.2.5.1.1.2.8 - Gauntlet Instance Configuration Document Location [Core]  <!-- UUID: c864492f-7c9b-4869-bff1-78e774ecfc5e -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.8 - Gauntlet Instance Configuration Document](df144196-1c4c-4dfa-8a32-512d511bf316).
+
 ###### A.6.1.1.7.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: d495c6cf-095e-4257-b54a-59139110bd3e -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -36411,6 +36523,590 @@ The subtrees for Instances of the Distribution Reward Primitive with `Suspended`
 ###### A.6.1.1.7.2.5.1.2 - Active Instances [Core]  <!-- UUID: 464695e4-744c-48fd-a023-565096dc9144 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.5.1.2.1 - Osero Instance Configuration Document [Core]  <!-- UUID: 41a5ccbe-cf75-4426-a78a-9c676efa0d28 -->
+
+The documents herein contain the Instance Configuration Document for the Osero Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.1.1 - Parameters [Core]  <!-- UUID: 418c2a2f-34d3-4957-9b81-739042446533 -->
+
+The documents herein define the parameters of the Osero Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.1.1.1 - Reward Code [Core]  <!-- UUID: 4c2e43fe-6ce5-4177-bbd2-90861ea675ff -->
+
+`3000`.
+
+###### A.6.1.1.7.2.5.1.2.1.1.2 - Tracking Methodology [Core]  <!-- UUID: 4679e72c-ab1c-466d-a95e-fa6a1588041c -->
+
+This Instance uses the Tracking Methodologies specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2), [A.2.2.9.1.2.1.1.2.4 - Arbitrum Tracking Methodology](92beb324-1782-444d-a520-7956987c2a51) and [A.2.2.9.1.2.1.1.2.5 - Optimism Tracking Methodology](4a02722d-91a1-43df-8657-7b9356f79550).
+
+###### A.6.1.1.7.2.5.1.2.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 7d2ad38c-c912-4d78-9251-92f502fbb1b1 -->
+
+The documents herein define the custom parameters of the Osero Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: f45eb393-132b-495f-8e4b-e75210226718 -->
+
+The documents herein define the process for the ongoing management of the Osero Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: afd73556-cd73-4cc2-ad58-6e197a89309b -->
+
+This document defines the protocol for routine ongoing management of the Osero Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 3faefb8b-4ec8-47d4-b2b3-ef85637268dd -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 3b52b3f7-7000-4633-b837-ddec8e998a76 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Osero Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 32dc66bd-9a85-48ef-a775-e78e1e8b6432 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Osero Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.1.3 - Data Repository [Core]  <!-- UUID: 13cac863-cf5a-4daf-b7aa-026be5d28c62 -->
+
+The documents herein contain data relevant to the Osero Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d62190e1-52af-452a-9108-e5a882c13722 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 93f31e74-0d9c-494f-8f04-181a471d433e -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8608a9ab-30c5-4d14-8604-41109fc4b33a -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8f1c5178-2123-4215-b49a-3df1b262a395 -->
+
+The Distribution Reward payments for the Osero Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 9bce120f-87d5-468c-8e16-eab9ded9285b -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.2 - Nightly Instance Configuration Document [Core]  <!-- UUID: cf1c0f0b-fa66-40ae-bd8b-004480db84b5 -->
+
+The documents herein contain the Instance Configuration Document for the Nightly Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.2.1 - Parameters [Core]  <!-- UUID: 83c9f943-fae9-46a2-a8cf-3593b40b5d1d -->
+
+The documents herein define the parameters of the Nightly Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.2.1.1 - Reward Code [Core]  <!-- UUID: 73b81482-5442-409d-a8ed-7aca202812d5 -->
+
+`3001`.
+
+###### A.6.1.1.7.2.5.1.2.2.1.2 - Tracking Methodology [Core]  <!-- UUID: b6293513-b286-448c-9518-1fcb25281637 -->
+
+This Instance uses the Tracking Methodologies specified in [A.2.2.9.1.2.1.1.2.3 - Base Tracking Methodology](f710bddf-dc1d-483c-9503-483574cb6333), [A.2.2.9.1.2.1.1.2.4 - Arbitrum Tracking Methodology](92beb324-1782-444d-a520-7956987c2a51) and [A.2.2.9.1.2.1.1.2.5 - Optimism Tracking Methodology](4a02722d-91a1-43df-8657-7b9356f79550).
+
+###### A.6.1.1.7.2.5.1.2.2.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 92d5edcc-6be7-464d-a12b-87cc017d5422 -->
+
+The documents herein define the custom parameters of the Nightly Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.2.2 - Operational Process Definition [Core]  <!-- UUID: f2c6e352-04d2-4058-95af-8bc922082271 -->
+
+The documents herein define the process for the ongoing management of the Nightly Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 1b4d6f03-f4f2-45c0-a4d3-02b842656ea7 -->
+
+This document defines the protocol for routine ongoing management of the Nightly Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.2.2.1.1 - Agent Customizations [Core]  <!-- UUID: 16d4e011-12bd-4b0d-9b67-3144e1b69abc -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7e38fe62-61cd-4264-8915-c6266688ea79 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Nightly Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.2.2.3 - Emergency Protocol [Core]  <!-- UUID: 29ce22d1-0a9d-4068-9dc5-43c6a191fc44 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Nightly Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.2.3 - Data Repository [Core]  <!-- UUID: 19bdc334-43d4-43cb-838f-5758cb3c4f95 -->
+
+The documents herein contain data relevant to the Nightly Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 7130f5c5-80d1-4ffa-ac02-78af3276666c -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: f108618f-d1c2-4984-aad0-4a8af0184c11 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 93282c5b-9bfb-4bfa-bcd2-2bf81678d99a -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 87aa35f1-8b39-4296-9dbc-fd4a90c54d8d -->
+
+The Distribution Reward payments for the Nightly Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8d4260fa-b6ae-4326-b6cc-b4276a3b7fe1 -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.3 - Multiliquid Instance Configuration Document [Core]  <!-- UUID: 701e0ba7-640a-4bec-8a2c-21b245cd5d15 -->
+
+The documents herein contain the Instance Configuration Document for the Multiliquid Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.3.1 - Parameters [Core]  <!-- UUID: 28579fff-c60f-44a6-baeb-42310e67fbd2 -->
+
+The documents herein define the parameters of the Multiliquid Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.3.1.1 - Reward Code [Core]  <!-- UUID: 50d17633-f45d-48a5-9e0c-687ec1703f3f -->
+
+`3002`.
+
+###### A.6.1.1.7.2.5.1.2.3.1.2 - Tracking Methodology [Core]  <!-- UUID: c4802b8d-4adc-4806-afa6-fc1ef580f358 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.3.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 0417ac25-32e2-4ffc-aeb9-cc254c54d932 -->
+
+The documents herein define the custom parameters of the Multiliquid Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.3.2 - Operational Process Definition [Core]  <!-- UUID: 54e0172e-1e87-4fbc-aa08-42a0cbcc97ba -->
+
+The documents herein define the process for the ongoing management of the Multiliquid Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: a4cab27b-fe1b-4fbe-b14b-58582a547d9b -->
+
+This document defines the protocol for routine ongoing management of the Multiliquid Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: 3bf16496-16a0-4899-8e0d-63a5b13c8836 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.3.2.2 - Non-Routine Protocol [Core]  <!-- UUID: ea17e4c4-dc22-4de1-a571-98acfe6b3ece -->
+
+The documents herein define the protocol for non-routine ongoing management of the Multiliquid Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.3.2.3 - Emergency Protocol [Core]  <!-- UUID: 3bfe395b-8fd3-433f-b57e-66245fd514d2 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Multiliquid Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.3.3 - Data Repository [Core]  <!-- UUID: a530fab3-a958-4330-87ee-11b545d78556 -->
+
+The documents herein contain data relevant to the Multiliquid Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: 2de6e2f5-06a8-4768-9769-1ccbcc07012f -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: 2883e5c8-48c1-4d88-b516-00cbb922ccf5 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8af0470c-9d13-41ca-9242-65f41320f8a9 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d2143dfd-07c4-4107-9ac8-c71040441e10 -->
+
+The Distribution Reward payments for the Multiliquid Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 6762a58b-3199-46a0-8b38-01cce4b7cc5d -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.4 - Anoma Pay Instance Configuration Document [Core]  <!-- UUID: b2debcbb-f78b-47d4-bf45-5f8940929b18 -->
+
+The documents herein contain the Instance Configuration Document for the Anoma Pay Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.4.1 - Parameters [Core]  <!-- UUID: efba09b2-c045-48fd-84a0-b65196bb3032 -->
+
+The documents herein define the parameters of the Anoma Pay Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.4.1.1 - Reward Code [Core]  <!-- UUID: 99eb322e-74f4-46d6-b58d-996a26620d65 -->
+
+`3003`.
+
+###### A.6.1.1.7.2.5.1.2.4.1.2 - Tracking Methodology [Core]  <!-- UUID: c4e5a4d8-b49e-4a79-9e26-884c7e11681f -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.4.1.3 - Custom Instance Parameters [Core]  <!-- UUID: a7fa6480-05a9-4414-a664-a01f7ec29657 -->
+
+The documents herein define the custom parameters of the Anoma Pay Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.4.2 - Operational Process Definition [Core]  <!-- UUID: 69f27a8e-f442-4048-9e0a-d7a09a548fb2 -->
+
+The documents herein define the process for the ongoing management of the Anoma Pay Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.4.2.1 - Routine Protocol [Core]  <!-- UUID: 375787b7-6a79-4cad-93ad-f5f9303cfb97 -->
+
+This document defines the protocol for routine ongoing management of the Anoma Pay Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.4.2.1.1 - Agent Customizations [Core]  <!-- UUID: e6178c23-d53a-4193-bd78-c7fc38482f14 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.4.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 31495650-2276-4e04-b351-d41bcab531ca -->
+
+The documents herein define the protocol for non-routine ongoing management of the Anoma Pay Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.4.2.3 - Emergency Protocol [Core]  <!-- UUID: 3ec81d5a-d38c-4ced-996b-c2e6afe7c433 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Anoma Pay Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.4.3 - Data Repository [Core]  <!-- UUID: 254268b0-20af-4318-baf5-ebc666772a1f -->
+
+The documents herein contain data relevant to the Anoma Pay Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.4.3.1 - Initial Planning [Core]  <!-- UUID: c3b4a5ae-859c-4961-a9b5-275acca7d036 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 6f015ed0-b3ef-442f-86d4-1f62c5c4ca1b -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9e35e242-270e-4300-a2ce-2133ebda0463 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.4.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0a800cf6-6ba5-46f9-b4da-7aeee6b8990b -->
+
+The Distribution Reward payments for the Anoma Pay Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.4.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 5b0eb309-d1b2-44be-9e93-21ebe6da6193 -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.5 - LiFi Instance Configuration Document [Core]  <!-- UUID: 92eae1fc-923f-48ef-963b-285c9001d8e2 -->
+
+The documents herein contain the Instance Configuration Document for the LiFi Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.5.1 - Parameters [Core]  <!-- UUID: c4aa6999-6e26-4053-a23a-0c40e5c9e678 -->
+
+The documents herein define the parameters of the LiFi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.5.1.1 - Reward Code [Core]  <!-- UUID: 75496d07-a5d5-44f7-bff9-1d41b2c5a1c6 -->
+
+`3006`.
+
+###### A.6.1.1.7.2.5.1.2.5.1.2 - Tracking Methodology [Core]  <!-- UUID: 4be76f11-b70f-4f81-a218-0c8910e27ca3 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.5.1.3 - Custom Instance Parameters [Core]  <!-- UUID: fae2e499-6eeb-425f-8978-8f388e99a788 -->
+
+The documents herein define the custom parameters of the LiFi Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.5.2 - Operational Process Definition [Core]  <!-- UUID: 8b9881a7-6aaa-4587-a589-aa7202327df8 -->
+
+The documents herein define the process for the ongoing management of the LiFi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.5.2.1 - Routine Protocol [Core]  <!-- UUID: db7f82df-63ce-4c4a-af73-b706b393a5e4 -->
+
+This document defines the protocol for routine ongoing management of the LiFi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.5.2.1.1 - Agent Customizations [Core]  <!-- UUID: 2c285672-97e2-465a-983c-235f9ae82a75 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.5.2.2 - Non-Routine Protocol [Core]  <!-- UUID: d699bc43-8799-4995-832f-a0f53df86e91 -->
+
+The documents herein define the protocol for non-routine ongoing management of the LiFi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.5.2.3 - Emergency Protocol [Core]  <!-- UUID: e72bb395-bb57-48aa-9e06-0692813af94d -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the LiFi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.5.3 - Data Repository [Core]  <!-- UUID: 57701e7c-d0ce-40f4-9cd3-e58e1ab15eea -->
+
+The documents herein contain data relevant to the LiFi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.5.3.1 - Initial Planning [Core]  <!-- UUID: 6235ee39-d1b9-499d-8903-a88175199900 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.5.3.2 - Operational GovOps Review [Core]  <!-- UUID: 605ffedd-9677-44c5-90bb-78d883acf34b -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.5.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9b28a8e8-c17e-438b-bf9c-72e25ef4eee2 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.5.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: ad6367ad-e9c8-48fb-a6da-a29a6a8ca40d -->
+
+The Distribution Reward payments for the LiFi Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.5.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f4dcae1d-7d08-4aa5-8df5-5f9e4c7f1e16 -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.6 - Portals.fi Instance Configuration Document [Core]  <!-- UUID: dfda885e-3ecf-4ad2-88ed-1786571ac291 -->
+
+The documents herein contain the Instance Configuration Document for the Portals.fi Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.6.1 - Parameters [Core]  <!-- UUID: c43a4f3c-f171-4292-8066-e8f219ad2913 -->
+
+The documents herein define the parameters of the Portals.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.6.1.1 - Reward Code [Core]  <!-- UUID: 1d2fc010-ebec-408f-ba33-96d733032412 -->
+
+`3007`.
+
+###### A.6.1.1.7.2.5.1.2.6.1.2 - Tracking Methodology [Core]  <!-- UUID: edb2abd7-f58c-443a-8d01-1eea3d51a488 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.6.1.3 - Custom Instance Parameters [Core]  <!-- UUID: c03ed6ae-89b1-49b4-a2ff-7a2f2dcdac14 -->
+
+The documents herein define the custom parameters of the Portals.fi Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.6.2 - Operational Process Definition [Core]  <!-- UUID: 797a974c-cbea-4650-9ca3-53e303ef26ac -->
+
+The documents herein define the process for the ongoing management of the Portals.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.6.2.1 - Routine Protocol [Core]  <!-- UUID: 45d10652-8465-45fd-b23b-e15dddf1ef56 -->
+
+This document defines the protocol for routine ongoing management of the Portals.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.6.2.1.1 - Agent Customizations [Core]  <!-- UUID: f1b3cb89-7966-434d-a1c7-7dcadc02facb -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.6.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 78e80ea0-0caf-47d2-b7b3-6e60fe748c25 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Portals.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.6.2.3 - Emergency Protocol [Core]  <!-- UUID: 0c70236d-b5ba-433d-ac9f-869b3577b1cf -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Portals.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.6.3 - Data Repository [Core]  <!-- UUID: d089acdd-bfba-48a5-b45a-25a3ffc3e7b5 -->
+
+The documents herein contain data relevant to the Portals.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.6.3.1 - Initial Planning [Core]  <!-- UUID: 8dd16fa8-6d42-49b2-a5a6-4552ef05bc27 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.6.3.2 - Operational GovOps Review [Core]  <!-- UUID: f50c60ab-5718-477c-98de-a11995f7e37b -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.6.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 48d8e8ac-cc09-4059-9a41-b8e2734e1104 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.6.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 9f5f205b-8f0b-45a0-b5dc-54e048b3438a -->
+
+The Distribution Reward payments for the Portals.fi Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.6.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: b48df2a3-8041-4cdf-9325-8900dfeee61b -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.7 - Utila Instance Configuration Document [Core]  <!-- UUID: 7550d9c9-cd8b-46d5-972a-bcdab91c027d -->
+
+The documents herein contain the Instance Configuration Document for the Utila Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.7.1 - Parameters [Core]  <!-- UUID: 63213d03-b11f-4ab1-9a97-4a1a631ba68c -->
+
+The documents herein define the parameters of the Utila Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.7.1.1 - Reward Code [Core]  <!-- UUID: 2a9853de-7237-4daf-8fe6-7abaaf0ccbfa -->
+
+`3008`.
+
+###### A.6.1.1.7.2.5.1.2.7.1.2 - Tracking Methodology [Core]  <!-- UUID: 4206eae7-4386-4954-bf81-ae27fc83a11a -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.7.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 1494b764-b5aa-44e2-bc97-92470e114c03 -->
+
+The documents herein define the custom parameters of the Utila Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.7.2 - Operational Process Definition [Core]  <!-- UUID: 7801266f-093e-4da6-9b4c-1ccabbab5d14 -->
+
+The documents herein define the process for the ongoing management of the Utila Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.7.2.1 - Routine Protocol [Core]  <!-- UUID: b7274be7-d735-4f9d-b06f-75e92357be38 -->
+
+This document defines the protocol for routine ongoing management of the Utila Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.7.2.1.1 - Agent Customizations [Core]  <!-- UUID: 2defac2e-c619-498b-bc3e-52e3f5b18b28 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.7.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 67616eb5-36e7-4c48-a581-157e78b51b34 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Utila Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.7.2.3 - Emergency Protocol [Core]  <!-- UUID: fb9cb4cb-de29-4782-8b51-f596f1a4d085 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Utila Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.7.3 - Data Repository [Core]  <!-- UUID: 545dc390-a577-4149-ac4f-2f7cbfbcaae6 -->
+
+The documents herein contain data relevant to the Utila Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.7.3.1 - Initial Planning [Core]  <!-- UUID: 1cbc61c5-d411-4f50-ab02-a81395b55764 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.7.3.2 - Operational GovOps Review [Core]  <!-- UUID: de9c3d5f-50aa-41e3-b5cd-4c3fe6704973 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.7.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 5432ef34-4dfb-446c-8fe1-c7bb80334537 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.7.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 75302a2a-a146-4f4d-8560-f8dbb6ba2eaf -->
+
+The Distribution Reward payments for the Utila Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.7.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 38d25c16-8377-47ff-aea3-8054d4396afa -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.7.2.5.1.2.8 - Gauntlet Instance Configuration Document [Core]  <!-- UUID: df144196-1c4c-4dfa-8a32-512d511bf316 -->
+
+The documents herein contain the Instance Configuration Document for the Gauntlet Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.8.1 - Parameters [Core]  <!-- UUID: 1f474e9a-e923-4bc4-bf85-cc3ee4e5eedd -->
+
+The documents herein define the parameters of the Gauntlet Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.8.1.1 - Reward Code [Core]  <!-- UUID: bfd176c2-7571-44f5-8e5b-533f7102616c -->
+
+`3009`.
+
+###### A.6.1.1.7.2.5.1.2.8.1.2 - Tracking Methodology [Core]  <!-- UUID: 6cae7528-cda1-423c-893d-76a24753d370 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.8.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 478b2e03-ed5b-431e-825c-34174db93ab8 -->
+
+The documents herein define the custom parameters of the Gauntlet Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.8.2 - Operational Process Definition [Core]  <!-- UUID: 7a11c286-5eac-44f1-b988-fa2d7ef31514 -->
+
+The documents herein define the process for the ongoing management of the Gauntlet Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.8.2.1 - Routine Protocol [Core]  <!-- UUID: 068e1a5f-5968-416b-818c-c4a7120a66ed -->
+
+This document defines the protocol for routine ongoing management of the Gauntlet Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.8.2.1.1 - Agent Customizations [Core]  <!-- UUID: f856a4df-f6e5-432b-be66-55c133951d09 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.8.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 6b2fba37-6cf6-4369-92df-a9b1aa5c59b4 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Gauntlet Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.8.2.3 - Emergency Protocol [Core]  <!-- UUID: a570dffc-7196-4e98-bca3-20636c403a7f -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Gauntlet Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.8.3 - Data Repository [Core]  <!-- UUID: 75f29216-5e94-404c-8aa9-9a83611d4a1c -->
+
+The documents herein contain data relevant to the Gauntlet Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.8.3.1 - Initial Planning [Core]  <!-- UUID: adb743a1-14ce-4c1d-843f-abb1a26911ab -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.8.3.2 - Operational GovOps Review [Core]  <!-- UUID: 18f498ca-6cc0-4254-86db-d39d6b251248 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.8.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 753db04c-a883-4ba5-ab90-49dbcaf5b5b4 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.7.2.5.1.2.8.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: b272c08c-9145-44b2-88de-d6ecae6a27ca -->
+
+The Distribution Reward payments for the Gauntlet Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.8.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: cc1299ab-b9fb-41a0-8a95-4a6a174fac5a -->
+
+The Distribution Reward Payments are:
 
 ###### A.6.1.1.7.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 4e7b84d1-356c-437a-9aa2-3a569c0c29ab -->
 
@@ -36904,23 +37600,7 @@ The documents herein define the process for non-routine ongoing management of th
 
 ###### A.6.1.1.7.2.6.1.2.2.3 - Emergency Protocol [Core]  <!-- UUID: b202047d-a1da-4cf6-b7d2-89d35c707cfb -->
 
-The documents herein define the actions that can be taken in the event of an emergency within Osero Liquidity Layer operations.
-
-###### A.6.1.1.7.2.6.1.2.2.3.1 - Remove Compromised Actor As Freezer [Core]  <!-- UUID: 39b320a8-240c-487d-9c72-25b8a2457a4b -->
-
-In the event of a compromised or malicious Actor, the Freezer Multisig — registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e) — removes that Actor by calling `removeActor` on the AdministeredAgent contract. Removing the Actor prevents it from submitting further operations, while the Allocator Role itself remains with the AdministeredAgent. This action should only be taken if a Relayer Multisig's keys have been leaked or compromised and the Actor is in the control of an external bad actor.
-
-###### A.6.1.1.7.2.6.1.2.2.3.2 - Withdraw All SparkLend Positions [Core]  <!-- UUID: 7ba1cc79-9a9f-460c-85b8-72181788397f -->
-
-In the event that liquidity must be recovered from SparkLend and centralized in the Osero ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Osero Liquidity Layer's full SparkLend USDS position through the Aave v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.2.2 - Withdraw From Aave v3 Market](038eaa5c-d4c0-4a56-8d30-bc3a04508f0e). SparkLend withdrawals are unlimited so that the full position can be unwound.
-
-###### A.6.1.1.7.2.6.1.2.2.3.3 - Burn USDS [Core]  <!-- UUID: 3040614f-1100-45e5-a0dc-9ab22c383e9d -->
-
-Once liquidity has been recovered to the Osero ALM Proxy, the recovered USDS is repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). USDS burning is unlimited so that the full outstanding amount can be burned.
-
-###### A.6.1.1.7.2.6.1.2.2.3.4 - Withdraw All ERC-4626 Vault Positions [Core]  <!-- UUID: 1dd13ef2-ee4a-4487-8fc3-0e9d83a3bbd1 -->
-
-In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the Osero ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Osero Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). Redemptions are unlimited so that the full vault position can be unwound.
+The actions that can be taken in the event of an emergency within Osero Liquidity Layer operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
 
 ###### A.6.1.1.7.2.6.1.3 - Active Instances [Core]  <!-- UUID: 6f8a8e14-13be-4893-9bb1-17c88e984426 -->
 
@@ -37094,6 +37774,14 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 The deposit rate limits are:
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 0 USDC per day
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
+
+The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 650,000 USDC per day
+
+A paired cBEAM may raise the live deposit rate limit's `maxAmount` or `slope` up to the higher of this registered default or the current value multiplied by `maxChange`, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b) and [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Each such raise may be made only after the `hop` interval set by [A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since the last raise to this rate limit.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
 
