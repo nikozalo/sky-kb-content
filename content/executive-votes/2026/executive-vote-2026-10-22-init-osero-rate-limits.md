@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Add Initial Rate Limits for Osero, Prime Agent Proxy Spells - October 22, 2026
 summary: Configure initial rate limits for the Osero x Gauntlet USDC Prime Vault deposit key, whitelist Prime Agent proxy spells for Spark, Grove, and Pattern.
 date: 2026-10-22T00:00:00.000Z
-address: "$spell_address"
+address: "0x14024B972dE27Ec858142fC21055885459516726"
 ---
 
 # [Executive Proposal] Add Initial Rate Limits for Osero, Prime Agent Proxy Spells - October 22, 2026

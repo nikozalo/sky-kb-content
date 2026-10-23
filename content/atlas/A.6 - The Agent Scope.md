@@ -5037,7 +5037,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: b63d90f5-1c8a-41e0-8ada-5db9986ec4a2 -->
 
-`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+The Allocator role is held by Spark at `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
@@ -5079,11 +5079,22 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.1 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.2 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+The Guardian role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.3 - Owner Role Address [Core]  <!-- UUID: 57a8386d-f7de-42f6-8e02-0a1874efee3c -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.2 - Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
 
@@ -5135,7 +5146,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 3d9e1745-e0c1-4b75-8c3e-04a87019d8db -->
 
-`0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`
+The Allocator role is held by Spark at `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 0e2d991d-9225-48f8-a9a3-dacf6c182181 -->
 
@@ -5177,15 +5188,26 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.1 - Curator Role Address [Core]  <!-- UUID: f9605664-b8e2-4efb-b4ef-c60d5d85ec8a -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
 
-###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 9eeee40f-fb34-4ca0-922a-ad54fb4d30c1 -->
+The co-curator addresses are:
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.2 - Sentinel Role Address [Core]  <!-- UUID: 9eeee40f-fb34-4ca0-922a-ad54fb4d30c1 -->
+
+The Sentinel role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.3 - Owner Role Address [Core]  <!-- UUID: c218a5d5-57a3-4058-a50e-1aea75e57cdb -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.4.2 - Timelock [Core]  <!-- UUID: f44940e3-fda2-444c-a2ae-bd91d00b411c -->
 
-Timelock: 240 hours (10 days)
+Timelock: 240 hours (10 days), except for `setIsAllocator` and `setForceDeallocatePenalty`, which have a timelock of 0 hours (no delay).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
 
@@ -5231,9 +5253,14 @@ The documents herein define the Instance contract addresses.
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Addresses [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
 
-`0x9e396dE3312D373b87F9BD8763fb48184b42aac0`
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+| Sentora | `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3` |
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
 
@@ -5282,11 +5309,28 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
 
-`0xff070333654aaE76A0A77465E4F0fd101C57c03F`
+The Curator role is held jointly by Soter Labs and Sentora through the Curator Multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`.
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+The co-curator addresses are:
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Sentinel Role Addresses [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+
+The Sentinel role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Operational GovOps Soter Labs | `0xf5748bBeFa17505b2F7222B23ae11584932C908B` |
+| Soter Labs | `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80` |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.3 - Owner Role Address [Core]  <!-- UUID: 85f99501-6ca7-4ef0-b90b-0a1225afc1e3 -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.2 - Timelocks [Core]  <!-- UUID: d547c23a-049b-46b2-81fe-e6a4c0105555 -->
 
@@ -5306,7 +5350,11 @@ Timelock: 168 hours (7 days)
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.4 - setIsAllocator Timelock [Core]  <!-- UUID: 8a04d5cc-3647-40ff-aeeb-aa8473fe0e4c -->
 
-Timelock: 72 hours (3 days)
+Timelock: 0 hours (no delay)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.5 - setForceDeallocatePenalty Timelock [Core]  <!-- UUID: 10565819-d5bc-47c3-ad2e-7b5979f69d46 -->
+
+Timelock: 0 hours (no delay)
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
 
@@ -6800,7 +6848,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 64f057b6-40cc-4ef9-b1c5-36c7430b543f -->
 
-`0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`
+The Allocator role is held by Spark at `0x92d7B06e5844e67174AE9E86bdCb06428482DDF9`.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c8ac360b-6c77-458f-a481-78b4554dd682 -->
 
@@ -6856,11 +6904,22 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+The Guardian role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.3 - Owner Role Address [Core]  <!-- UUID: a2e14ad7-a7d2-4837-8ce3-4166f0662efd -->
+
+The Owner role is held by Spark through its Executor at `0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
 
@@ -12387,19 +12446,19 @@ A Curator is a specific admin role defined within the Morpho smart contract syst
 
 ###### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
-Curators may only implement changes that have been explicitly approved by Spark governance via polling. Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
+Curators may only implement changes that have been approved by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098), including risk-reduction actions approved in advance under [A.6.1.1.1.3.9.4.3 - Risk-Reduction Actions](8fcbbe4b-51be-4150-896e-ffbb80373507). Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ###### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
-All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing.
+All actions taken under a Curator role must be reported by the Curator in the Spark Prime category of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses where the action is subject to a timelock, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing. For a risk-reduction action taken under [A.6.1.1.1.3.9.4.3 - Risk-Reduction Actions](8fcbbe4b-51be-4150-896e-ffbb80373507), the report must state which of the actions listed in that section it is, in place of a link to a governance poll.
 
 ###### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
-The documents herein describe the requirements for governance approval before implementation of Curator changes and the conditions for queueing changes before approval.
+The documents herein describe the requirements for governance approval before implementation of Curator changes, the conditions for queueing changes before approval, and the risk-reduction actions that Spark governance approves in advance.
 
 ###### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
-All curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
+Except for risk-reduction actions approved in advance under [A.6.1.1.1.3.9.4.3 - Risk-Reduction Actions](8fcbbe4b-51be-4150-896e-ffbb80373507), all curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
 
 A Curator may queue a proposed change before the related governance poll is created or approved, provided that the onchain timelock for the pending change will expire no earlier than twenty-four (24) hours after the expected closing time of that poll. Queueing means submitting a change to the onchain timelock without implementing it. All applicable timelock delays continue to apply.
 
@@ -12411,13 +12470,31 @@ The pending change must match the change submitted for approval. If the poll doe
 
 The Curator is authorized to submit the onchain transactions needed to queue a change before governance approval only under the conditions in [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2). Following successful governance approval, the approved change or changes may be implemented only after the applicable timelock has expired. Queueing a change does not authorize its implementation.
 
+###### A.6.1.1.1.3.9.4.3 - Risk-Reduction Actions [Core]  <!-- UUID: 8fcbbe4b-51be-4150-896e-ffbb80373507 -->
+
+Spark governance approves in advance, without a governance poll, the following risk-reduction actions when taken by a Curator:
+
+- Reducing a supply cap, absolute cap or relative cap.
+- Removing an account from the Allocator role, or from any other role whose holder can allocate funds or increase a cap. Removing an account from a guardian or sentinel role is not a risk-reduction action.
+- Cancelling a pending change in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
+
+No other action is a risk-reduction action.
+
+This section approves only the risk-reduction action itself. Any other change submitted in the same transaction or batch of transactions requires approval under [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2).
+
+Each risk-reduction action must be reported in accordance with [A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions](6f64ac9e-daf1-4339-8046-3894e57f4383).
+
 ###### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
 The documents herein define the requirements for Timelock mechanisms to be used in conjunction with Curator roles.
 
 ###### A.6.1.1.1.3.9.5.1 - Timelock Requirement [Core]  <!-- UUID: 9cb30c4c-ecbb-4874-a931-b900b868b888 -->
 
-All admin or privileged controls managed by curator roles must be subject to a minimum timelock delay of three (3) days between scheduling and execution.
+All admin or privileged controls managed by curator roles must be subject to a minimum timelock delay of three (3) days between scheduling and execution, except as set out below.
+
+For any function for which [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569) or [A.2.2.10.1.1.1.3.3.2 - Adapter Timelock Requirements](91ba9acf-6ed7-4214-8b6b-adfb03427ae1) sets a requirement, that requirement applies in place of the minimum in this section.
+
+The minimum in this section does not apply to cancelling a pending change, reducing a cap or deallocating funds.
 
 ###### A.6.1.1.1.3.9.5.2 - Visibility [Core]  <!-- UUID: 4f45b29e-9f94-48d3-940c-1cd6b1f06f4b -->
 
@@ -12425,7 +12502,7 @@ Pending changes subject to the timelock must be publicly visible onchain for the
 
 ###### A.6.1.1.1.3.9.6 - Cancellation Authorities [Core]  <!-- UUID: 86153ff2-e3f2-44af-b19b-678cbbac27f5 -->
 
-The documents herein define the cancellation mechanisms and authorities for pending actions within the Timelock period.
+The documents herein define the cancellation mechanisms and authorities for pending actions within the Timelock period, and the conditions under which cancellation authority holders may reduce caps or deallocate funds.
 
 ###### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
 
@@ -12441,6 +12518,8 @@ For a change queued before governance approval, the Curator and the cancellation
 
 A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
 
+In addition to cancelling pending changes, a cancellation authority holder may reduce an absolute or relative cap, or deallocate funds from a market or adapter, where its role permits that action at the smart contract level. It may do so only for one of the reasons set out in [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19), other than a request by the Curator.
+
 ###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
 The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
@@ -12449,7 +12528,7 @@ The requirements of this section do not apply to the independence of the Curator
 
 ###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
 
-All actions taken under the cancellation authority must be reported by the acting role holder in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
+All actions taken under the cancellation authority must be reported by the acting role holder in the Spark Prime category of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
 
 ###### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
 
@@ -12473,7 +12552,7 @@ The entity or entities serving in the curator role, including how the role is co
 
 ###### A.6.1.1.1.3.9.7.1.4 - Scope of Curator Authority [Core]  <!-- UUID: 0d5c17a2-a4a3-4f81-af4c-49839bc7b36f -->
 
-The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
+The specific execution actions the curator is permitted to take, subject to approval by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098).
 
 ###### A.6.1.1.1.3.9.7.1.5 - Cancellation Authority [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
 
@@ -12487,54 +12566,44 @@ The entity or entities serving in the Allocator role, where the Allocator is not
 
 The documents herein enumerate the current approved instances of delegated risk curation authority.
 
-###### A.6.1.1.1.3.9.7.2.1 - Spark USDS Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 3e8ed24b-da4a-4c3f-9a74-c3dd6a557abf -->
-
-The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
-
-- Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
-- Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
-- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
-
-###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
+###### A.6.1.1.1.3.9.7.2.1 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
 The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
 - Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
-- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098)
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
+###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
 The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
-- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098)
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
+###### A.6.1.1.1.3.9.7.2.3 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
 The Spark USDC Morpho Vault on Base is an approved instance with the following details:
 
 - Instance Name: Spark USDC Morpho Vault (Base)
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
-- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098)
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.5 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
+###### A.6.1.1.1.3.9.7.2.4 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
 
 The Sentora RLUSD Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
 
 - Instance Name: Sentora RLUSD Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xFC8C624B6080a0a780583799f2A862DE936F6E22`
 - Curator: Soter Labs and Sentora, implemented via a Gnosis Safe multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`, requiring a 2 of 2 signer approval threshold
-- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance in accordance with [A.6.1.1.1.3.9.4 - Governance Approval Process](e3ddbd39-ee57-4b17-b66e-8bc823a03098)
 - Cancellation Authority: Sentinel role held by the Operational GovOps Soter Labs multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
 - Allocator: Sentora, at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` and at `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3`
 
@@ -19544,15 +19613,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: 71236b62-8283-4703-9d6a-04ccf6c06096 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: ba06cff1-b141-419a-8db2-cbfddc11300f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
 
@@ -19643,15 +19734,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Owner Role Address [Core]  <!-- UUID: ef1ec372-a1dc-4824-94d2-7d955ea25a96 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 951859e9-8c18-4047-990b-935a70d1e541 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
 
@@ -19746,15 +19859,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.3 - Owner Role Address [Core]  <!-- UUID: 8364f790-0037-4d02-8bed-9bce1e9dbd86 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.4 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: a1982162-d3b7-4834-9037-0489f5035ee7 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
 
@@ -19846,6 +19981,40 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fad65025-4fb8-4826-9f39-d064bb6e065d -->
 
 `0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Owner Role Address [Core]  <!-- UUID: 09f95a7f-7f72-414d-9dc8-d6f65f60b712 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Curator Role Address [Core]  <!-- UUID: bbdcbffb-6116-48fd-a504-a280fa8a1344 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 03d66182-7a41-4183-9a78-209eb17e68a6 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 26b39807-1d1f-4714-8c80-a2ee072e1724 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 08381056-3b54-4728-8afa-017d8a52a624 -->
 
@@ -19940,11 +20109,36 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.3 - Curator Role Address [Core]  <!-- UUID: edc42fd3-d4f2-4ff1-9e1f-789ce3c0d74a -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: 578c7d0e-2a17-4f10-9d9d-2e8fedac9aa0 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.5 - Owner Role Address [Core]  <!-- UUID: 4d76bfca-7e5b-4f0f-ae09-2395bf5b97b8 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 80038f9f-d01e-45c1-8f51-cfb73cff1f6f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6a64a14d-3a64-43cc-bc96-ee7d3417f8da -->
 
@@ -21633,6 +21827,40 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a911bdd4-e5e8-47c7-81e6-f4b7600dc1c4 -->
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: cc84f49f-3fee-45a3-9cce-b535d33c4534 -->
+
+The Owner role is held by Grove through its Executor at `0x491EDFB0B8b608044e227225C715981a30F3A44E`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: fe0cc850-6315-4673-804d-27d2b419a3f7 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 8739171a-bdbb-437c-bc2b-b081bce4e1c7 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 278046bb-da04-46ce-8f9a-26557298522a -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Steakhouse Financial | `0x1be9b8C406120B2c2b8990d0522cD226A3D60e36` |
+| Morpho Blue Public Allocator | `0xAED282B8aD9257BB1272e93aE63A32A53621e412` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
 
@@ -32040,9 +32268,9 @@ The ALM_CONTROLLER contract version is: V.1.6.0
 
 The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.5.2.6.1.2.1.2.2.3 - Freezer Multisig](49e6c234-7102-43e0-80a6-fb14e259e1f7).
 
-###### A.6.1.1.5.2.6.1.2.1.1.1.2.5 - ALM Relayer Multisig Address [Core]  <!-- UUID: 86586cb8-ccbb-4ab7-8244-add51cca65fe -->
+###### A.6.1.1.5.2.6.1.2.1.1.1.2.5 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 86586cb8-ccbb-4ab7-8244-add51cca65fe -->
 
-The address of the Multisigs that has the Relayer Role is specified in [A.6.1.1.5.2.6.1.2.1.2.2.1 - Prime Relayer Multisig](3b53c3b4-1d13-4197-8078-54523949784f) and [A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig](b32dec2f-51e1-44b0-a81b-679b648ed659).
+The addresses of the Multisigs that have the Relayer Role are specified in [A.6.1.1.5.2.6.1.2.1.2.2.1 - Prime Relayer Multisig](3b53c3b4-1d13-4197-8078-54523949784f) and [A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig](b32dec2f-51e1-44b0-a81b-679b648ed659).
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.2.6 - ALM Proxy Contract [Core]  <!-- UUID: 53aa9c70-f2c8-4c0b-a30c-9c541d7dbbd4 -->
 
@@ -32876,7 +33104,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3 - RateLimitIDs [Core]  <!-- UUID: d2d46842-e9dd-4f88-bfa5-5e947381f70b -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Obex Artifact.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 97344456-e215-42e5-a149-89f0276e1b4c -->
 
@@ -35308,7 +35536,7 @@ The Maximum Exposure for this Instance is 70,000,000 USDC.
 
 ###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: 50178595-e88d-4f75-a08f-1506ba8f15f2 -->
 
-The CRR for this Instance will be specified in a future iteration of the Atlas.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 7%, applied to the full amount transferred to the River SPV II Offramp address, including funds that have not yet been drawn by the underlying borrower.
 
 ###### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 
@@ -37773,7 +38001,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The deposit rate limits are:
 - `maxAmount`: 5,000,000 USDC
-- `slope`: 0 USDC per day
+- `slope`: 650,000 USDC per day
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
 
@@ -37818,19 +38046,36 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
 
-`0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`
+The Owner role is held by Osero through its SubProxy at `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
 
-`0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`
+The Curator role is held jointly by Soter Labs and Gauntlet through the Curator Multisig at `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Address [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
+The co-curator addresses are:
 
-The Allocator role is held by the Gauntlet Allocator address `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` and the Vault Curator Multisig `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0x037A8456FB92dB66590C0060eE4174cC6812f518` |
+| Gauntlet | `0x9E33faAE38ff641094fa68c65c2cE600b3410585` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Address [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
 
-The Sentinel role is held by the Gauntlet Sentinel address `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` and the Soter Labs Vault Sentinel Multisig `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7`.
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Gauntlet | `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` |
+| Soter Labs and Gauntlet, through the Curator Multisig | `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9` |
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+
+The Sentinel role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Gauntlet | `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` |
+| Soter Labs | `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7` |
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
