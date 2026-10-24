@@ -102,7 +102,9 @@ contract IdentityNetwork is IIdentityNetwork {
 
     // --- Subnet Management ---
 
-    // Warning: avoid adding subnets that create loops
+    // Warning: the subnet graph is assumed to be well constructed; nothing here enforces it.
+    // Avoid loops, avoid subnets reachable by more than one path, and keep the subnet count low.
+
     function addSubnet(address subnet) external toll {
         _subnets.add(subnet);
         emit AddSubnet(subnet);
@@ -131,6 +133,8 @@ contract IdentityNetwork is IIdentityNetwork {
 
     // --- Query ---
 
+    // Warning: beyond direct members, the gas cost depends on the subnet graph and can change whenever it changes.
+    // E.g. removing a subnet moves the last one into its place, so a previously cheap lookup can become more expensive.
     function isMember(address usr) external view returns (bool) {
         if (_directMembers.contains(usr)) return true;
         uint256 len = _subnets.length();
@@ -157,6 +161,11 @@ contract IdentityNetwork is IIdentityNetwork {
         return _directMembers.values();
     }
 
+    // Returns members in [start, end), bounds are clamped to the set length
+    function getDirectMembers(uint256 start, uint256 end) external view returns (address[] memory) {
+        return _directMembers.values(start, end);
+    }
+
     function isSubnet(address subnet) external view returns (bool) {
         return _subnets.contains(subnet);
     }
@@ -171,5 +180,10 @@ contract IdentityNetwork is IIdentityNetwork {
 
     function getSubnets() external view returns (address[] memory) {
         return _subnets.values();
+    }
+
+    // Returns subnets in [start, end), bounds are clamped to the set length
+    function getSubnets(uint256 start, uint256 end) external view returns (address[] memory) {
+        return _subnets.values(start, end);
     }
 }
