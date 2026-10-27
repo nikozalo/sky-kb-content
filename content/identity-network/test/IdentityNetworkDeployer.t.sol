@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 pragma solidity ^0.8.24;
 
-import { Test } from "forge-std/Test.sol";
+import "dss-test/DssTest.sol";
 import { IdentityNetwork } from "src/IdentityNetwork.sol";
 import { IdentityNetworkDeployer, IdentityNetworkDeployerConfig } from "deploy/IdentityNetworkDeployer.sol";
 
-contract IdentityNetworkDeployerTest is Test {
+contract IdentityNetworkDeployerTest is DssTest {
 
     address admin    = address(0xA1);
     address operator = address(0xA2);
@@ -68,6 +68,7 @@ contract IdentityNetworkDeployerTest is Test {
         assertEq(n.buds(operator), 1);
         assertEq(n.directMemberCount(), 1);
         assertEq(n.subnetCount(), 1);
+        assertTrue(n.isDirectMember(user1));
         assertTrue(n.isMember(user1));  // direct
         assertTrue(n.isMember(user2));  // via subnet
         assertTrue(n.isSubnet(address(child)));
