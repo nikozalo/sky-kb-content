@@ -2,7 +2,7 @@
 title: Template - [Executive Vote] Finalize GUSD and USDP PSM Offboarding, Skybase Foundation Grant, Adjust Spark DC-IAM Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - November 5, 2026
 summary: Finalize the GUSD and USDP PSM offboardings, transfer 900,000 USDS from the Skybase SubProxy to the Skybase Foundation, increase the ALLOCATOR-SPARK-A DC-IAM cooldown, update the Safe Harbor Agreement, and whitelist Prime Agent proxy spells for Spark and Grove.
 date: 2026-11-05T00:00:00.000Z
-address: "$spell_address"
+address: "0xaBc702420dCc1868F7f8Df06A89dA766BcB01136"
 ---
 
 # [Executive Proposal] Finalize GUSD and USDP PSM Offboarding, Skybase Foundation Grant, Adjust Spark DC-IAM Parameters, Update Safe Harbor Agreement, Prime Agent Proxy Spells - November 5, 2026

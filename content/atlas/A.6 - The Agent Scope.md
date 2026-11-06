@@ -126,18 +126,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.1.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: d48938da-ffb4-4470-b6ea-c22d25f3cced -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e52ba148-0e92-4155-9df7-b35797ee4078 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 84c5a139-3778-4542-8631-c13283a2cc1c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.1.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 1974618c-b054-41c3-a6aa-860ea7875d02 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -217,18 +205,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.1.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: 48223101-7247-4ddc-88d0-d502552708a0 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.1.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: b8c4fa46-ae4e-4caf-b5eb-09a3b0a45b80 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: dd32b7e4-8905-4ce8-b5a1-4478ef4f9028 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7d7d5045-d2f5-4668-ad1f-d943f941238a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.1.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 4c591869-ad1c-4007-9159-78705b24e43a -->
 
@@ -408,18 +384,6 @@ The address of the Spark Foundation on the Ethereum Mainnet is `0x92e4629a4510AF
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.1.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5313f73b-6327-4bdd-8187-eba5f99620f9 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 75619f28-0a62-49cb-9afa-9e9e34f37ef5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ed197cc5-6ec7-4905-8b23-502940e1dd27 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.1.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 6e713ffe-caf0-48dd-94e2-f1c9b1162aaa -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -503,18 +467,6 @@ The documents herein define the process for the ongoing management of the Amatsu
 ###### A.6.1.1.1.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: c1ee03df-67b9-4afc-ad4c-b681260412d9 -->
 
 The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.1.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1f60a729-4f0e-4310-8742-2f26395cd7de -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: ff21545c-e0d4-4057-8098-146a8c386f52 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7ae391f1-e544-4ff5-b6d9-23fa95c75489 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.1.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bf932245-fe5e-40cf-a79c-896f3220f3ec -->
 
@@ -651,18 +603,6 @@ The parameters specified in [A.6.1.1.1.2.6.1 - Allocation System Primitive](cd70
 ###### A.6.1.1.1.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 67a53565-e1f0-4555-8223-fd6a4ba90814 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.1.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: f36d73f1-3ea3-4293-8902-15f7e8510a82 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 42aca05d-0f81-4e6a-a5df-4a0bd627bd94 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8d76138a-8705-4a4f-bae0-b4dcedce56e7 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.1.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 69483c09-487b-448e-aeda-06fbaa7eec4f -->
 
@@ -816,18 +756,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.1.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6f23920-b611-41f2-8d80-97b0e79b7ca1 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b8f8acf8-fbdc-47aa-9ff4-2e2fcee33815 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: aec8ac86-35d4-4ff7-a8c8-61a8056063b3 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.1.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 9c60c0c9-19df-4cb1-afa8-2897932dafe5 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -923,18 +851,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.1.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: c0f8debb-8b20-428e-bdaa-8341c00fb0ee -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.1.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5bd30523-e635-41e2-9929-d458b0bc29db -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: be8f07a7-247f-466d-a68f-fd26fd84df9b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7997ed4f-6484-4aab-9b46-55b4db6e4e23 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.1.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 29ea3609-b1d4-4488-9fa0-15e26dfd4c26 -->
 
@@ -1100,19 +1016,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the SparkLend Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.1.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 09138ffc-9484-4a3a-b12a-d2fb2fc8f6ac -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: aaf76715-a3f3-4dc1-82d4-b10d7975f10b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 41bffca2-7594-437c-84df-50827e8c001b -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 971d047b-4e7b-4545-9090-6d509e572aa0 -->
+###### A.6.1.1.1.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 971d047b-4e7b-4545-9090-6d509e572aa0 -->
 
 The Distribution Reward payments for the SparkLend Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1121,7 +1025,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.1.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 055fe10c-2d08-49a1-90c5-e124e2e0b4f9 -->
+###### A.6.1.1.1.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 055fe10c-2d08-49a1-90c5-e124e2e0b4f9 -->
 
 The Distribution Reward Payments are:
 
@@ -1249,19 +1153,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Aave Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.1.2.5.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5a5c988e-6d19-4e82-9b27-ae0c0c02dd53 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0628d063-99e1-4b59-a734-d2b07bee828f -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 6e4e9afb-cf23-4098-ae0b-1afcdc03e6c4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.1.2.5.2.2.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: c3ca980e-56a7-42fc-a3f2-76516fb42088 -->
+###### A.6.1.1.1.2.5.2.2.1.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: c3ca980e-56a7-42fc-a3f2-76516fb42088 -->
 
 The Integration Boost payments for the Aave Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -1270,7 +1162,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.1.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 839e995c-cc05-40a7-ba31-a72bce152328 -->
+###### A.6.1.1.1.2.5.2.2.1.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 839e995c-cc05-40a7-ba31-a72bce152328 -->
 
 The Integration Boost Payments are:
 
@@ -3742,16 +3634,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4fae5f20-61df-4df3-8018-2be0a287de79 -->
+###### A.6.1.1.1.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 4fae5f20-61df-4df3-8018-2be0a287de79 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 200,000,000 USDS
 - `slope`: 400,000,000 USDS per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e2216e6c-7075-464e-9df6-98b02d8ee4a0 -->
+###### A.6.1.1.1.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: e2216e6c-7075-464e-9df6-98b02d8ee4a0 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -3816,16 +3708,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4e05fefc-c013-4f04-8173-7f96cdb90d1e -->
+###### A.6.1.1.1.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 4e05fefc-c013-4f04-8173-7f96cdb90d1e -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 200,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ff880422-b0e0-401d-8d01-e541f7643ffc -->
+###### A.6.1.1.1.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ff880422-b0e0-401d-8d01-e541f7643ffc -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -3890,16 +3782,16 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 381c40f3-008e-4541-81c7-6192a186def7 -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 381c40f3-008e-4541-81c7-6192a186def7 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 DAI
 - `slope`: 50,000,000 DAI per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 101cf682-0eda-4e40-81e0-601e3d2895aa -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 101cf682-0eda-4e40-81e0-601e3d2895aa -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -3963,16 +3855,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4a4f3cb4-fc31-4901-b684-c26234dca7bb -->
+###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 4a4f3cb4-fc31-4901-b684-c26234dca7bb -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 500,000,000 USDT
 - `slope`: 2,000,000,000 USDT per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dadcd267-a47c-4bc0-9216-98369b470b72 -->
+###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: dadcd267-a47c-4bc0-9216-98369b470b72 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -4036,16 +3928,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: be156d9d-6c3b-4694-b598-0beb95ee57e9 -->
+###### A.6.1.1.1.2.6.1.3.1.1.5.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: be156d9d-6c3b-4694-b598-0beb95ee57e9 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 pyUSD
 - `slope`: 100,000,000 pyUSD per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 42fbe675-1c41-432c-93cc-67fe79e2718d -->
+###### A.6.1.1.1.2.6.1.3.1.1.5.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 42fbe675-1c41-432c-93cc-67fe79e2718d -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -4117,16 +4009,16 @@ The outflow RateLimitID is: `0x2373d5805bbf5d42574ae53a80e39a0bb90f497f312ccf0b9
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: c8320b60-3cf3-4047-aad1-e12cc6ca46f8 -->
+###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: c8320b60-3cf3-4047-aad1-e12cc6ca46f8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000 ETH
 - `slope`: 250,000 ETH per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 68716e71-a257-4f6c-b227-fba7abc8ec31 -->
+###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 68716e71-a257-4f6c-b227-fba7abc8ec31 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -4198,16 +4090,16 @@ The outflow RateLimitID is: `0x3dac42b53ac4e5ae3e4d95cee6c929599bc61a3a1e8205db0
 
 The current `maxAmount`, `slope`, and slippage for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 962d5d73-55e7-435b-b95d-fd474dd17d14 -->
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 962d5d73-55e7-435b-b95d-fd474dd17d14 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDG
 - `slope`: 100,000,000 USDG per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6045e7e1-1341-4fb2-8868-927a3414c8b8 -->
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6045e7e1-1341-4fb2-8868-927a3414c8b8 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -4284,16 +4176,16 @@ The outflow RateLimitID is: `0xa3d83f1c04eb1df0122d14485a715e955fe7e5b6046b15aec
 
 The current `maxAmount`, `slope`, and slippage for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.8.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 44269c99-ae4a-427a-8ac3-f84e3f0b9a53 -->
+###### A.6.1.1.1.2.6.1.3.1.1.8.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 44269c99-ae4a-427a-8ac3-f84e3f0b9a53 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 RLUSD
 - `slope`: 100,000,000 RLUSD per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.8.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 367b5438-31f1-45b3-b46a-c9f18355bc3c -->
+###### A.6.1.1.1.2.6.1.3.1.1.8.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 367b5438-31f1-45b3-b46a-c9f18355bc3c -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -4370,16 +4262,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4ed25455-3128-4395-9b58-cf24e275498c -->
+###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 4ed25455-3128-4395-9b58-cf24e275498c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 50,000,000 USDS per day
 
-###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dc14672-e655-49fd-a351-45537408c74b -->
+###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6dc14672-e655-49fd-a351-45537408c74b -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: Unlimited
@@ -4604,16 +4496,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6b65dffb-15a2-4c2c-83a2-ef5325b1f8cc -->
+###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 6b65dffb-15a2-4c2c-83a2-ef5325b1f8cc -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89b3f4e4-c845-4a6c-bdce-a383bf11a947 -->
+###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 89b3f4e4-c845-4a6c-bdce-a383bf11a947 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: Unlimited
@@ -4678,16 +4570,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 27876101-2e16-4a33-811d-c662df211b2c -->
+###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 27876101-2e16-4a33-811d-c662df211b2c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 25,000,000 USDS per day
 
-###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c02c329a-9e38-472b-ae0f-b2974694982e -->
+###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: c02c329a-9e38-472b-ae0f-b2974694982e -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: Unlimited
@@ -4752,16 +4644,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 42c4a115-4fed-4d24-a260-d86dc2a71bea -->
+###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 42c4a115-4fed-4d24-a260-d86dc2a71bea -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
+###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -4830,16 +4722,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: f9c88aaf-90d0-404e-b870-182846f58bf6 -->
+###### A.6.1.1.1.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: f9c88aaf-90d0-404e-b870-182846f58bf6 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 sUSDS per day
 
-###### A.6.1.1.1.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 67155bd0-093a-49ff-9b96-eb6a8aa22c68 -->
+###### A.6.1.1.1.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 67155bd0-093a-49ff-9b96-eb6a8aa22c68 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
@@ -5085,23 +4977,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: e8419a65-2e14-4f59-af28-a224cb00e5c4 -->
+###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: e8419a65-2e14-4f59-af28-a224cb00e5c4 -->
 
-The inflow rate limits are:
-
-- maxAmount: N/A - swap only
-- slope: N/A - swap only
-
-###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0fc9d196-84f9-453e-af4a-4d8efefd2d3e -->
-
-The outflow rate limits are:
+The inflow rate limit parameters are:
 
 - maxAmount: N/A - swap only
 - slope: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: ff055884-4518-41ae-a320-dd7293147a37 -->
+###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 0fc9d196-84f9-453e-af4a-4d8efefd2d3e -->
 
-The swap rate limits are:
+The outflow rate limit parameters are:
+
+- maxAmount: N/A - swap only
+- slope: N/A - swap only
+
+###### A.6.1.1.1.2.6.1.3.1.4.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: ff055884-4518-41ae-a320-dd7293147a37 -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000
 - `slope`: 25,000,000 per day
@@ -5175,16 +5067,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 024d6105-55ae-4a54-b5be-c5e17987fb0f -->
+###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 024d6105-55ae-4a54-b5be-c5e17987fb0f -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 25,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7385df6a-1431-41ef-8f05-bc4e78d48ed3 -->
+###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 7385df6a-1431-41ef-8f05-bc4e78d48ed3 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
@@ -5284,16 +5176,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.5.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9f2b2176-e725-4f93-bcda-62b466f502e8 -->
+###### A.6.1.1.1.2.6.1.3.1.5.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 9f2b2176-e725-4f93-bcda-62b466f502e8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
-###### A.6.1.1.1.2.6.1.3.1.5.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 779c6c99-f620-4bd0-b261-7d36b6d503b7 -->
+###### A.6.1.1.1.2.6.1.3.1.5.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 779c6c99-f620-4bd0-b261-7d36b6d503b7 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: unlimited
 - `slope`: unlimited
@@ -5406,16 +5298,16 @@ The outflow RateLimitID is: `0x35a1e343579b7d855c67c8a121444658ed92733d2929b4b0f
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 10,000,000 RLUSD
 - `slope`: 100,000,000 RLUSD per day
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5608,15 +5500,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.6.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: d516e83f-017b-45ac-88bc-67c4a8eb3e57 -->
+###### A.6.1.1.1.2.6.1.3.1.6.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: d516e83f-017b-45ac-88bc-67c4a8eb3e57 -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.6.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 85e39357-e537-4175-be32-a6753f27d5f2 -->
+###### A.6.1.1.1.2.6.1.3.1.6.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 85e39357-e537-4175-be32-a6753f27d5f2 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5720,15 +5612,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.6.2.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 4b64fc4a-b6ef-49d9-b212-8894526b680d -->
+###### A.6.1.1.1.2.6.1.3.1.6.2.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 4b64fc4a-b6ef-49d9-b212-8894526b680d -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.6.2.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: a3af1ab3-c7a5-4f27-90db-0c01ac73f39e -->
+###### A.6.1.1.1.2.6.1.3.1.6.2.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: a3af1ab3-c7a5-4f27-90db-0c01ac73f39e -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5832,15 +5724,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.6.3.4.2.3 - Take Rate Limits [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
+###### A.6.1.1.1.2.6.1.3.1.6.3.4.2.3 - Take Rate Limit [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.6.3.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
+###### A.6.1.1.1.2.6.1.3.1.6.3.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5944,15 +5836,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.6.4.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 6343b9eb-fa3e-4ca6-8f98-90c08d400c0f -->
+###### A.6.1.1.1.2.6.1.3.1.6.4.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 6343b9eb-fa3e-4ca6-8f98-90c08d400c0f -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.6.4.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: f291a712-4c0c-4ef4-8d2f-0b558fb9cbbe -->
+###### A.6.1.1.1.2.6.1.3.1.6.4.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: f291a712-4c0c-4ef4-8d2f-0b558fb9cbbe -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6016,16 +5908,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ce2b927e-3338-4101-a538-ca1a02ae917c -->
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: ce2b927e-3338-4101-a538-ca1a02ae917c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 5,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 61f4c11f-73d0-49f2-ba54-abf214c60881 -->
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 61f4c11f-73d0-49f2-ba54-abf214c60881 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6101,23 +5993,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
@@ -6196,23 +6088,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 25,000,000
 - `slope`: 250,000,000 per day
@@ -6287,22 +6179,22 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: e4247d3b-7534-41b4-9144-0b0f4df0b53a -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: e4247d3b-7534-41b4-9144-0b0f4df0b53a -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fedd5aff-5da6-4fbc-a117-c742d8706971 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: fedd5aff-5da6-4fbc-a117-c742d8706971 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 794cfe55-5989-42c3-8656-8ec5c2f0d280 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 794cfe55-5989-42c3-8656-8ec5c2f0d280 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000
 - `slope`: 200,000,000 per day
@@ -6376,22 +6268,22 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 5d1628f1-7b31-4ae7-9aa9-8ee7c2ae8114 -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 5d1628f1-7b31-4ae7-9aa9-8ee7c2ae8114 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 10,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4ae75785-5950-4483-a943-aa921e8a4cc0 -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 4ae75785-5950-4483-a943-aa921e8a4cc0 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: a339eb67-4bea-4fcb-aeca-6fcaba0d7ebb -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: a339eb67-4bea-4fcb-aeca-6fcaba0d7ebb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000
 - `slope`: 100,000,000 per day
@@ -6589,11 +6481,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: bd104480-24d4-4fb1-a8f0-13e5c04a2c18 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
+###### A.6.1.1.1.2.6.1.3.1.9.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -6660,11 +6552,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.4 - Rate Limits [Core]  <!-- UUID: ad179de7-3167-476d-ae82-36fb715ec68f -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
+###### A.6.1.1.1.2.6.1.3.1.9.2.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 PYUSD
 - `slope`: 200,000,000 PYUSD per day
@@ -6731,11 +6623,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.2.4 - Rate Limits [Core]  <!-- UUID: 0d22ec04-8742-49d5-a285-3668ce6d4947 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.3.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 PYUSD
 - `slope`: 50,000,000 PYUSD per day
@@ -6802,11 +6694,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.4 - Rate Limits [Core]  <!-- UUID: ffbfbbf7-8de6-47b8-aa8d-052e8273f33e -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.4.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
+###### A.6.1.1.1.2.6.1.3.1.9.4.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDG
 - `slope`: 100,000,000 USDG per day
@@ -6871,9 +6763,9 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 88ae938c-2370-4a27-b6de-609fc3dd6808 -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 9d3f2437-5dcd-4a38-8507-a2def33c7756 -->
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - transferAsset Rate Limit [Core]  <!-- UUID: 9d3f2437-5dcd-4a38-8507-a2def33c7756 -->
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 250,000,000 USDC per day
@@ -6944,11 +6836,11 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: c8cd2bb5-cd8c-43f3-af6f-e1458e12164b -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 7792d17d-6660-4b16-b85e-a9cea4b6edda -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 7792d17d-6660-4b16-b85e-a9cea4b6edda -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 100,000,000 USDC per day
@@ -7017,11 +6909,11 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: 0db8118c-50a2-442c-86ea-083b85df9688 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit's transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: ce06a6b4-faa7-4406-ba40-bc2821bc6b88 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: ce06a6b4-faa7-4406-ba40-bc2821bc6b88 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDT
 - `slope`: 100,000,000 USDT per day
@@ -7278,16 +7170,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 97aa974e-5b7d-43fb-be88-947454d69a53 -->
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 97aa974e-5b7d-43fb-be88-947454d69a53 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,00 USDC
 - `slope`: 50,000,00 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 63e50c95-64fd-4266-86c0-096681fa54e6 -->
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 63e50c95-64fd-4266-86c0-096681fa54e6 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
@@ -7401,16 +7293,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 29114e51-9590-4585-b494-b78417f35910 -->
+###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 29114e51-9590-4585-b494-b78417f35910 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8a431bd-2d0b-4d60-886c-6e3dac42989e -->
+###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: f8a431bd-2d0b-4d60-886c-6e3dac42989e -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
@@ -7483,16 +7375,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 3ef9417d-39af-46ba-b26d-4fbe11ef153b -->
+###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 3ef9417d-39af-46ba-b26d-4fbe11ef153b -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89e0b1fb-f660-4cf2-8977-ccb872854ced -->
+###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 89e0b1fb-f660-4cf2-8977-ccb872854ced -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: Unlimited
@@ -7565,16 +7457,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6c0b965a-f912-454e-9214-1fb23974ad2c -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 6c0b965a-f912-454e-9214-1fb23974ad2c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
@@ -7647,16 +7539,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: be3d1475-4efe-4eee-99eb-3f9941b858fa -->
+###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: be3d1475-4efe-4eee-99eb-3f9941b858fa -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
+###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: Unlimited
@@ -7773,21 +7665,21 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take, transferAssets, and bridge operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
+###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
 
-The take rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
-
-The transferAssets rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.5 - Bridge to Ethereum Rate Limits [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
+###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
 
-The bridge-to-Ethereum rate limits are:
+The transferAssets rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.5 - Bridge to Ethereum Rate Limit [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
+
+The bridge-to-Ethereum rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7851,16 +7743,16 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ae6e143b-db94-46c3-b42f-96d73a0e2c0a -->
+###### A.6.1.1.1.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: ae6e143b-db94-46c3-b42f-96d73a0e2c0a -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e3c0527d-368e-4c8c-bf7f-47ffb010f54c -->
+###### A.6.1.1.1.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: e3c0527d-368e-4c8c-bf7f-47ffb010f54c -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -7977,15 +7869,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
+###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
+###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -8097,15 +7989,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 6c10e42f-bd39-4359-9f7c-08ac9db45bbd -->
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 6c10e42f-bd39-4359-9f7c-08ac9db45bbd -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: `TBD` (not specified in the proposal)
 
-###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: b58e2248-8251-4000-8867-9ba32d48f422 -->
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: b58e2248-8251-4000-8867-9ba32d48f422 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: `TBD`
 
@@ -8217,15 +8109,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: e33c5054-f982-49a4-ae18-6e7394a3ea1a -->
+###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: e33c5054-f982-49a4-ae18-6e7394a3ea1a -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 6fd02c5f-ce6d-4e0c-8f4f-69e45dd3aa37 -->
+###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 6fd02c5f-ce6d-4e0c-8f4f-69e45dd3aa37 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -8329,15 +8221,15 @@ The Risk parameters are:
 
 The current `maxAmount` for this conduit's take and transfer rate operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 4ef1e561-5391-4e12-9019-896a6efe8044 -->
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: 4ef1e561-5391-4e12-9019-896a6efe8044 -->
 
-The take rate limits are:
+The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 5a9d6bec-117f-47a7-b8a3-724862e88b4f -->
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.2 - Transfer Rate Limit [Core]  <!-- UUID: 5a9d6bec-117f-47a7-b8a3-724862e88b4f -->
 
-The transfer rate limits are:
+The transfer rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -8414,16 +8306,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow is:
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4ec7ede8-416b-486e-ba56-160b02189a7b -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 4ec7ede8-416b-486e-ba56-160b02189a7b -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 1fc9d6f3-3996-4245-a096-53dad4a624ea -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 1fc9d6f3-3996-4245-a096-53dad4a624ea -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
@@ -8492,16 +8384,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 81ab5665-f9b9-4363-9d05-0d7bf371394a -->
+###### A.6.1.1.1.2.6.1.4.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 81ab5665-f9b9-4363-9d05-0d7bf371394a -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.4.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997c0581-022d-4fdd-8fde-cb43d58c8940 -->
+###### A.6.1.1.1.2.6.1.4.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 997c0581-022d-4fdd-8fde-cb43d58c8940 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
@@ -8578,16 +8470,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -8700,16 +8592,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 27c105d3-a93c-45b9-b951-050e60a50c51 -->
+###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 27c105d3-a93c-45b9-b951-050e60a50c51 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5cbdb15a-3a5b-4ea3-9fc2-4098f512712c -->
+###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 5cbdb15a-3a5b-4ea3-9fc2-4098f512712c -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -8778,16 +8670,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6fb6752a-a468-4f67-92a3-f86038be581d -->
+###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 6fb6752a-a468-4f67-92a3-f86038be581d -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6f8914eb-62e1-4946-901a-ae70839845fc -->
+###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6f8914eb-62e1-4946-901a-ae70839845fc -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -8876,16 +8768,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ce159b4f-4e1a-48e9-9a73-b16c5fe19288 -->
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: ce159b4f-4e1a-48e9-9a73-b16c5fe19288 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a773878d-3f7c-492c-9486-139788f5b50f -->
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: a773878d-3f7c-492c-9486-139788f5b50f -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -8958,16 +8850,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: b5d5ba32-342f-4d98-a51e-4d43ff458b48 -->
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: b5d5ba32-342f-4d98-a51e-4d43ff458b48 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ce4681b7-b94f-4acb-a2de-49b92b70245b -->
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ce4681b7-b94f-4acb-a2de-49b92b70245b -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9038,16 +8930,16 @@ The documents herein define the Instance contract addresses.
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
+###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
+###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9129,16 +9021,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: c45e65d9-9577-4414-b163-5f55c4335d3c -->
+###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: c45e65d9-9577-4414-b163-5f55c4335d3c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fecaf504-50ea-4f75-bd4d-b5f26c724bc2 -->
+###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: fecaf504-50ea-4f75-bd4d-b5f26c724bc2 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9325,16 +9217,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9acb1a46-3e4a-470f-b8b8-61edc40c3a04 -->
+###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 9acb1a46-3e4a-470f-b8b8-61edc40c3a04 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
+###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9518,16 +9410,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow is:
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 04975455-99e4-447b-8629-0a6088174e69 -->
+###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 04975455-99e4-447b-8629-0a6088174e69 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8639aa8f-3902-4f81-9c1e-a56b4c57f03d -->
+###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 8639aa8f-3902-4f81-9c1e-a56b4c57f03d -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9600,25 +9492,25 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 186761a1-5152-40f5-85f3-1e8868d8c6df -->
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 186761a1-5152-40f5-85f3-1e8868d8c6df -->
 
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-- Max slippage: 0.15%
-
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f3f5e19c-f85b-484f-b0fb-4ee96e54a616 -->
-
-The outflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 - Max slippage: 0.15%
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 6f9628a6-7574-4f63-a28f-797bd581e907 -->
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: f3f5e19c-f85b-484f-b0fb-4ee96e54a616 -->
 
-The swap rate limits are:
+The outflow rate limit parameters are:
+
+- `maxAmount`: 0
+- `slope`: 0
+- Max slippage: 0.15%
+
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 6f9628a6-7574-4f63-a28f-797bd581e907 -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9688,23 +9580,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount,` `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 10ce5b4c-068d-44a8-bd34-a4afdb52ac9e -->
+###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 10ce5b4c-068d-44a8-bd34-a4afdb52ac9e -->
 
-The inflow rate limits are:
-
-- `maxAmount`: N/A - swap only
-- `slope`: N/A - swap only
-
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997cbc11-99ee-4d26-87a8-a8a01e0a0537 -->
-
-The outflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 8b143018-298a-4878-9516-9b71049f1d0b -->
+###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 997cbc11-99ee-4d26-87a8-a8a01e0a0537 -->
 
-The swap rate limits are:
+The outflow rate limit parameters are:
+
+- `maxAmount`: N/A - swap only
+- `slope`: N/A - swap only
+
+###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 8b143018-298a-4878-9516-9b71049f1d0b -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9766,21 +9658,21 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 893256f7-00f6-42e7-92cd-218af9beac76 -->
+###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 893256f7-00f6-42e7-92cd-218af9beac76 -->
 
-The inflow rate limits are:
-
-- `maxAmount`: 0
-
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dfcceae6-65f0-44e2-9d47-9ad2324d983d -->
-
-The outflow rate limits are:
+The inflow rate limit parameter is:
 
 - `maxAmount`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2b4a19db-137d-404d-b475-3008eda3c82d -->
+###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: dfcceae6-65f0-44e2-9d47-9ad2324d983d -->
 
-The swap rate limits are:
+The outflow rate limit parameter is:
+
+- `maxAmount`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 2b4a19db-137d-404d-b475-3008eda3c82d -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9842,23 +9734,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 00d72073-ebb7-49d6-8ece-e5c506c7cf0c -->
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 00d72073-ebb7-49d6-8ece-e5c506c7cf0c -->
 
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5547c29e-0dcd-40c0-9811-f88f4a906825 -->
-
-The outflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 664c8068-a848-42aa-b50a-3000f3081507 -->
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 5547c29e-0dcd-40c0-9811-f88f4a906825 -->
 
-The swap rate limits are:
+The outflow rate limit parameters are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 664c8068-a848-42aa-b50a-3000f3081507 -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -9932,23 +9824,23 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 8734b53f-0220-43df-acdc-3c8cb25f323a -->
+###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 8734b53f-0220-43df-acdc-3c8cb25f323a -->
 
-The inflow rate limits are:
-
-- maxAmount: N/A - swap only
-- slope: N/A - swap only
-
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8280f97f-d69c-4fc3-a9d4-42407159a5ea -->
-
-The outflow rate limits are:
+The inflow rate limit parameters are:
 
 - maxAmount: N/A - swap only
 - slope: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
+###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 8280f97f-d69c-4fc3-a9d4-42407159a5ea -->
 
-The swap rate limits are:
+The outflow rate limit parameters are:
+
+- maxAmount: N/A - swap only
+- slope: N/A - swap only
+
+###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
+
+The swap rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -10016,9 +9908,9 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.4.3.7.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
+###### A.6.1.1.1.2.6.1.4.3.7.1.2.4.1 - transferAsset Rate Limit [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -10081,9 +9973,9 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 ###### A.6.1.1.1.2.6.1.4.3.7.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
+###### A.6.1.1.1.2.6.1.4.3.7.2.2.4.1 - transferAsset Rate Limit [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -13167,18 +13059,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.2.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 8d9cbbed-b242-4ed5-8d87-bd9e84c68bc4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 36e78589-bf94-4abc-b656-0041afb5062a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 528d1e34-12b8-464f-bfbc-13daa1cd5047 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: a7a1d15b-4d7f-4224-adc2-645c9b8dfdcb -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -13258,18 +13138,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.2.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: fd32256c-72b5-4435-8fa1-b9de99b14a48 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.2.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 51eb148f-c010-4e2a-a977-a6a2cb465e2d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 69cbf93f-2d99-4900-af0e-8e5d5609e2ca -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4bb102d6-3cdf-41c2-a285-20f2db76902c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.2.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 57c07fc2-51cc-442d-bf1b-326022ae71a2 -->
 
@@ -13439,18 +13307,6 @@ Grove will transfer 500 million GROVE tokens from the Grove SubProxy to the Grov
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.2.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 7f6a1a86-3be4-450f-82fd-3c4b8ffa4c37 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 183d8611-6c51-4b92-ab69-d8cf00b68cb4 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: aefe1e9e-8bcb-4dfd-aa58-05778d4d4326 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.2.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 573d5df7-1147-4735-b3a5-f2fea1c569c7 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -13534,18 +13390,6 @@ The documents herein define the process for the ongoing management of the Amatsu
 ###### A.6.1.1.2.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 03f354c3-72b7-4ed5-95c8-0ae8181fd33f -->
 
 The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.2.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: ccb322ea-75dd-4c19-a95e-fd9d43f92f7a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 977891ae-07b1-4330-9ce2-e2ea4a7e4f75 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: fb51f784-8c62-4bf9-92d1-f47e42c26439 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.2.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bd479d49-6929-4eff-8809-2d440e541748 -->
 
@@ -13700,18 +13544,6 @@ This transitionary phase will last until Sky determines that the GROVE token is 
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
 
-###### A.6.1.1.2.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 07447068-8892-4154-b3d0-7a2b4f1412cc -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 619ee46a-6a8c-4f13-9a04-e8cf4f8f4b86 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e02ff5f7-7a4f-48f6-a28e-1e1fc362072e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.2.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 9784ad9e-ecb8-49f1-95a6-fd3987482733 -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
@@ -13864,18 +13696,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.2.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 13c839b0-85fa-4582-a3e0-196627b68220 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 644df4fe-8018-42cb-aa19-611b7a2f35b1 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b2e3d7a-c6ee-4d20-911a-2ca78b8eb12e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.2.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 370e4310-69e9-40e9-ae26-46518187cd47 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -13971,18 +13791,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.2.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: bad21323-3b52-4851-85be-bdf165f0b560 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.2.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0003325e-7d02-41af-b61b-110aba99540c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3753d344-3218-4171-be0e-9654f690439e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b87b8a2-5e30-46a3-b12b-5fe0053eafc4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
 
@@ -14148,19 +13956,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Grove Finance Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.2.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 7259ff43-eaf7-484e-af71-8b6a0ecdde09 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 06a7389f-65b0-48bb-a0ee-b7b9dcbeeaa6 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 74019895-896c-4ab1-bb8c-f0e9741e69eb -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 698d68f4-8d3f-4ab4-bfd0-95dbd34b9099 -->
+###### A.6.1.1.2.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 698d68f4-8d3f-4ab4-bfd0-95dbd34b9099 -->
 
 The Distribution Reward payments for the Grove Finance Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -14169,7 +13965,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.2.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: bbd8de10-0899-4c16-ae48-a3d0afed9c6f -->
+###### A.6.1.1.2.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: bbd8de10-0899-4c16-ae48-a3d0afed9c6f -->
 
 The Distribution Reward Payments are:
 
@@ -18102,15 +17898,15 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
+###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 - `maxAmount`: 500,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ad10bea9-b609-4be9-bce8-56aba87da4c9 -->
+###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ad10bea9-b609-4be9-bce8-56aba87da4c9 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -18174,16 +17970,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 52d37b01-d8f2-4b9f-b251-c0f6e025c078 -->
+###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 52d37b01-d8f2-4b9f-b251-c0f6e025c078 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8705bd9-bc30-49c5-89fa-b529ebaee123 -->
+###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: f8705bd9-bc30-49c5-89fa-b529ebaee123 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -18260,16 +18056,16 @@ The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -18345,16 +18141,16 @@ The outflow RateLimitID is: `0x90f60b9802ce2da6196f5558e32abf7b583c646525d836146
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 500,000,000 USDS
 - `slope`: 500,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -18422,16 +18218,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 5edb937d-c579-42e3-ae25-821150cddda2 -->
+###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 5edb937d-c579-42e3-ae25-821150cddda2 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0b80d875-47a9-4863-8cf9-7a564e49d7ff -->
+###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 0b80d875-47a9-4863-8cf9-7a564e49d7ff -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -18500,16 +18296,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: bde14e56-5d3b-4797-9ab4-6cd689d74a8c -->
+###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: bde14e56-5d3b-4797-9ab4-6cd689d74a8c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
 
-###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 35aaf86f-8a8e-487a-8f1d-65f263223da1 -->
+###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 35aaf86f-8a8e-487a-8f1d-65f263223da1 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -18582,16 +18378,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: cb1ffa0f-bdc8-4bd5-80ce-1592429758b8 -->
+###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: cb1ffa0f-bdc8-4bd5-80ce-1592429758b8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 250,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6cf9b977-565d-44f3-9400-0ad1b05f57bd -->
+###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6cf9b977-565d-44f3-9400-0ad1b05f57bd -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 500,000,000
 - `slope`: 200,000,000 per day
@@ -18778,16 +18574,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: d25089f6-ed8a-4af9-adb1-9830e0daf0bc -->
+###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: d25089f6-ed8a-4af9-adb1-9830e0daf0bc -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 250,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: d33504c7-812f-43fb-b825-fc23aa177a3e -->
+###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: d33504c7-812f-43fb-b825-fc23aa177a3e -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: unlimited
 - `slope`: unlimited
@@ -18975,23 +18771,23 @@ The outflow RateLimitID is: `0x6dd53d41cd67732ec6166a0927bd9c2da9e20940bd174778b
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: 7a93740b-d794-4ca9-aece-6c7db42bebf2 -->
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: 7a93740b-d794-4ca9-aece-6c7db42bebf2 -->
 
-The deposit rate limits are:
-
-- `maxAmount`: 50 million USDC
-- `slope`: 50 million USDC
-
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: e198f465-0b25-4f45-860f-66eacc575f9f -->
-
-The withdrawal rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 50 million USDC
 
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.3 - Redemption Rate Limits (via Pendle Protocol) [Core]  <!-- UUID: 9dce58c1-0c6d-44f4-8145-c4243e8c02a9 -->
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: e198f465-0b25-4f45-860f-66eacc575f9f -->
 
-The redemption rate limits are:
+The withdrawal rate limit parameters are:
+
+- `maxAmount`: 50 million USDC
+- `slope`: 50 million USDC
+
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.3 - Redemption Rate Limit (via Pendle Protocol) [Core]  <!-- UUID: 9dce58c1-0c6d-44f4-8145-c4243e8c02a9 -->
+
+The redemption rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -19072,23 +18868,23 @@ The outflow RateLimitID is: `0x027191d7c552bd41037422747bcde7caca7d1f6afc5ea9b85
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: e66a0529-5419-46ef-8b9c-e6f6c255c3e3 -->
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: e66a0529-5419-46ef-8b9c-e6f6c255c3e3 -->
 
-The deposit rate limits are:
-
-- `maxAmount`: 50 million USDC
-- `slope`: 50 million USDC
-
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: c3fa15e7-7193-4e4d-9463-9dc6001f3d75 -->
-
-The withdrawal rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 50 million USDC
 
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.3 - Redemption Rate Limits (via Pendle Protocol) [Core]  <!-- UUID: 5d0649b9-c4ce-4a8a-bd2c-c6c0cc3de322 -->
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: c3fa15e7-7193-4e4d-9463-9dc6001f3d75 -->
 
-The redemption rate limits are:
+The withdrawal rate limit parameters are:
+
+- `maxAmount`: 50 million USDC
+- `slope`: 50 million USDC
+
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.3 - Redemption Rate Limit (via Pendle Protocol) [Core]  <!-- UUID: 5d0649b9-c4ce-4a8a-bd2c-c6c0cc3de322 -->
+
+The redemption rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -19165,16 +18961,16 @@ The outflow RateLimitID is: `0xc0a083c57c21570181e9781d750d04917923daac34e804bad
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 879f17bd-6d4a-48b4-8de7-cca31542ddfe -->
+###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 879f17bd-6d4a-48b4-8de7-cca31542ddfe -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 25 million USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8495c0-5a34-48e6-9442-0c11420e2c79 -->
+###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3c8495c0-5a34-48e6-9442-0c11420e2c79 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19246,16 +19042,16 @@ The outflow RateLimitID is: `0x574251b6fde351d987ce5235618a87bef48d50787414912b1
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2826e338-7b71-4c03-8f6a-2c17fa45863f -->
+###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2826e338-7b71-4c03-8f6a-2c17fa45863f -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million RLUSD
 - `slope`: 25 million RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 2709008d-ca7f-45ab-a8c1-ef6bebedea30 -->
+###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 2709008d-ca7f-45ab-a8c1-ef6bebedea30 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19327,16 +19123,16 @@ The outflow RateLimitID is: `0xb890cfc1ed93b136aef2cb34337fae5000d57dd88285b4fd6
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f8ef4e6d-aa05-4b8e-abcf-47afa908b1cc -->
+###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f8ef4e6d-aa05-4b8e-abcf-47afa908b1cc -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 25 million USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 08e95e2d-2390-40ed-8a79-f312162f7640 -->
+###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 08e95e2d-2390-40ed-8a79-f312162f7640 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19408,16 +19204,16 @@ The outflow RateLimitID is: `0xa33f2f500dd7f4baa10d882fd974f197a507f7b61f245ae26
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f2f286bd-6cea-4010-81b5-ab11edbbe6ad -->
+###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f2f286bd-6cea-4010-81b5-ab11edbbe6ad -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million RLUSD
 - `slope`: 25 million RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: db19cefb-7b08-4d82-8a21-66e97b23d435 -->
+###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: db19cefb-7b08-4d82-8a21-66e97b23d435 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19501,22 +19297,22 @@ The swap RateLimitID is: `0x8dcb7a359e6824ce9fd1c1f50ba67cd468764f690da2589aa3c2
 
 The current `maxAmount`, `slope` and `maxSlippage` for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 172836ec-2f76-4e64-96db-fb60c9885d12 -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 172836ec-2f76-4e64-96db-fb60c9885d12 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: a3a60b38-055f-42e4-b35d-bb04eb829b67 -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: a3a60b38-055f-42e4-b35d-bb04eb829b67 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 511cec98-4c5b-488e-8b5b-c088d04cd46b -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 511cec98-4c5b-488e-8b5b-c088d04cd46b -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 20 million
 - `slope`: 100 million per day
@@ -19598,22 +19394,22 @@ The swap RateLimitID is: `0x8dcb7a359e6824ce9fd1c1f50ba67cd468764f690da2589aa3c2
 
 The current `maxAmount`, `slope` and `maxSlippage` for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 84d948f0-8a23-4710-a6d4-8fc094befc91 -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 84d948f0-8a23-4710-a6d4-8fc094befc91 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 91eeb3a6-3b06-4e33-b835-51614136ce2e -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 91eeb3a6-3b06-4e33-b835-51614136ce2e -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 8885e8e3-1ab5-4b0a-998c-07e692db7054 -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 8885e8e3-1ab5-4b0a-998c-07e692db7054 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 20 million
 - `slope`: 100 million per day
@@ -19691,16 +19487,16 @@ The outflow RateLimitID is: `0xca9b793f7b515f76fb88684bec4850e8c12afbb7f27a81eab
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 15679304-3b86-43f4-be14-d02f33f72d2d -->
+###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 15679304-3b86-43f4-be14-d02f33f72d2d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 RLUSD or USDC
 - `slope`: 25,000,000 RLUSD or USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 34276745-bc02-4e02-aaac-20284debe350 -->
+###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 34276745-bc02-4e02-aaac-20284debe350 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19776,22 +19572,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 33800c50-8d1e-4339-88a1-8c07e5c35496 -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 33800c50-8d1e-4339-88a1-8c07e5c35496 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 1a78fd44-9483-4063-bbd5-80fef10bf85a -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 1a78fd44-9483-4063-bbd5-80fef10bf85a -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 5fdeea04-0bf6-475f-b7ed-1232040c6a32 -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 5fdeea04-0bf6-475f-b7ed-1232040c6a32 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDC/AUSD
 - `slope`: 100,000,000 USDC/AUSD per day
@@ -19869,16 +19665,16 @@ The outflow RateLimitID is: `0x8b0ebe103264ec6caf8c9a6b03eeb13f101d3d1ece1fe8b70
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: fe7ce511-f51b-4ed8-8ea1-30c4ae30e0bf -->
+###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: fe7ce511-f51b-4ed8-8ea1-30c4ae30e0bf -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDC/AUSD
 - `slope`: 25,000,000 USDC/AUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 5968dc38-0ac9-4c05-83b1-117fbe71c64c -->
+###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 5968dc38-0ac9-4c05-83b1-117fbe71c64c -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -19954,22 +19750,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: ad363791-a7e1-4a0c-8a8a-6102994c2876 -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: ad363791-a7e1-4a0c-8a8a-6102994c2876 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b0b22bed-1cb0-43cd-bbdc-5f7fa48ebdab -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b0b22bed-1cb0-43cd-bbdc-5f7fa48ebdab -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e3773f0c-33c5-4f55-93bf-69730b447deb -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e3773f0c-33c5-4f55-93bf-69730b447deb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS/PYUSD
 - `slope`: 100,000,000 USDS/PYUSD per day
@@ -20081,16 +19877,16 @@ The outflow RateLimitID is: `0xb6204f88cd26e1d2b5c27fe0beb10cc2c6a33aac17f228baf
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20202,16 +19998,16 @@ The outflow RateLimitID is: `0xdd975e5dc9904260242e80bbe7035784e9108c619e23f21b6
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 AUSD
 - `slope`: 20,000,000 AUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20327,16 +20123,16 @@ The outflow RateLimitID is: `0xa6e68f8214d2fb32e0deb2888ef4644c36401d18605447843
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 RLUSD
 - `slope`: 100,000,000 RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20452,16 +20248,16 @@ The outflow RateLimitID is: `0x0fceada3d6963c0045d4b0394172af9c863234669e3562519
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20576,16 +20372,16 @@ The outflow RateLimitID is: `0xf5f57f4862971202d26fc6e1104f819c66667ef0329d7d041
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f182ddac-d8f6-4868-8d5b-c4bf65c28276 -->
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f182ddac-d8f6-4868-8d5b-c4bf65c28276 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 PYUSD
 - `slope`: 20,000,000 PYUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 1d6dbd1d-b049-41b0-99c4-cbeb727684a3 -->
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 1d6dbd1d-b049-41b0-99c4-cbeb727684a3 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20671,16 +20467,16 @@ The outflow RateLimitID is: `0xcbb4d6e874245392c78f0f249b7dc876e5462bb0dce135a6e
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: ee33b709-1239-44c3-9c94-4211433877c4 -->
+###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: ee33b709-1239-44c3-9c94-4211433877c4 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3cafebb2-cf4d-4830-9787-1c2d7d7da030 -->
+###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3cafebb2-cf4d-4830-9787-1c2d7d7da030 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -20760,16 +20556,16 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c2f613ac-e271-4cbc-9ca7-f644082e5e8e -->
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c2f613ac-e271-4cbc-9ca7-f644082e5e8e -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: N/A
 - `slope`: N/A
@@ -20842,16 +20638,16 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 282c02b2-9b9d-4934-be9d-5228d50a0918 -->
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 282c02b2-9b9d-4934-be9d-5228d50a0918 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c38e4cd8-1be2-475d-8670-848d8eba3078 -->
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c38e4cd8-1be2-475d-8670-848d8eba3078 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A
 
@@ -20931,16 +20727,16 @@ The outflow RateLimitID is:
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 1b66e040-0e9d-4fb7-a3a4-66068899c344 -->
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 1b66e040-0e9d-4fb7-a3a4-66068899c344 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 8cd46ad3-7589-4ac0-8cb6-a6dbe42bdc81 -->
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 8cd46ad3-7589-4ac0-8cb6-a6dbe42bdc81 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -21025,16 +20821,16 @@ The outflow RateLimitID is: `0x42ad76bdc643205fd16f00e7e67f0d5e7ae13541010329da7
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 10,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: 10,000,000 AUSD
 - `slope`: 100,000,000 AUSD per day
@@ -21115,22 +20911,22 @@ The outflow RateLimitID is: `0x7dd93dac252469b97c259284118454a6a09efd0e5f781dec5
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 37b74730-eeef-4f2a-89cc-699fa51b176b -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 37b74730-eeef-4f2a-89cc-699fa51b176b -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 52f681eb-f0eb-4d36-95dd-4d239fef72b9 -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 52f681eb-f0eb-4d36-95dd-4d239fef72b9 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e21c0b53-fc2a-46d1-b820-f9a5471c7efb -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e21c0b53-fc2a-46d1-b820-f9a5471c7efb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 AUSD/USDC
 - `slope`: 100,000,000 AUSD/USDC per day
@@ -21466,16 +21262,16 @@ The outflow RateLimitID will be specified in a future iteration of the Atlas.
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 5ce46c5d-978e-4fe3-a109-8a11833b1b09 -->
+###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 5ce46c5d-978e-4fe3-a109-8a11833b1b09 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 2068313d-3791-4771-9e0d-f74dffa4d729 -->
+###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 2068313d-3791-4771-9e0d-f74dffa4d729 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: 0
 
@@ -21575,16 +21371,16 @@ The outflow RateLimitID is: `0x0d8db6f922b464d5eb8ac718bef62b82b05d9bd0ea5dafd09
 
 The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDS
 - `slope`: 50,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -21719,16 +21515,16 @@ The outflow RateLimitID is: `0xac6b1419c7365d44c458289fbd4b91c1913427601113863b9
 
 The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
-###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ca94003e-2652-4ea5-8ade-a382975f44dd -->
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ca94003e-2652-4ea5-8ade-a382975f44dd -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -21841,11 +21637,11 @@ The transferAssets `RateLimitID` for this conduit is: `0x4139045de2f11ba23865c6c
 
 ###### A.6.1.1.2.2.6.1.3.1.15.1.2.4 - Rate Limits [Core]  <!-- UUID: a4419273-8de4-4d67-a438-6c356e9b85a4 -->
 
-The current TransferAsset rate limits for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit’s transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.2.2.6.1.3.1.15.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 52a84bbf-b322-4705-9909-19cc3319b308 -->
+###### A.6.1.1.2.2.6.1.3.1.15.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 52a84bbf-b322-4705-9909-19cc3319b308 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -21918,16 +21714,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c432f68-5bbf-449e-b9fb-c089f3c750c7 -->
+###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 0c432f68-5bbf-449e-b9fb-c089f3c750c7 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6e549221-bbf2-4c58-922d-649e7beee41c -->
+###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6e549221-bbf2-4c58-922d-649e7beee41c -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -21992,16 +21788,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 338e8892-584c-4ca3-9a8c-8872e4105717 -->
+###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 338e8892-584c-4ca3-9a8c-8872e4105717 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 9c214444-96bf-4982-9c96-7ae79769262a -->
+###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 9c214444-96bf-4982-9c96-7ae79769262a -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -22082,22 +21878,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 3fc2060c-29d2-41fa-a9e6-1b47e4073cee -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 3fc2060c-29d2-41fa-a9e6-1b47e4073cee -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 67213d51-ed52-4c6d-96b6-bf0718b935b1 -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 67213d51-ed52-4c6d-96b6-bf0718b935b1 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e23f36a6-c5f5-40d4-bdd0-77e862d7a8bb -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e23f36a6-c5f5-40d4-bdd0-77e862d7a8bb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS/USDC
 - `slope`: 100,000,000 USDS/USDC per day
@@ -22175,16 +21971,16 @@ The outflow RateLimitID is: `0x3361a251fa0f068ec6ce72e830c34ff0f5839a56c13e17e4c
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2bc7c072-65e9-4b06-821c-3cc378758de1 -->
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2bc7c072-65e9-4b06-821c-3cc378758de1 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDS/USDC
 - `slope`: 50,000,000 USDS/USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e5dd377-9028-4fa0-950f-d65f3364911a -->
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7e5dd377-9028-4fa0-950f-d65f3364911a -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22298,16 +22094,16 @@ The outflow RateLimitID is: `0x44630fb26e1343e99745c4ae29b1587eeb182f2a1da8b0cbe
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22397,16 +22193,16 @@ The outflow RateLimitID is: `0xc170dc947a54b39bf03cfdfa8249447fdacf93d397502740f
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 3035fcf7-9426-46a7-9223-3204d922ca14 -->
+###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 3035fcf7-9426-46a7-9223-3204d922ca14 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDT0
 - `slope`: 20,000,000 USDT0 per day
 
-###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8eeb5709-8e90-44ed-a384-d99df2a89e85 -->
+###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 8eeb5709-8e90-44ed-a384-d99df2a89e85 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22486,16 +22282,16 @@ The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 1a7f2fdf-1c26-4638-881d-02f5cc1ae1b5 -->
+###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 1a7f2fdf-1c26-4638-881d-02f5cc1ae1b5 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7c1b8e7c-3004-4c98-a078-8ce0bbdf1141 -->
+###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7c1b8e7c-3004-4c98-a078-8ce0bbdf1141 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22579,16 +22375,16 @@ The outflow RateLimitID is: N/A
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: 607a906a-da69-4105-a519-6e4cfa529c1d -->
+###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: 607a906a-da69-4105-a519-6e4cfa529c1d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: a3862cd4-ff0e-4f7d-bcf9-cc1a207c74d6 -->
+###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: a3862cd4-ff0e-4f7d-bcf9-cc1a207c74d6 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: N/A
 - `slope`: N/A
@@ -22669,16 +22465,16 @@ The outflow `RateLimitID` will be specified in a future iteration of the Grove A
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 7352db9b-9177-4ffb-8554-8d131008c607 -->
+###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 7352db9b-9177-4ffb-8554-8d131008c607 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
 
-###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 63c0f9fd-e862-4928-9e36-eaa13767ae90 -->
+###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 63c0f9fd-e862-4928-9e36-eaa13767ae90 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22762,11 +22558,11 @@ The transferAssets `RateLimitID` for this conduit is: `0x6514f636131e8989437496a
 
 ###### A.6.1.1.2.2.6.1.3.7.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 5325d4d3-6e93-4ea1-86f3-91d538be03ed -->
 
-The current TransferAsset rate limits for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit’s transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.2.2.6.1.3.7.2.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: e75d1516-8cd4-4a21-9441-e93f40692118 -->
+###### A.6.1.1.2.2.6.1.3.7.2.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: e75d1516-8cd4-4a21-9441-e93f40692118 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
@@ -22851,16 +22647,16 @@ The inflow RateLimitID is: `0x82fb6a87781d1c18617960e9528d0633bfbc534f5ae8109347
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -22932,16 +22728,16 @@ The outflow RateLimitID is: `0xa0c827fea02219c83969babf0bd29df5bb5fe923e6b38491a
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -23019,16 +22815,16 @@ The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb85
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -23114,16 +22910,16 @@ The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -23217,16 +23013,16 @@ The outflow RateLimitID is: `0x13e37cfd8b7a0e3f59d4b4424894c2a3693ccf0c313905615
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -23298,16 +23094,16 @@ The outflow RateLimitID is: `0x6cbf2a3469ddd029ba9744291f720dfed49b9d475ef870978
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -23959,18 +23755,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.3.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 9bacd440-487f-49f7-b0ca-fbd8367e9298 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d8938b72-36af-4dce-91bc-4a8b67d20493 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: f79736e7-1c24-43fe-9645-605791e87942 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.3.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e46ba795-34db-4fb0-ba67-3dc178a4b47e -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -24050,18 +23834,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.3.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: af920dd4-90f5-41fa-9547-049c35ed84e8 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.3.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 10d9a22e-22ff-4f1c-8ce9-4b907b3748f5 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 7ab8edc0-14e5-40e1-8bf6-80ef2eb86549 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 795f3788-68ae-48c0-8fe3-c33b9bb81dc7 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.3.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 83b6ac05-69c2-43a5-b7f4-c24e02671c0d -->
 
@@ -24213,18 +23985,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.3.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 79139c7c-5234-4a41-a6f7-0112216a4a9c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b49a061d-1a47-4841-91d8-753e82488288 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ae670617-6780-426c-b2ef-2037d12f4669 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.3.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 9494bb11-ec12-4029-89bd-40228e6ea9de -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -24308,18 +24068,6 @@ The documents herein define the process for the ongoing management of the Amatsu
 ###### A.6.1.1.3.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 9ecf7a1f-9059-4d5b-a61e-8eb659064054 -->
 
 The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.3.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 6f47f192-3277-4e40-89d9-73edee5f465c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 969849ad-170b-4fad-972a-e37880e91b86 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 66ac9ca7-833a-457a-8d2b-e8c3fb968412 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.3.2.2.1.3 - Completed Instances [Core]  <!-- UUID: ecc18c15-e6f8-4a6f-9a6a-04fa32e3541c -->
 
@@ -24448,18 +24196,6 @@ In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.
 ###### A.6.1.1.3.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 9f496f47-3f57-443c-ac5e-a44e08d4aa4c -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.3.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 2e6ea01e-ec36-4150-a096-6ba0143dc800 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 360ae2a4-679c-4ee5-829a-6d01f0713602 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 79fe6be0-e7ce-4349-8c63-4579d2f17295 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.3.2.2.2.3 - Completed Instances [Core]  <!-- UUID: a5a2c272-8442-4caa-9423-5eb4e0c9a97d -->
 
@@ -24613,18 +24349,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.3.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: ea840f1f-dda7-42c5-80fe-f774657831e3 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 86e71f93-690a-478c-9c87-000c3572b4df -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 27bd4d7c-d6bb-43e8-96ef-7471798fa071 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.3.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 5cbe0c56-1105-4ce8-a16a-499b409fbf6c -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -24720,18 +24444,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.3.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 68cfcc8f-3c24-4d02-a25b-a4a93857d9ca -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.3.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 725ad94b-e5d5-4aad-a205-5a4508c9fe79 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0c0ef0b1-2d54-49f2-9ba6-c47fd5e56af1 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ca265d73-1cc0-43d3-806f-dd03219c5dec -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.3.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 92404db0-53f0-4042-8daa-2950f01807be -->
 
@@ -24905,19 +24617,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Solana Bridge Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.3.2.5.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 764fdbd7-a8a6-4da5-bd3e-c6f5471afd91 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 634e03bc-fc80-4b2c-9182-0b3ae4386f0e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: a2eeb79e-bb70-4f25-a106-18bacd69b5ab -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 394771d8-fa9c-4f5c-8b73-b8f996cb77c1 -->
+###### A.6.1.1.3.2.5.1.3.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 394771d8-fa9c-4f5c-8b73-b8f996cb77c1 -->
 
 The Distribution Reward payments for the Solana Bridge Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -24926,7 +24626,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.3.2.5.1.3.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 1d0e0165-719b-4899-af1c-8a0366a058af -->
+###### A.6.1.1.3.2.5.1.3.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 1d0e0165-719b-4899-af1c-8a0366a058af -->
 
 The Distribution Reward Payments are:
 
@@ -24978,19 +24678,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the 1inch Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.3.2.5.1.3.2.3.1 - Initial Planning [Core]  <!-- UUID: 90352ea8-67ed-4148-8594-bb66826b2ad9 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: 1f8b494d-a550-4fb7-adff-8afe9301b006 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4da0eb19-7721-4249-994e-91c86695b785 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.1.3.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 55f35766-6eb6-4f4d-be40-ce70af3bed55 -->
+###### A.6.1.1.3.2.5.1.3.2.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 55f35766-6eb6-4f4d-be40-ce70af3bed55 -->
 
 The Distribution Reward payments for the 1inch Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -24999,7 +24687,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.3.2.5.1.3.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f7274663-4447-4ed3-9fb5-30c72e23802b -->
+###### A.6.1.1.3.2.5.1.3.2.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f7274663-4447-4ed3-9fb5-30c72e23802b -->
 
 The Distribution Reward Payments are:
 
@@ -25139,19 +24827,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Kamino Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.3.2.5.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0886e43d-3f0e-4fbc-bb39-b21934477638 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e00ea6ea-daab-4f81-a4c4-9e9c1a245495 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 0f24b8c3-c3ae-43e4-a649-9a7df4de6fde -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: f02b9ea5-ceae-42dd-8ca0-9565f7148efb -->
+###### A.6.1.1.3.2.5.2.2.1.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: f02b9ea5-ceae-42dd-8ca0-9565f7148efb -->
 
 The Integration Boost payments for the Kamino Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -25160,7 +24836,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.3.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 0abca082-24c3-425d-a02f-631766a438d1 -->
+###### A.6.1.1.3.2.5.2.2.1.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 0abca082-24c3-425d-a02f-631766a438d1 -->
 
 The Integration Boost Payments are:
 
@@ -25232,19 +24908,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Drift Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.3.2.5.2.2.2.3.1 - Initial Planning [Core]  <!-- UUID: cb8de39f-11d4-462d-80e4-12bd793697f1 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: fdac7f0f-b7b3-45cd-be4f-51ba5755e097 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: fd38b098-1cee-4b81-9128-49f319a85624 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.2.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: de885def-4e9c-4116-9a16-899f0d45340f -->
+###### A.6.1.1.3.2.5.2.2.2.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: de885def-4e9c-4116-9a16-899f0d45340f -->
 
 The Integration Boost payments for the Drift Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -25253,7 +24917,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.3.2.5.2.2.2.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 1016d28e-fab4-4893-8e8f-846bed7e207d -->
+###### A.6.1.1.3.2.5.2.2.2.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 1016d28e-fab4-4893-8e8f-846bed7e207d -->
 
 The Integration Boost Payments are:
 
@@ -25325,19 +24989,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Save Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.3.2.5.2.2.3.3.1 - Initial Planning [Core]  <!-- UUID: d1d06d85-c679-4a6f-ab24-cd10e4de1361 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0e3774ea-7b40-4188-a467-ba54faacfd59 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7e0fc33a-f01c-4bd1-bfae-96bfda6a7986 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.3.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 5c116971-2a07-4074-9a41-422e18f5eaec -->
+###### A.6.1.1.3.2.5.2.2.3.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 5c116971-2a07-4074-9a41-422e18f5eaec -->
 
 The Integration Boost payments for the Save Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -25346,7 +24998,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.3.2.5.2.2.3.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 52237195-bbb7-4b4e-a13a-536f639bd0d0 -->
+###### A.6.1.1.3.2.5.2.2.3.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 52237195-bbb7-4b4e-a13a-536f639bd0d0 -->
 
 The Integration Boost Payments are:
 
@@ -25418,19 +25070,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Lifinity Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.3.2.5.2.2.4.3.1 - Initial Planning [Core]  <!-- UUID: 4de91f25-bb65-4bc4-94b2-e9d58fbf9733 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 2a2ac512-32ec-4ee1-85a5-5cae060bc2ca -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 780b5dbf-5b27-4d12-940d-2b2d324fcf2c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.2.4.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: b2077965-9350-4699-be85-847934f1d7b0 -->
+###### A.6.1.1.3.2.5.2.2.4.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: b2077965-9350-4699-be85-847934f1d7b0 -->
 
 The Integration Boost payments for the Lifinity Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -25439,7 +25079,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.3.2.5.2.2.4.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 4c94d227-1244-4926-be0b-d6cf87cd91b3 -->
+###### A.6.1.1.3.2.5.2.2.4.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 4c94d227-1244-4926-be0b-d6cf87cd91b3 -->
 
 The Integration Boost Payments are:
 
@@ -25515,19 +25155,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the MarginFi Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.3.2.5.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 5d022265-732d-471f-960c-ad352469f71e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d7fe3f68-dc0b-4494-8563-44e2f8e684a3 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 3aaf2998-6729-4ccf-848d-5dbc8d8e68ae -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.3.2.5.2.3.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 61c17003-e1b0-46a8-8b67-0b120a0cdd5b -->
+###### A.6.1.1.3.2.5.2.3.1.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 61c17003-e1b0-46a8-8b67-0b120a0cdd5b -->
 
 The Integration Boost payments for the MarginFi Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -25536,7 +25164,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.3.2.5.2.3.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: bc103251-76b5-4969-b17f-520474e01a14 -->
+###### A.6.1.1.3.2.5.2.3.1.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: bc103251-76b5-4969-b17f-520474e01a14 -->
 
 The Integration Boost Payments are:
 
@@ -27210,16 +26838,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 9577670b-0f91-45e8-b7e9-faf072e2d7e9 -->
+###### A.6.1.1.3.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 9577670b-0f91-45e8-b7e9-faf072e2d7e9 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDS
 - `slope`: 10,000,000 USDS per day
 
-###### A.6.1.1.3.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 1d393362-1b05-4dc3-9531-233d748c2394 -->
+###### A.6.1.1.3.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 1d393362-1b05-4dc3-9531-233d748c2394 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27291,16 +26919,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 564245a6-2191-4434-ba16-52a2f76d4acd -->
+###### A.6.1.1.3.2.6.1.3.1.1.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 564245a6-2191-4434-ba16-52a2f76d4acd -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDC
 - `slope`: 10,000,000 USDC per day
 
-###### A.6.1.1.3.2.6.1.3.1.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f21f04b3-30d3-4b5e-81e0-2e83dda36b37 -->
+###### A.6.1.1.3.2.6.1.3.1.1.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: f21f04b3-30d3-4b5e-81e0-2e83dda36b37 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27372,16 +27000,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 7168f4a2-c928-41f5-a4c9-8a8da5fbd2d1 -->
+###### A.6.1.1.3.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 7168f4a2-c928-41f5-a4c9-8a8da5fbd2d1 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDT
 - `slope`: 10,000,000 USDT per day
 
-###### A.6.1.1.3.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bdbed1a4-1957-442f-b6b6-f68ccb2c372a -->
+###### A.6.1.1.3.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: bdbed1a4-1957-442f-b6b6-f68ccb2c372a -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27453,16 +27081,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.1.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: bbb53065-3606-45db-9c40-d49cfa6193e3 -->
+###### A.6.1.1.3.2.6.1.3.1.1.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: bbb53065-3606-45db-9c40-d49cfa6193e3 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDG
 - `slope`: 10,000,000 USDG per day
 
-###### A.6.1.1.3.2.6.1.3.1.1.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 5af501f7-f554-4b02-9cf0-742fa8aeee82 -->
+###### A.6.1.1.3.2.6.1.3.1.1.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 5af501f7-f554-4b02-9cf0-742fa8aeee82 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27534,16 +27162,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.1.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: e9130658-124d-4788-8c2d-6a4352276bd2 -->
+###### A.6.1.1.3.2.6.1.3.1.1.5.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: e9130658-124d-4788-8c2d-6a4352276bd2 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 PYUSD
 - `slope`: 10,000,000 PYUSD per day
 
-###### A.6.1.1.3.2.6.1.3.1.1.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 86989052-581b-4b06-b906-f8b85e661b64 -->
+###### A.6.1.1.3.2.6.1.3.1.1.5.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 86989052-581b-4b06-b906-f8b85e661b64 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27619,16 +27247,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 305929f9-e0f3-494e-9679-264ca1d6026c -->
+###### A.6.1.1.3.2.6.1.3.1.2.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 305929f9-e0f3-494e-9679-264ca1d6026c -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDS
 - `slope`: 10,000,000 USDS per day
 
-###### A.6.1.1.3.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 09c83fd0-73ec-482b-8c87-bee7c0e5e57b -->
+###### A.6.1.1.3.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 09c83fd0-73ec-482b-8c87-bee7c0e5e57b -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27700,16 +27328,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.2.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 7268c2b8-b83b-480c-a51a-66e15e66d4f3 -->
+###### A.6.1.1.3.2.6.1.3.1.2.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 7268c2b8-b83b-480c-a51a-66e15e66d4f3 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDC
 - `slope`: 10,000,000 USDC per day
 
-###### A.6.1.1.3.2.6.1.3.1.2.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f2c12b28-6cea-400e-af47-f8c0acade37e -->
+###### A.6.1.1.3.2.6.1.3.1.2.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: f2c12b28-6cea-400e-af47-f8c0acade37e -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27781,16 +27409,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.2.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 7ad9224b-5ad1-4aa5-9249-11823d8fdd39 -->
+###### A.6.1.1.3.2.6.1.3.1.2.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 7ad9224b-5ad1-4aa5-9249-11823d8fdd39 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDT
 - `slope`: 10,000,000 USDT per day
 
-###### A.6.1.1.3.2.6.1.3.1.2.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: fdb802a9-5100-4951-b9d6-a7307e2c8cbe -->
+###### A.6.1.1.3.2.6.1.3.1.2.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: fdb802a9-5100-4951-b9d6-a7307e2c8cbe -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -27862,16 +27490,16 @@ The specific `Integration` account contains the rate limit information to contro
 
 The current `maxAmount` and `slope` for this conduit’s deposit and withdrawal are defined in the subdocuments herein.
 
-###### A.6.1.1.3.2.6.1.3.1.2.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f888618b-acc1-4ef8-9e02-d292448da6f0 -->
+###### A.6.1.1.3.2.6.1.3.1.2.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f888618b-acc1-4ef8-9e02-d292448da6f0 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 PYUSD
 - `slope`: 10,000,000 PYUSD per day
 
-###### A.6.1.1.3.2.6.1.3.1.2.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 074d5acf-8e9c-40bc-a1a0-f31bafb4f3b6 -->
+###### A.6.1.1.3.2.6.1.3.1.2.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 074d5acf-8e9c-40bc-a1a0-f31bafb4f3b6 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -28195,18 +27823,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.4.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: d6d7788a-4702-4e7f-8bd0-0e1bdb535e79 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: efc466bf-6681-4c38-ac6a-281d4c1593be -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 587c4557-6622-49af-b64b-9fd48dbc85b1 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.4.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 58ddd7d7-28af-4ca3-ac6a-f5d2105f9e79 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -28286,18 +27902,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.4.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: 6f45d32b-f377-480c-b67f-a1d7b2d09ba8 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.4.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 70203ad1-71b6-4a80-97a4-d18227cd736e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 84e3ba93-7ba4-4f52-b54e-5ea6e73da623 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 102b2492-34f9-4f2f-8f42-593aa8871129 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.4.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 42f47668-ba50-430e-ac11-245eef79e712 -->
 
@@ -28449,18 +28053,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.4.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 05259bea-0f5e-4afc-8279-fbd98516d7ac -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b146e772-2d00-456b-8ba7-536ea733c34a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: a66316d6-e4be-4ff5-b894-4c8fa3d1285c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.4.2.1.4.3 - Completed Instances [Core]  <!-- UUID: ba6be9cd-0812-4098-89f3-2e813948a3f8 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -28544,18 +28136,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.4.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 5120e81d-c44f-47ec-a19a-dff5d4abf152 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.4.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0f2d0ae7-1aa7-4692-9f36-dd00b119885e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0bb80f80-c2c0-43f1-8783-b2a2bdbcc09b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 659ad2e7-f1af-4bd4-b5c1-8624ba7f169e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.4.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 03bf33b4-f74d-4b40-a1a0-e34e19b30318 -->
 
@@ -28684,18 +28264,6 @@ In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.
 ###### A.6.1.1.4.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 6f533a79-4263-4b1b-9d47-9ab9e670f0f0 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.4.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 112386b9-0c60-4224-8d39-a43b2805f351 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d9ebdf09-8d8e-4b14-a3f3-08a0d7579e92 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 91159367-dcf2-4c55-ae77-0ca91da4fb91 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.4.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 6840069f-a930-42ad-8fad-8224876da285 -->
 
@@ -28849,18 +28417,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.4.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1285deb9-39ff-400c-a82c-2ec2e7b4d216 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: db3e6b81-f383-4269-8cab-e94e47abc891 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e877196c-33d9-48dd-b188-fe5c70c68d00 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.4.2.3.1.3 - Completed Instances [Core]  <!-- UUID: ce66e2db-bbb6-4f33-9b3b-cc3b913f6459 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -28956,18 +28512,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.4.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 2bc4f7e9-e9a2-465e-b6da-1032ce4a6f42 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.4.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: a7718626-05e0-4c62-86ae-62ff9f2fc785 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0e9c8eb9-ab4e-4240-9ea9-a2c810ea3698 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 89f2904b-d250-4643-a84a-083b54a572e0 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.4.2.3.2.3 - Completed Instances [Core]  <!-- UUID: aff0590c-e76d-4734-a139-ef7a67d9a619 -->
 
@@ -29202,19 +28746,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Sky.money App Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c4fead38-31dc-4a6a-8d98-5f28b1a46f7a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 919d7b43-51e1-4d53-93c6-ff84a633542b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8bb175ef-0165-417c-9222-f4ed8df23b3f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8ece0051-0eee-427f-b2ea-1abfd52b80cd -->
+###### A.6.1.1.4.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8ece0051-0eee-427f-b2ea-1abfd52b80cd -->
 
 The Distribution Reward payments for the Sky.money App Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29223,7 +28755,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 09282f1f-f4fa-40b6-9073-6adc42f31569 -->
+###### A.6.1.1.4.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 09282f1f-f4fa-40b6-9073-6adc42f31569 -->
 
 The Distribution Reward Payments are:
 
@@ -29275,19 +28807,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 8578558a-5bd3-4256-a8f6-0e14da879257 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: f3de12e6-9ca6-4969-95a4-50b6c6b928b3 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 09c5171b-5fe5-4a37-ad78-0e4be7b4c0f9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d96439a8-df0d-4ba9-973e-896fac953fad -->
+###### A.6.1.1.4.2.5.1.2.2.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d96439a8-df0d-4ba9-973e-896fac953fad -->
 
 The Distribution Reward payments for the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29296,7 +28816,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
+###### A.6.1.1.4.2.5.1.2.2.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
 
 The Distribution Reward Payments are:
 
@@ -29348,19 +28868,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the DeFi Saver Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: 3117ffa8-81bb-4fc3-ab15-2e2a41de26fa -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: e4cdcd58-9f16-4efe-9671-a0b667267004 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 63a206b3-3bae-4c14-ac3c-e658b912b238 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0f9d7876-d376-4f85-840d-c3cbb96872d3 -->
+###### A.6.1.1.4.2.5.1.2.3.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0f9d7876-d376-4f85-840d-c3cbb96872d3 -->
 
 The Distribution Reward payments for the DeFi Saver Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29369,11 +28877,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 731c96eb-57a2-434c-852c-2c7f461efb46 -->
+###### A.6.1.1.4.2.5.1.2.3.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 731c96eb-57a2-434c-852c-2c7f461efb46 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.3.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: e2a262ce-e59a-421c-ab32-803fe41802c4 -->
+###### A.6.1.1.4.2.5.1.2.3.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: e2a262ce-e59a-421c-ab32-803fe41802c4 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29382,7 +28890,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
+###### A.6.1.1.4.2.5.1.2.3.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29393,7 +28901,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: da35cd2c-4113-4656-a5f5-5b804b5f894f -->
+###### A.6.1.1.4.2.5.1.2.3.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: da35cd2c-4113-4656-a5f5-5b804b5f894f -->
 
 DeFi Saver - `0x6467e807dB1E71B9Ef04E0E3aFb962E4B0900B2B`
 
@@ -29445,19 +28953,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the CoW Swap Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.4.3.1 - Initial Planning [Core]  <!-- UUID: d0dcbfc1-826f-4f68-ac22-f356f2b3d3f4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 7b5a94d3-1bdd-4b06-823e-c31199717e29 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4a803925-4c83-44a8-9530-4b0f30b6d928 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: dc323489-6f9b-4f0d-a5c6-3c74729cef7c -->
+###### A.6.1.1.4.2.5.1.2.4.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: dc323489-6f9b-4f0d-a5c6-3c74729cef7c -->
 
 The Distribution Reward payments for the CoW Swap Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29466,11 +28962,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.4.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 655886dc-7ca2-45cd-be2c-7be8421961c7 -->
+###### A.6.1.1.4.2.5.1.2.4.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 655886dc-7ca2-45cd-be2c-7be8421961c7 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.4.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 84df5c1e-86b7-431d-bb0e-8708f99a572e -->
+###### A.6.1.1.4.2.5.1.2.4.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 84df5c1e-86b7-431d-bb0e-8708f99a572e -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29479,7 +28975,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
+###### A.6.1.1.4.2.5.1.2.4.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29490,7 +28986,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 910f8a42-b56c-4617-890a-d135b196b168 -->
+###### A.6.1.1.4.2.5.1.2.4.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 910f8a42-b56c-4617-890a-d135b196b168 -->
 
 CoW Swap - `0x616dE58c011F8736fa20c7Ae5352F7f6FB9F0669`
 
@@ -29542,19 +29038,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the ParaSwap Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.5.3.1 - Initial Planning [Core]  <!-- UUID: 32dfe611-a223-40af-9100-70688fa0f162 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.2 - Operational GovOps Review [Core]  <!-- UUID: 20e0c61c-70c8-4d68-b90e-ce664ca5097a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 993a4e87-14d0-4d98-9477-446d4bbbfe12 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 3ea87681-b351-462c-b375-6fb60c817755 -->
+###### A.6.1.1.4.2.5.1.2.5.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 3ea87681-b351-462c-b375-6fb60c817755 -->
 
 The Distribution Reward payments for the ParaSwap Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29563,11 +29047,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.5.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4588c98b-1c51-4f8c-8cc5-baab631950ef -->
+###### A.6.1.1.4.2.5.1.2.5.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4588c98b-1c51-4f8c-8cc5-baab631950ef -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.5.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 81bafe53-8c66-43ec-82fd-5848b9d64555 -->
+###### A.6.1.1.4.2.5.1.2.5.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 81bafe53-8c66-43ec-82fd-5848b9d64555 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29576,7 +29060,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
+###### A.6.1.1.4.2.5.1.2.5.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29587,7 +29071,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 8088e4e4-a594-448c-a3cb-752b907b4f3c -->
+###### A.6.1.1.4.2.5.1.2.5.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 8088e4e4-a594-448c-a3cb-752b907b4f3c -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -29639,19 +29123,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Yearn (Gimme) Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.6.3.1 - Initial Planning [Core]  <!-- UUID: 2a400f84-7251-41ed-a8ce-c3d091c90ad6 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3bdf7ecb-accd-4b70-b956-a5e05cb60668 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1816152b-22ea-4a5a-822f-88da78afe8cf -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 30be45d8-cd38-4c52-b4d0-ed7225c97b9a -->
+###### A.6.1.1.4.2.5.1.2.6.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 30be45d8-cd38-4c52-b4d0-ed7225c97b9a -->
 
 The Distribution Reward payments for the Yearn (Gimme) Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29660,11 +29132,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.6.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 707956cc-62f8-4620-a95f-b45ebf263218 -->
+###### A.6.1.1.4.2.5.1.2.6.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 707956cc-62f8-4620-a95f-b45ebf263218 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.6.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 690e54dd-c88a-422e-a06d-e6812035fc1c -->
+###### A.6.1.1.4.2.5.1.2.6.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 690e54dd-c88a-422e-a06d-e6812035fc1c -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29673,7 +29145,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
+###### A.6.1.1.4.2.5.1.2.6.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29684,7 +29156,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: be1b9146-9d66-4ab1-a47d-724d0220f5ef -->
+###### A.6.1.1.4.2.5.1.2.6.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: be1b9146-9d66-4ab1-a47d-724d0220f5ef -->
 
 Yearn (Gimme) - `0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52`
 
@@ -29736,19 +29208,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the MOM Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.7.3.1 - Initial Planning [Core]  <!-- UUID: bea56b80-5d46-4a44-81a5-0df050a5255b -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.2 - Operational GovOps Review [Core]  <!-- UUID: 16f6bff2-ed77-4e02-806d-5fe7941f94ce -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: df961d91-acfd-45de-8fd6-f17237d34eb8 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: e1961614-467f-40b0-9e7a-f67e2a70cc97 -->
+###### A.6.1.1.4.2.5.1.2.7.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: e1961614-467f-40b0-9e7a-f67e2a70cc97 -->
 
 The Distribution Reward payments for the MOM Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29757,11 +29217,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.7.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8520b41b-cf03-493b-a6ce-9314983f38b3 -->
+###### A.6.1.1.4.2.5.1.2.7.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8520b41b-cf03-493b-a6ce-9314983f38b3 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.7.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 74b0e9af-0a6d-4cfc-988a-5621713772fc -->
+###### A.6.1.1.4.2.5.1.2.7.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 74b0e9af-0a6d-4cfc-988a-5621713772fc -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29770,7 +29230,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
+###### A.6.1.1.4.2.5.1.2.7.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29781,7 +29241,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 4fc18aff-0fd6-41ea-a5e8-92ea54861c99 -->
+###### A.6.1.1.4.2.5.1.2.7.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 4fc18aff-0fd6-41ea-a5e8-92ea54861c99 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -29833,19 +29293,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.8.3.1 - Initial Planning [Core]  <!-- UUID: 85861627-db6d-4be3-8057-8aff18035130 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.2 - Operational GovOps Review [Core]  <!-- UUID: 97a92e00-3f0e-481c-ab18-c3ceb1105d42 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cd44d715-d147-42b9-b84b-9a8d370ca6bf -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
+###### A.6.1.1.4.2.5.1.2.8.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
 
 The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29854,11 +29302,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for `Direct Edit`.
 
-###### A.6.1.1.4.2.5.1.2.8.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
+###### A.6.1.1.4.2.5.1.2.8.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.8.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
+###### A.6.1.1.4.2.5.1.2.8.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29867,7 +29315,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for `Direct Edit`.
 
-###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
+###### A.6.1.1.4.2.5.1.2.8.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29878,7 +29326,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
+###### A.6.1.1.4.2.5.1.2.8.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -29930,19 +29378,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the 1inch Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.9.3.1 - Initial Planning [Core]  <!-- UUID: 2e3f0833-0f2f-4940-bc1e-e3adf68e41de -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.2 - Operational GovOps Review [Core]  <!-- UUID: a78d37f7-cb9d-47ba-a956-cbdabe547efb -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d9d79d33-b9ee-4c8e-a90d-b84f71dd7d54 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: c3075307-a661-4128-882f-b07107b54659 -->
+###### A.6.1.1.4.2.5.1.2.9.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: c3075307-a661-4128-882f-b07107b54659 -->
 
 The Distribution Reward payments for the 1inch Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -29951,11 +29387,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4e79d3fa-29fc-41c6-b500-f379b5267416 -->
+###### A.6.1.1.4.2.5.1.2.9.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4e79d3fa-29fc-41c6-b500-f379b5267416 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: dd244aef-f02b-43f9-af7d-74f26fdfd776 -->
+###### A.6.1.1.4.2.5.1.2.9.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: dd244aef-f02b-43f9-af7d-74f26fdfd776 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -29964,7 +29400,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: c80530b0-c4df-4314-ab87-92055422707e -->
+###### A.6.1.1.4.2.5.1.2.9.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: c80530b0-c4df-4314-ab87-92055422707e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -29975,7 +29411,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: fbfc957c-adc0-44b1-a16a-ceb0284a2a51 -->
+###### A.6.1.1.4.2.5.1.2.9.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: fbfc957c-adc0-44b1-a16a-ceb0284a2a51 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30027,19 +29463,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Kyber Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.10.3.1 - Initial Planning [Core]  <!-- UUID: 7b6d6d5e-6256-4964-af7b-9abfeaceb732 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.2 - Operational GovOps Review [Core]  <!-- UUID: 9ead2507-fdaa-45d6-9f4d-d5783f425d39 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 763c9fbd-91ec-4d1b-bbfc-5690f4ae2989 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a8d0e137-14f9-4f76-8ea1-eb525a9682cc -->
+###### A.6.1.1.4.2.5.1.2.10.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a8d0e137-14f9-4f76-8ea1-eb525a9682cc -->
 
 The Distribution Reward payments for the Kyber Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -30048,11 +29472,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.10.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a3db4319-a749-4dee-a2a8-411cc9b83b05 -->
+###### A.6.1.1.4.2.5.1.2.10.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a3db4319-a749-4dee-a2a8-411cc9b83b05 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.10.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: baddbc1d-cff5-4bc6-b3c2-f59db47e07bb -->
+###### A.6.1.1.4.2.5.1.2.10.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: baddbc1d-cff5-4bc6-b3c2-f59db47e07bb -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -30061,7 +29485,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: da19af0b-0eaa-489d-bf80-d1dae799d940 -->
+###### A.6.1.1.4.2.5.1.2.10.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: da19af0b-0eaa-489d-bf80-d1dae799d940 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -30072,7 +29496,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 3b8bc7f6-7b4c-4e46-ae98-4694cff0ace8 -->
+###### A.6.1.1.4.2.5.1.2.10.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 3b8bc7f6-7b4c-4e46-ae98-4694cff0ace8 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30165,18 +29589,6 @@ The payment details consist of a table where each entry represents a single paym
 
 Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
-###### A.6.1.1.4.2.5.1.3.1.3.3 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.3.1.3.4 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.3.1.3.5 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.4.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 05362fab-8fc5-487c-af2e-b6ebf6f4445e -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.4.2.5.1.2 - Active Instances](cb0709e4-c51d-45cc-b385-0c20a0bf4b25).
@@ -30233,19 +29645,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the MetaMask Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.1.4.1 - Initial Planning [Core]  <!-- UUID: 177f02ea-cde5-4d68-b7de-c3cef1a47f32 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: 2cc897a5-eb49-4766-9489-3cdca7c74196 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: a7582742-03a8-4095-b394-6fe1b62f912a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 6296fedf-c2f4-4cdc-a16f-a2b0e8bd19bc -->
+###### A.6.1.1.4.2.5.1.4.1.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 6296fedf-c2f4-4cdc-a16f-a2b0e8bd19bc -->
 
 The Distribution Reward payments for the MetaMask Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -30254,11 +29654,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.1.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 20376e25-f067-400e-be73-dc2552766c47 -->
+###### A.6.1.1.4.2.5.1.4.1.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 20376e25-f067-400e-be73-dc2552766c47 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.1.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: ded05ed5-e470-4cbc-b3f0-c7d8cd928584 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: ded05ed5-e470-4cbc-b3f0-c7d8cd928584 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -30267,7 +29667,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -30278,7 +29678,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: b537c8e2-92b6-4d2f-88ff-337acb1e8357 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: b537c8e2-92b6-4d2f-88ff-337acb1e8357 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30334,19 +29734,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the InstaDapp Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.2.4.1 - Initial Planning [Core]  <!-- UUID: f51aa574-e8c8-4e15-bfba-76082d40ac91 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.2 - Operational GovOps Review [Core]  <!-- UUID: d35d512a-2c81-4491-b966-6803b68f9834 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 57a3bfd7-83e2-4033-9dc0-d64274973784 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 38f84680-46ff-400b-baeb-62a0684d2aa7 -->
+###### A.6.1.1.4.2.5.1.4.2.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 38f84680-46ff-400b-baeb-62a0684d2aa7 -->
 
 The Distribution Reward payments for the InstaDapp Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -30355,11 +29743,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.2.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a75fa6c5-8d93-43fe-acad-dfb07e226668 -->
+###### A.6.1.1.4.2.5.1.4.2.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a75fa6c5-8d93-43fe-acad-dfb07e226668 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.2.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 28b69d1f-44d3-4b97-8aff-809513145245 -->
+###### A.6.1.1.4.2.5.1.4.2.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 28b69d1f-44d3-4b97-8aff-809513145245 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -30368,7 +29756,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
+###### A.6.1.1.4.2.5.1.4.2.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -30379,7 +29767,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 1438c4e7-e15b-443c-b9c6-dcdde63920c6 -->
+###### A.6.1.1.4.2.5.1.4.2.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 1438c4e7-e15b-443c-b9c6-dcdde63920c6 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30435,19 +29823,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Gnosis Protocol Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.3.4.1 - Initial Planning [Core]  <!-- UUID: c2db568d-6c90-4a62-8fb9-33cfb504fc1d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.2 - Operational GovOps Review [Core]  <!-- UUID: 446804db-4495-4621-a504-e3575e5be34b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 711781c6-57a9-4813-9e4d-263f9a70384a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 32c6b23b-8c5f-4798-97e2-84248365365d -->
+###### A.6.1.1.4.2.5.1.4.3.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 32c6b23b-8c5f-4798-97e2-84248365365d -->
 
 The Distribution Reward payments for the Gnosis Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -30456,11 +29832,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.3.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 3dd71633-a629-47af-b806-f7930f1332da -->
+###### A.6.1.1.4.2.5.1.4.3.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 3dd71633-a629-47af-b806-f7930f1332da -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.3.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: efbea98b-9063-4706-a467-050eb2594339 -->
+###### A.6.1.1.4.2.5.1.4.3.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: efbea98b-9063-4706-a467-050eb2594339 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -30469,7 +29845,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
+###### A.6.1.1.4.2.5.1.4.3.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -30480,7 +29856,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 802462c0-d9d1-42fa-8729-54135634f7f5 -->
+###### A.6.1.1.4.2.5.1.4.3.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 802462c0-d9d1-42fa-8729-54135634f7f5 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30536,19 +29912,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Piku.co Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.4.4.1 - Initial Planning [Core]  <!-- UUID: 3fa947ef-d8e4-4315-bccb-b4a1b6e760ca -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.2 - Operational GovOps Review [Core]  <!-- UUID: 8dd619da-bb48-4efc-8a68-c21754a11372 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7ccfd0ad-4d2c-441f-afbf-dd6f7b5d4293 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a1f69b33-8bd2-4c68-b4d5-6b8d34ed763e -->
+###### A.6.1.1.4.2.5.1.4.4.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a1f69b33-8bd2-4c68-b4d5-6b8d34ed763e -->
 
 The Distribution Reward payments for the Piku.co Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -30557,11 +29921,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.4.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: e05bf544-6a9c-42f5-9135-01a41887a75f -->
+###### A.6.1.1.4.2.5.1.4.4.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: e05bf544-6a9c-42f5-9135-01a41887a75f -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.4.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 55ab7dfa-57e5-49d2-9dc3-05b0bfe14d04 -->
+###### A.6.1.1.4.2.5.1.4.4.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 55ab7dfa-57e5-49d2-9dc3-05b0bfe14d04 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -30570,7 +29934,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
+###### A.6.1.1.4.2.5.1.4.4.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -30581,7 +29945,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 49aa9d18-aa7e-464d-a965-f56fd014c02f -->
+###### A.6.1.1.4.2.5.1.4.4.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 49aa9d18-aa7e-464d-a965-f56fd014c02f -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -30717,19 +30081,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Euler Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: abc0866d-8e3f-4bad-879d-6f82cee2b028 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: ec81388d-8320-47c6-8e13-2dbd5ad95dbe -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 81cff123-b17c-4208-9348-fcf2aaf99c4b -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 1f3904b0-28b7-48e2-8cc7-ed67f4b90b68 -->
+###### A.6.1.1.4.2.5.2.2.1.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 1f3904b0-28b7-48e2-8cc7-ed67f4b90b68 -->
 
 The Integration Boost payments for the Euler Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -30738,7 +30090,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
+###### A.6.1.1.4.2.5.2.2.1.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
 
 The Integration Boost Payments are:
 
@@ -30810,19 +30162,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Curve Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 00b3c481-bf1d-40a7-9fe8-aea7a99c0524 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: 4cdcce5d-a4f5-4474-8818-72d13f6c6174 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4c26b560-c84a-4e2b-882f-8ea4b821886f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: d2f2c0be-765d-4f3b-9dac-e39ab0244a85 -->
+###### A.6.1.1.4.2.5.2.2.2.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: d2f2c0be-765d-4f3b-9dac-e39ab0244a85 -->
 
 The Integration Boost payments for the Curve Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -30831,7 +30171,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.4.2.5.2.2.2.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
+###### A.6.1.1.4.2.5.2.2.2.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
 
 The Integration Boost Payments are:
 
@@ -30899,23 +30239,11 @@ The documents herein define the protocol for non-routine ongoing management of t
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Morpho Instance of this Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.3.3 - Date Repository [Core]  <!-- UUID: 88095904-1a04-449c-b421-3a3c7e4fa437 -->
+###### A.6.1.1.4.2.5.2.2.3.3 - Data Repository [Core]  <!-- UUID: 88095904-1a04-449c-b421-3a3c7e4fa437 -->
 
 The documents herein contain data relevant to the Morpho Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.3.3.1 - Initial Planning [Core]  <!-- UUID: ef86b5b0-48ce-471e-8a26-dd59dfa09449 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: c1e28481-d41d-40b8-96d9-cd372e46b45d -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1024c532-ea70-4d0f-b178-b99529950f25 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 81ee6226-9067-4e72-bd0b-77773b581701 -->
+###### A.6.1.1.4.2.5.2.2.3.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 81ee6226-9067-4e72-bd0b-77773b581701 -->
 
 The Integration Boost payments for the Morpho Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -30924,7 +30252,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.4.2.5.2.2.3.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 71d49eb8-0224-4fe7-831e-e49467e2f90d -->
+###### A.6.1.1.4.2.5.2.2.3.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 71d49eb8-0224-4fe7-831e-e49467e2f90d -->
 
 The Integration Boost Payments are:
 
@@ -31008,19 +30336,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Compound Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.4.1.4.1 - Initial Planning [Core]  <!-- UUID: eecefb67-7692-48f7-9f5b-b4bfde253fac -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: 28bf469c-af5c-4014-8947-035def7c4077 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 6543a665-e415-4b54-9c0b-5af10c14f5ce -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 55b46793-6543-4002-a1d7-9cc33ef46ab6 -->
+###### A.6.1.1.4.2.5.2.4.1.4.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 55b46793-6543-4002-a1d7-9cc33ef46ab6 -->
 
 The Integration Boost payments for the Compound Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -31029,7 +30345,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.2.4.1.4.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: afe3fba8-14b9-47b7-bd71-20be58c47f29 -->
+###### A.6.1.1.4.2.5.2.4.1.4.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: afe3fba8-14b9-47b7-bd71-20be58c47f29 -->
 
 The Integration Boost Payments are:
 
@@ -31574,18 +30890,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.5.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: a5498802-b2d9-46d2-9a2e-30e546ba6110 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: a09fca08-e196-49b1-99e2-21e5c01a59cb -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 2e5c5930-3805-47c2-8c11-b05b8c5bdddc -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.5.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 3731f5d8-ff05-4c80-9f3f-2b056b6b9b38 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -31665,18 +30969,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.5.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: e70d36bc-8e5e-44b4-ab3b-492308ab7196 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.5.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: c0cc5f1c-0cc5-44c8-bf92-d28b371e05b0 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: aa23e483-3205-4843-92c9-5906b244e662 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9e54e190-a5f0-466e-945b-a9075fbc20b1 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.5.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 685248fb-8b9c-44d0-8ba3-ada4ada84e06 -->
 
@@ -31828,18 +31120,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.5.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 6fe2485a-225f-41e3-b791-0b98363df1e8 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 44b64f9f-aa20-4aeb-b2e3-6abda1cfa77d -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: c6ec5fe6-691b-4ac7-a863-2be65a28ea3f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.5.2.1.4.3 - Completed Instances [Core]  <!-- UUID: c0ee9726-7ae8-4176-a3f3-01152a53f0d1 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -31923,18 +31203,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.5.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 2a655bfa-fbcb-4888-b4df-0d0ec8398a14 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.5.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: b7eb3de8-9b56-4e2a-b0c0-5d3f8dddccb7 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0ab58c7d-7bb4-4d33-bd7a-2eca8e80b62a -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 248099c5-af01-490c-b248-4441accf889f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.5.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 33eff493-0a21-4bb0-899e-f3fab9ef6f27 -->
 
@@ -32059,18 +31327,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.5.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 8f8ef2ba-1071-40df-98bc-384d1f6782b5 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.5.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: b2f9aa29-8e29-4123-8996-12dad34b51e5 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 91cbbea6-33e4-49a4-ab2a-1c01d2b3eed8 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: efce80bb-4637-4bdf-8ddb-ad412154a521 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.5.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 4d6ec316-b444-4550-a591-006a6b8080cd -->
 
@@ -32224,18 +31480,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.5.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1f1e7bb2-dfa7-4189-84bd-9a6759aec3e7 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 8f8f951d-8768-457d-9c56-3a81b92c395a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 2e866803-811d-4220-b336-ebe239402921 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.5.2.3.1.3 - Completed Instances [Core]  <!-- UUID: beeba9d9-39bb-4f36-9447-9456966975eb -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -32331,18 +31575,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.5.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: dd6c0d05-79f9-4663-85bb-916d12a29ce1 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.5.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: df002eaa-d6d5-4b27-9ccb-26193cc65ec5 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 5bf870c7-57bc-40f8-82d4-f6094b484a5b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.5.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d94ae414-18e8-432b-9f17-f58e8cc0cce3 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.5.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 0723c247-7b2d-48aa-a1f1-1166aad05319 -->
 
@@ -33538,16 +32770,16 @@ The outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the documents herein.
 
-###### A.6.1.1.5.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 3776ec7d-668c-496d-aaa7-094ba92e496f -->
+###### A.6.1.1.5.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 3776ec7d-668c-496d-aaa7-094ba92e496f -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.5.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b29ac1d6-4cbd-46db-b77c-2f02d9705936 -->
+###### A.6.1.1.5.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b29ac1d6-4cbd-46db-b77c-2f02d9705936 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -33922,18 +33154,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.6.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 23b86592-2145-4b96-b74f-7ce8e976b47d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 79928bec-a87b-427b-9221-2bc19f92fc8d -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 63ba43df-c030-47a1-9563-75ee436969d9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.6.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 38aff44f-e8ef-4734-8e11-fb7894d024a5 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -34013,18 +33233,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.6.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: e88a0572-4a34-43f2-87df-397f568c1a6a -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.6.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: f1d6c189-e998-4bfc-b7a0-322dffdf818e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: f2188696-f28a-41ca-b1d9-7dba408089e7 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: f68d7dad-91a6-41df-8a4f-f0a51d1edcaa -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.6.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 92101482-3d95-4596-8caa-331a7b32362f -->
 
@@ -34176,18 +33384,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.6.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c900576f-7e31-40cc-8c2d-994b6b06bb5a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 34f38616-01ff-4516-8ede-b553d2305fb8 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: bc407d25-c3f5-412e-bf72-4cab3189f9e4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.6.2.1.4.3 - Completed Instances [Core]  <!-- UUID: abfc5286-88ee-4cb1-9610-ef45082019d6 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -34271,18 +33467,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.6.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: aa2c1044-4832-4e97-a2c9-36f4b872bd88 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.6.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5ac885aa-64f6-4400-82b9-d11a33470b28 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b3a60a21-7f43-403f-9cfa-aa8bd29f0140 -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: eb0aaebd-16e4-4955-b7c9-c1a778b4cf9e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.6.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 20a2abf2-ca4d-407e-8c23-2950271ffa19 -->
 
@@ -34407,18 +33591,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.6.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: ffdbcc14-282a-47ae-81c6-7773b2cc09bf -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.6.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: f4b2bc56-63d1-4b5b-8c84-8eccc1fa3218 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 10680aaa-0b55-4c66-b40d-9741bcd4dc6e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 17aa4887-fc5d-4b66-8f3e-60a3490250a5 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.6.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 261adee1-2841-4c6b-937e-c5c86cf6cbac -->
 
@@ -34572,18 +33744,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.6.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 87094d8d-a42a-4665-8215-615124a8e123 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0b1d35c9-7ae9-4b23-a5c8-360c5af2d58c -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cf3abeef-7836-457a-a659-e432d1eb7c20 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.6.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 88e57951-b13f-4c14-8af1-c0b6f757df42 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -34679,18 +33839,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.6.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: c1002f65-de06-45e0-ab0b-99d44279ffb3 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.6.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 136d9a42-5b8f-4e7c-835a-bbcdff8e3d9a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e432bb7e-0054-4306-a573-494655454d35 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1e486b02-fcb5-4c95-b832-153f592b5f13 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.6.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 3aa8f9e7-67ca-4411-9938-d3e7472f3cfe -->
 
@@ -35846,16 +34994,16 @@ The outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the documents herein.
 
-###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: baf5e2d2-8d4f-4248-90ff-c3bb21972b62 -->
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: baf5e2d2-8d4f-4248-90ff-c3bb21972b62 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 49a40f8d-e564-4cb3-bd6d-44d51bcba9c2 -->
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 49a40f8d-e564-4cb3-bd6d-44d51bcba9c2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -35939,9 +35087,9 @@ The River SPV II Offramp address is `0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F`
 
 The Transfer RateLimitID is: `0x9e89eef868db62cc103dac9e8428957603e3ff835526132d10b5f1f327fc7605`.
 
-###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limits [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limit [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
 
-The transfer rate limits are:
+The transfer rate limit parameters are:
 
 - `maxAmount`: 35,000,000 USDC
 - `slope`: 10,000,000 USDC per day
@@ -36258,18 +35406,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.7.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: d58b413f-6fce-4b0d-80a8-aba5d74117b0 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0d4f2b2d-305b-4a23-9764-64fdf5a7bcc8 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: dc435918-f881-4d35-af7d-1640979cc9cd -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.7.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: ff4e7a8d-3832-40a3-b2b0-fec3831ed689 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -36349,18 +35485,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.7.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: fa03dbed-b41c-41db-8adb-826c991d64b8 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.7.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 36e23c65-220f-43b9-ab14-6f0fe4a25524 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d5c113e8-b4d2-40c4-80d8-5797f8833cd3 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1b8cb6c6-0906-4c56-935f-ad8e43bb9a11 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.7.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 33beb09c-af1f-4d75-8307-d4546192acf8 -->
 
@@ -36512,18 +35636,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.7.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1d7df1bf-116c-451f-ad56-3fb899db577b -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: a56b88fe-398f-4384-ac87-4cd45c0290cf -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cc30ee14-2850-45fa-bdf0-84d4789b7d3d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.7.2.1.4.3 - Completed Instances [Core]  <!-- UUID: dc44ad54-7a03-43b0-8a1b-232353c163c3 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -36607,18 +35719,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.7.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: af743a8c-0d39-41ac-9898-0cdfac8e2c56 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.7.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 23aab69c-d555-46d7-88ab-cb06303dc9af -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d283179e-7527-4522-8935-5fe4d2442ed5 -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 83075590-9293-4ae7-bdb0-701fd0689570 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.7.2.2.1.3 - Completed Instances [Core]  <!-- UUID: a1204555-a3db-4b2d-a965-5a8300d66b3e -->
 
@@ -36743,18 +35843,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.7.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 08286cf1-8c6f-4cd2-9898-92e4147c60e8 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.7.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 9dbfdcc1-4908-489a-8887-a36628d0e2d6 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 7cfd996c-2a02-412b-8d65-0efbc88a6cdf -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ade379d8-2b49-49d8-8425-8060c5bba942 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.7.2.2.2.3 - Completed Instances [Core]  <!-- UUID: e8c23769-6920-4fba-aebf-3051851be0fc -->
 
@@ -36908,18 +35996,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.7.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1d31b5fd-d55c-4d8e-b554-d2d9f1e95a05 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 9e648afc-d5c5-4f2e-8026-71fede7b270b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e5150ceb-77a8-468c-b202-19fefcb1f95d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.7.2.3.1.3 - Completed Instances [Core]  <!-- UUID: bdcaed32-e33f-4426-b059-93dfe4fc1956 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -37015,18 +36091,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.7.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 3a02223c-f21e-4fee-8bc8-36a4cf36366a -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.7.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6be574b-1a20-4fbb-8ee9-43d649be4c0d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 86a4e532-848d-4363-a87d-944176a3707f -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 54f739a5-7170-4bed-aa9b-67e6b4591786 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.7.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 6187f71c-8d4f-4a95-9aff-a87395f3f6b1 -->
 
@@ -37220,19 +36284,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Osero Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d62190e1-52af-452a-9108-e5a882c13722 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 93f31e74-0d9c-494f-8f04-181a471d433e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8608a9ab-30c5-4d14-8604-41109fc4b33a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8f1c5178-2123-4215-b49a-3df1b262a395 -->
+###### A.6.1.1.7.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8f1c5178-2123-4215-b49a-3df1b262a395 -->
 
 The Distribution Reward payments for the Osero Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37241,7 +36293,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 9bce120f-87d5-468c-8e16-eab9ded9285b -->
+###### A.6.1.1.7.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 9bce120f-87d5-468c-8e16-eab9ded9285b -->
 
 The Distribution Reward Payments are:
 
@@ -37293,19 +36345,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Nightly Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 7130f5c5-80d1-4ffa-ac02-78af3276666c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: f108618f-d1c2-4984-aad0-4a8af0184c11 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 93282c5b-9bfb-4bfa-bcd2-2bf81678d99a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 87aa35f1-8b39-4296-9dbc-fd4a90c54d8d -->
+###### A.6.1.1.7.2.5.1.2.2.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 87aa35f1-8b39-4296-9dbc-fd4a90c54d8d -->
 
 The Distribution Reward payments for the Nightly Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37314,7 +36354,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8d4260fa-b6ae-4326-b6cc-b4276a3b7fe1 -->
+###### A.6.1.1.7.2.5.1.2.2.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8d4260fa-b6ae-4326-b6cc-b4276a3b7fe1 -->
 
 The Distribution Reward Payments are:
 
@@ -37366,19 +36406,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Multiliquid Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: 2de6e2f5-06a8-4768-9769-1ccbcc07012f -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: 2883e5c8-48c1-4d88-b516-00cbb922ccf5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8af0470c-9d13-41ca-9242-65f41320f8a9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d2143dfd-07c4-4107-9ac8-c71040441e10 -->
+###### A.6.1.1.7.2.5.1.2.3.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d2143dfd-07c4-4107-9ac8-c71040441e10 -->
 
 The Distribution Reward payments for the Multiliquid Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37387,7 +36415,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 6762a58b-3199-46a0-8b38-01cce4b7cc5d -->
+###### A.6.1.1.7.2.5.1.2.3.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 6762a58b-3199-46a0-8b38-01cce4b7cc5d -->
 
 The Distribution Reward Payments are:
 
@@ -37439,19 +36467,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Anoma Pay Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.4.3.1 - Initial Planning [Core]  <!-- UUID: c3b4a5ae-859c-4961-a9b5-275acca7d036 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 6f015ed0-b3ef-442f-86d4-1f62c5c4ca1b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9e35e242-270e-4300-a2ce-2133ebda0463 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0a800cf6-6ba5-46f9-b4da-7aeee6b8990b -->
+###### A.6.1.1.7.2.5.1.2.4.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0a800cf6-6ba5-46f9-b4da-7aeee6b8990b -->
 
 The Distribution Reward payments for the Anoma Pay Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37460,7 +36476,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.4.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 5b0eb309-d1b2-44be-9e93-21ebe6da6193 -->
+###### A.6.1.1.7.2.5.1.2.4.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 5b0eb309-d1b2-44be-9e93-21ebe6da6193 -->
 
 The Distribution Reward Payments are:
 
@@ -37512,19 +36528,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the LiFi Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.5.3.1 - Initial Planning [Core]  <!-- UUID: 6235ee39-d1b9-499d-8903-a88175199900 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.2 - Operational GovOps Review [Core]  <!-- UUID: 605ffedd-9677-44c5-90bb-78d883acf34b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9b28a8e8-c17e-438b-bf9c-72e25ef4eee2 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: ad6367ad-e9c8-48fb-a6da-a29a6a8ca40d -->
+###### A.6.1.1.7.2.5.1.2.5.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: ad6367ad-e9c8-48fb-a6da-a29a6a8ca40d -->
 
 The Distribution Reward payments for the LiFi Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37533,7 +36537,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.5.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f4dcae1d-7d08-4aa5-8df5-5f9e4c7f1e16 -->
+###### A.6.1.1.7.2.5.1.2.5.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f4dcae1d-7d08-4aa5-8df5-5f9e4c7f1e16 -->
 
 The Distribution Reward Payments are:
 
@@ -37585,19 +36589,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Portals.fi Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.6.3.1 - Initial Planning [Core]  <!-- UUID: 8dd16fa8-6d42-49b2-a5a6-4552ef05bc27 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.2 - Operational GovOps Review [Core]  <!-- UUID: f50c60ab-5718-477c-98de-a11995f7e37b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 48d8e8ac-cc09-4059-9a41-b8e2734e1104 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 9f5f205b-8f0b-45a0-b5dc-54e048b3438a -->
+###### A.6.1.1.7.2.5.1.2.6.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 9f5f205b-8f0b-45a0-b5dc-54e048b3438a -->
 
 The Distribution Reward payments for the Portals.fi Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37606,7 +36598,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.6.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: b48df2a3-8041-4cdf-9325-8900dfeee61b -->
+###### A.6.1.1.7.2.5.1.2.6.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: b48df2a3-8041-4cdf-9325-8900dfeee61b -->
 
 The Distribution Reward Payments are:
 
@@ -37658,19 +36650,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Utila Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.7.3.1 - Initial Planning [Core]  <!-- UUID: 1cbc61c5-d411-4f50-ab02-a81395b55764 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.2 - Operational GovOps Review [Core]  <!-- UUID: de9c3d5f-50aa-41e3-b5cd-4c3fe6704973 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 5432ef34-4dfb-446c-8fe1-c7bb80334537 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 75302a2a-a146-4f4d-8560-f8dbb6ba2eaf -->
+###### A.6.1.1.7.2.5.1.2.7.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 75302a2a-a146-4f4d-8560-f8dbb6ba2eaf -->
 
 The Distribution Reward payments for the Utila Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37679,7 +36659,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.7.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 38d25c16-8377-47ff-aea3-8054d4396afa -->
+###### A.6.1.1.7.2.5.1.2.7.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 38d25c16-8377-47ff-aea3-8054d4396afa -->
 
 The Distribution Reward Payments are:
 
@@ -37731,19 +36711,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Gauntlet Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.8.3.1 - Initial Planning [Core]  <!-- UUID: adb743a1-14ce-4c1d-843f-abb1a26911ab -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.2 - Operational GovOps Review [Core]  <!-- UUID: 18f498ca-6cc0-4254-86db-d39d6b251248 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 753db04c-a883-4ba5-ab90-49dbcaf5b5b4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: b272c08c-9145-44b2-88de-d6ecae6a27ca -->
+###### A.6.1.1.7.2.5.1.2.8.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: b272c08c-9145-44b2-88de-d6ecae6a27ca -->
 
 The Distribution Reward payments for the Gauntlet Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -37752,7 +36720,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.8.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: cc1299ab-b9fb-41a0-8a95-4a6a174fac5a -->
+###### A.6.1.1.7.2.5.1.2.8.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: cc1299ab-b9fb-41a0-8a95-4a6a174fac5a -->
 
 The Distribution Reward Payments are:
 
@@ -37932,25 +36900,29 @@ This document contains a Directory of all Instances of the Allocation System Pri
 
 The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Active`.
 
-###### A.6.1.1.7.2.6.1.1.2.1.1 - SparkLend [Core]  <!-- UUID: 5d2cd0cf-2e73-490b-9d9c-a662e15688cb -->
-
-The Ethereum Mainnet Instances of the SparkLend Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document Location [Core]  <!-- UUID: 39dca6a6-fd8c-44fd-bd51-510d0cc9a122 -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
-
-###### A.6.1.1.7.2.6.1.1.2.1.2 - Morpho [Core]  <!-- UUID: f45a134b-6e24-4457-90ac-a93fe75f744e -->
+###### A.6.1.1.7.2.6.1.1.2.1.1 - Morpho [Core]  <!-- UUID: f45a134b-6e24-4457-90ac-a93fe75f744e -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.1.2.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
+###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
 
 ###### A.6.1.1.7.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4c12626b-272a-4886-b7af-c6968b021fc2 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.7.2.6.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 0d4d05b9-bdae-4704-a216-8c0efa7dffa3 -->
+
+The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.7.2.6.1.1.3.1.1 - SparkLend [Core]  <!-- UUID: 5d2cd0cf-2e73-490b-9d9c-a662e15688cb -->
+
+The Ethereum Mainnet Instances of the SparkLend Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document Location [Core]  <!-- UUID: 39dca6a6-fd8c-44fd-bd51-510d0cc9a122 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
 
 ###### A.6.1.1.7.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 759c5f6a-7c13-466f-9130-0801575b0145 -->
 
@@ -38236,7 +37208,7 @@ The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM F
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -38258,217 +37230,122 @@ The Instances of the Allocation System Primitive with `Active` Status are stored
 
 The Ethereum Mainnet Instances of the Osero Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
 
-###### A.6.1.1.7.2.6.1.3.1.1 - SparkLend [Core]  <!-- UUID: a0487ced-39d2-487d-9415-55620a12ea3c -->
-
-The Ethereum Mainnet Instances of the SparkLend Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document [Core]  <!-- UUID: 80b9a7d4-e110-45ec-955b-ebd6d0c8aa39 -->
-
-The documents herein contain the Instance Configuration Document for the SparkLend USDS Instance.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a68dddff-9e7a-461f-b56c-85e0614ad78e -->
-
-**`Covered`**
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 71bf4607-f3cc-45e6-a79d-917af5bd95ef -->
-
-The documents herein define the parameters of the SparkLend USDS Instance of the Allocation System Primitive.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3f389fbe-9815-4728-bb34-e81aff55d8e7 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.1 - Network [Core]  <!-- UUID: a49f2d1a-b8d1-4066-b656-28168366025e -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ecc20a97-6e7f-4f12-8445-d3c1d687353b -->
-
-SparkLend
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 3d5895e3-8da8-46b5-82c0-bdef81c3346d -->
-
-USDS
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 1a208cb9-a2c7-488f-af77-c97945169971 -->
-
-spUSDS
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: bd92de02-23e3-4572-912b-3f233c5b25d2 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 26708475-708e-450d-aa9b-9ef21b63af89 -->
-
-`0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359`
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 96540b0d-ff98-46a9-b379-f1a5e0b9db93 -->
-
-`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7955432c-9f6e-428f-81ed-107a4f78981a -->
-
-The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5a8c4661-e07f-4182-becc-ff724b7d16e9 -->
-
-The inflow RateLimitID is: `0x5534da2f28b3dd200cb0042c0876cd6e2beca93d3232c366ec077018c82da73d`.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: b9360d7a-7cd4-4019-909d-bd729334cd5c -->
-
-The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b071d73b37d49925d8`.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
-
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
-
-The deposit rate limits are:
-- `maxAmount`: 50,000,000 USDS
-- `slope`: 50,000,000 USDS per day
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
-
-The withdrawal rate limits are:
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9781b3b4-bc78-49e6-9f4d-8da869ee113f -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: b650660f-a579-42ce-bc7e-6f6046d9a7b4 -->
-
-The `maxSlippage` for this Instance is 0.01%.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: 7baff09a-9aae-4abc-9643-dcb20940fe4d -->
-
-The Maximum Exposure for this Instance is 100,000,000 USDS.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: 771b1a44-5bb6-4c9b-92de-e45485c5a11f -->
-
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
-
-###### A.6.1.1.7.2.6.1.3.1.2 - Morpho [Core]  <!-- UUID: e4b5ea14-bfee-4b92-a242-3b031b89b7bd -->
+###### A.6.1.1.7.2.6.1.3.1.1 - Morpho [Core]  <!-- UUID: e4b5ea14-bfee-4b92-a242-3b031b89b7bd -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
+###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
 
 The documents herein contain the Instance Configuration Document for the Gauntlet USDC Prime Morpho Vault V2 Instance.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
 
 **`Pending`**
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
 
 The documents herein define the parameters of the Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 0dd995c2-5fd0-46f6-b790-dede5ab59dd4 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.1 - Network [Core]  <!-- UUID: 0dd995c2-5fd0-46f6-b790-dede5ab59dd4 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 69564861-a1c6-497b-9608-227e033e9959 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 69564861-a1c6-497b-9608-227e033e9959 -->
 
 Morpho
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 8fd3fc18-8824-42ee-bedf-93b5f8f1445e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 8fd3fc18-8824-42ee-bedf-93b5f8f1445e -->
 
 USDC
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.4 - Token [Core]  <!-- UUID: be9ca01f-1675-4d83-80af-b80789c3bd6f -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.4 - Token [Core]  <!-- UUID: be9ca01f-1675-4d83-80af-b80789c3bd6f -->
 
 ogusdcp
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: ee317ae3-a7f8-4d29-8cb5-d43a9082a2e1 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: ee317ae3-a7f8-4d29-8cb5-d43a9082a2e1 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.1 - Token Address [Core]  <!-- UUID: ab5f16ef-d8d3-4af4-bc8c-15c928222ac8 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: ab5f16ef-d8d3-4af4-bc8c-15c928222ac8 -->
 
 `0x802148D518A6De2aF866f9A61ffB5e5C39156dB2`
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 15a30378-8d55-4f5b-9fcf-abb953b4b44c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 15a30378-8d55-4f5b-9fcf-abb953b4b44c -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b6e99e5-8e18-4af7-bac6-3c2c90fbb864 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b6e99e5-8e18-4af7-bac6-3c2c90fbb864 -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b -->
 
 The inflow RateLimitID is: `0xfc26a91cf7b79b531d45dcc431ee59e4f2504f51cb33e2b67960808a104c92ef`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d79cd4a4-7c53-4891-9dd1-b757f763cb1e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d79cd4a4-7c53-4891-9dd1-b757f763cb1e -->
 
 The outflow RateLimitID is: `0xcab6bfa8f90f2360ea56d52b48e71b2b98ee14414a2fd578d01dcfeb41cf97ca`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: cb293144-de0c-4bd8-9971-d96327b38ae9 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: cb293144-de0c-4bd8-9971-d96327b38ae9 -->
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
 
-The deposit rate limits are:
-- `maxAmount`: 5,000,000 USDC
-- `slope`: 650,000 USDC per day
+The deposit rate limit parameters are:
+- `maxAmount`: 15,000,000 USDC
+- `slope`: 10,000,000 USDC per day
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
 
-The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
+The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 650,000 USDC per day
 
 A paired cBEAM may raise the live deposit rate limit's `maxAmount` or `slope` up to the higher of this registered default or the current value multiplied by `maxChange`, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b) and [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Each such raise may be made only after the `hop` interval set by [A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since the last raise to this rate limit.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a72d35e7-811b-4a38-b261-ab6bb6100058 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a72d35e7-811b-4a38-b261-ab6bb6100058 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
 
 The `maxSlippage` for this Instance will be specified in a future iteration of the Osero Artifact.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
 
-The Maximum Exposure for this Instance is 10,000,000 USDC.
+The Maximum Exposure for this Instance is 25,000,000 USDC.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
 
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 10%.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fb43210e-07b9-4f37-ad89-b231f61c8f0a -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fb43210e-07b9-4f37-ad89-b231f61c8f0a -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer parameters.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: fa043785-e6fb-404a-b23a-593fbee6d170 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: fa043785-e6fb-404a-b23a-593fbee6d170 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
 
 The Owner role is held by Osero through its SubProxy at `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
 
 The Curator role is held jointly by Soter Labs and Gauntlet through the Curator Multisig at `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
 
@@ -38479,7 +37356,7 @@ The co-curator addresses are:
 | Soter Labs | `0x037A8456FB92dB66590C0060eE4174cC6812f518` |
 | Gauntlet | `0x9E33faAE38ff641094fa68c65c2cE600b3410585` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
 
 The Allocator role is held by the following entities at the corresponding addresses:
 
@@ -38488,7 +37365,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Gauntlet | `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` |
 | Soter Labs and Gauntlet, through the Curator Multisig | `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
 
 The Sentinel role is held by the following entities at the corresponding addresses:
 
@@ -38497,15 +37374,161 @@ The Sentinel role is held by the following entities at the corresponding address
 | Gauntlet | `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` |
 | Soter Labs | `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
 The maximum exchange rate for this Instance is two (2) USDC per whole vault share, set by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
 
 - `erc4626_setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
 
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3 - Timelocks [Core]  <!-- UUID: ce61a3fa-da14-4cb9-a573-4847bd210fdf -->
+
+The timelock configuration for this Instance is defined in the subdocuments herein. The minimum delays required of Morpho vaults are specified in [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569).
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.1 - Seven-Day Timelocks [Core]  <!-- UUID: 4c4b9e64-7733-4982-b6f0-fda89c61526b -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of seven (7) days:
+
+- `abdicate`
+- `addAdapter`
+- `increaseAbsoluteCap`
+- `increaseRelativeCap`
+- `increaseTimelock`
+- `removeAdapter`
+- `setSendAssetsGate`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.2 - Three-Day Timelocks [Core]  <!-- UUID: beba0d1e-2d47-4578-ac76-307d959724ef -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of three (3) days:
+
+- `setManagementFee`
+- `setManagementFeeRecipient`
+- `setPerformanceFee`
+- `setPerformanceFeeRecipient`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.3 - Functions Without A Timelock [Core]  <!-- UUID: 7ebf0b52-130b-461c-a07c-84ad794f6835 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following are not subject to a timelock delay:
+
+- `setForceDeallocatePenalty`
+- `setIsAllocator`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.4 - Abdicated Functions [Core]  <!-- UUID: 789e37c6-e8b9-44c2-9b7e-05269aa1e2ab -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have been permanently abdicated and can never be called:
+
+- `setAdapterRegistry`
+- `setReceiveAssetsGate`
+- `setReceiveSharesGate`
+- `setSendSharesGate`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 3a646898-4a70-4cf7-ab7a-9c2cb2cc28fe -->
+
+The force-deallocate penalty is withdrawn from the account that authorizes a forced withdrawal of assets from the Morpho Market V1 adapter at `0x9DD0Ceb7caC214777014d2f664dB3C20f0838D53`, as a percentage of the assets withdrawn:
+
+Force-Deallocate Penalty: 0.01%
+
 ###### A.6.1.1.7.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 1292a07b-637f-4b35-adc1-1a9bdeee9566 -->
 
 The Instances of the Allocation System Primitive with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.4.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: 66a625e6-ed46-46a8-ae6b-b00ce7bb29bb -->
+
+The Ethereum Mainnet Instances of the Osero Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.7.2.6.1.4.1.1 - SparkLend [Core]  <!-- UUID: a0487ced-39d2-487d-9415-55620a12ea3c -->
+
+The Ethereum Mainnet Instances of the SparkLend Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document [Core]  <!-- UUID: 80b9a7d4-e110-45ec-955b-ebd6d0c8aa39 -->
+
+The documents herein contain the Instance Configuration Document for the SparkLend USDS Instance.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a68dddff-9e7a-461f-b56c-85e0614ad78e -->
+
+**`Covered`**
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2 - Parameters [Core]  <!-- UUID: 71bf4607-f3cc-45e6-a79d-917af5bd95ef -->
+
+The documents herein define the parameters of the SparkLend USDS Instance of the Allocation System Primitive.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3f389fbe-9815-4728-bb34-e81aff55d8e7 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.1 - Network [Core]  <!-- UUID: a49f2d1a-b8d1-4066-b656-28168366025e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ecc20a97-6e7f-4f12-8445-d3c1d687353b -->
+
+SparkLend
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 3d5895e3-8da8-46b5-82c0-bdef81c3346d -->
+
+USDS
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 1a208cb9-a2c7-488f-af77-c97945169971 -->
+
+spUSDS
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: bd92de02-23e3-4572-912b-3f233c5b25d2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 26708475-708e-450d-aa9b-9ef21b63af89 -->
+
+`0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359`
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 96540b0d-ff98-46a9-b379-f1a5e0b9db93 -->
+
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7955432c-9f6e-428f-81ed-107a4f78981a -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5a8c4661-e07f-4182-becc-ff724b7d16e9 -->
+
+The inflow RateLimitID is: `0x5534da2f28b3dd200cb0042c0876cd6e2beca93d3232c366ec077018c82da73d`.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: b9360d7a-7cd4-4019-909d-bd729334cd5c -->
+
+The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b071d73b37d49925d8`.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
+
+The deposit rate limit parameters are:
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
+
+The withdrawal rate limit parameter is:
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9781b3b4-bc78-49e6-9f4d-8da869ee113f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: b650660f-a579-42ce-bc7e-6f6046d9a7b4 -->
+
+The `maxSlippage` for this Instance is 0.01%.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: 7baff09a-9aae-4abc-9643-dcb20940fe4d -->
+
+The Maximum Exposure for this Instance is 100,000,000 USDS.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: 771b1a44-5bb6-4c9b-92de-e45485c5a11f -->
+
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
 
 ###### A.6.1.1.7.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 475822f8-5a16-48e3-8228-85785657b2ac -->
 
@@ -38803,18 +37826,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.8.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: e0b544df-ad91-46a7-8c4e-da665c1ba9f5 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: bc83f510-98d9-4088-b775-3fca976df4ed -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 904a4c5e-7d06-45ee-b0e5-b327f131276d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.8.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6cf9e5bd-a6a9-4f8c-b823-17c99c6d3805 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -38894,18 +37905,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.8.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: 7967c2b8-181c-4582-a265-7e60654503e1 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.8.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: cd906df7-aeb9-4859-a364-3fb03d4f2f78 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: dcbe59e5-5d72-49f3-92cc-fce16bd6d5f9 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 11420736-9467-412e-81ee-389e254b4ac3 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.8.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: ea18a0a9-b7dd-47d8-97da-3f55b3eeb645 -->
 
@@ -39057,18 +38056,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.8.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 3fa4e43c-9de9-4778-92b2-2adfb9dfdc92 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 8ee40481-70c1-450b-b6e0-aa054cc8daca -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 293be631-ea6f-4a3c-a6db-f1cc99b322e9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.8.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 21ccd43b-b2e2-4404-bdf2-b041c42a8764 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -39152,18 +38139,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.8.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: ec907cef-df83-4502-ada8-920c3e020e1b -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.8.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e60e7340-7e86-4207-b725-2b1380f637d4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 15f11c14-4ae7-4e7b-84c8-211fb93b6f8b -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: b2ef0e67-5e45-43f0-a62b-6a3669db4cc8 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.8.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 0bf3b18f-3381-4f7d-be8d-20edbe53d69d -->
 
@@ -39288,18 +38263,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.8.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 69761497-4868-413b-965d-ff1679ee3ed7 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.8.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d29e42dd-0675-47b8-b0c9-8e88a7f17f14 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: f8798270-5625-496f-87f5-b79f8981fd54 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 19d6d80e-edfc-45ed-9909-8130a006c542 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.8.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
 
@@ -39453,18 +38416,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.8.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1126acc9-9fb2-493b-b6ed-78cdccb75c5a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 4d4d1a09-cb35-4582-bdb1-919ec4e52a16 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: c828c63f-634c-42f6-8741-27edbd83ff68 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ###### A.6.1.1.8.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 6aca1d4d-5962-4215-a778-cdad996dc4f8 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -39560,18 +38511,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.8.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 9ac2f1d8-a349-4348-8f66-79fdc605eab8 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.8.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d4946913-4550-4250-b48e-5fe97e30728c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e07b73b0-079a-45ba-a861-03d6f4d7ac49 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 990d5e1a-d9ac-4aa6-a663-ec310f193d84 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ###### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
 
