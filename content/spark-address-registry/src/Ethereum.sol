@@ -24,9 +24,18 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SPARK_BEACON                     = 0xd47230358AB6c52A0a988150Ac4Ab888FE8B7786;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x60eB26db57bD058B6D742a1f6350A7FFeAb0681E;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x74C35B0990ea530926d2656003Cb3E3Bf286cA69;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
-    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xb2468FCc87E3BE45Bfa521e567731375887BF8e2;  // pau-assemblers/DefaultPAUAssembler.sol@d7d6f08 (v1.0.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x099a9044c1e9e621A607Ab3a58dd302966788bB5;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x73EE3d0398BaF9ef5731Eb35ea7BFa7B741067b4;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
+
+    /******************************************************************************************************************/
+    /*** Spark PAU Facets addresses                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant CCTP_FACET           = 0xADf62692340e46EF90336f2e75ce3b37f1148873;  // diamond-pau/CCTPFacet.sol@5c5ad6a (v1.13.0)
+    address internal constant ERC4626_FACET        = 0x1dCA18608c89174181153E786778705b4A0E1a06;  // diamond-pau/ERC4626Facet.sol@5c5ad6a (v1.13.0)
+    address internal constant SPARK_VAULT_FACET    = 0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b;  // diamond-pau/SparkVaultFacet.sol@5c5ad6a (v1.13.0)
+    address internal constant SWAP_ASSET_FACET     = 0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6;  // diamond-pau/SwapAssetFacet.sol@b0b7efd (v1.16.0)
+    address internal constant TRANSFER_ASSET_FACET = 0x4DA7608C331b8f135df5b985018933780eCd089D;  // diamond-pau/TransferAssetFacet.sol@5c5ad6a (v1.13.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
