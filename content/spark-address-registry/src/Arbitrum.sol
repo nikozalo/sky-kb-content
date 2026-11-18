@@ -23,8 +23,8 @@ library Arbitrum {
     /*** Spark PAU Core addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_BEACON                     = 0x86036CE5d2f792367C0AA43164e688d13c5A60A8;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x3968a022D955Bbb7927cc011A48601B65a33F346;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_BEACON                     = 0x53ecE26171B716e5F4D03eAF70844F0a34E368f7;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x182924C99843c16d5525fD160d39fa209978f221;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x9A56C59453a2fBAe01Ba46045441490e5C7a664d;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
 
     /******************************************************************************************************************/
@@ -136,6 +136,7 @@ library Arbitrum {
     address internal constant SUSDS    = 0xdDb46999F8891663a8F2828d25298f70416d7610;
     address internal constant USDC     = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
     address internal constant USDS     = 0x6491c05A82219b8D1479057361ff1654749b876b;
+    address internal constant USDT0    = 0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9;
     address internal constant USDT_OFT = 0x14E4A1B13bf7F943c8ff7C51fb60FA964A298D92;
 
     /******************************************************************************************************************/
